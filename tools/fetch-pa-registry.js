@@ -7,7 +7,7 @@
 // Officer names are never requested. Street addresses are used only locally for matching:
 // output goes to data/cache/ (gitignored) and is never published. Re-run monthly.
 //
-//   node tools/fetch-pa-registry.js [--counties Bucks,Lehigh,Northampton,Montgomery]
+//   node tools/fetch-pa-registry.js [--counties Bucks,Lehigh,Northampton,Montgomery] [--only registry|salestax]
 
 const fs = require("fs");
 const path = require("path");
@@ -21,7 +21,7 @@ const DATASETS = {
   },
   salestax: {
     url: "https://data.pa.gov/resource/ugeq-ckxd.json",
-    fields: ["account", "legal_name", "trade_name", "street_address", "city", "postal_code", "county", "license_type"],
+    fields: ["account", "legal_name", "trade_name", "street_address", "city", "postal_code", "county", "license_type", "georeferenced_latitude_longitude_points"],
     county: "county",
     order: "account"
   }
@@ -55,7 +55,8 @@ async function fetchPage(dataset, county, offset) {
 (async () => {
   const outDir = path.join("data", "cache");
   fs.mkdirSync(outDir, { recursive: true });
-  for (const dataset of Object.keys(DATASETS))
+  const only = process.argv.indexOf("--only") > -1 ? process.argv[process.argv.indexOf("--only") + 1] : null;
+  for (const dataset of Object.keys(DATASETS).filter((name) => !only || name === only))
   for (const county of counties) {
     const rows = [];
     for (let offset = 0; ; offset += PAGE) {

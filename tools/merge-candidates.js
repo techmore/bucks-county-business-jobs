@@ -32,7 +32,7 @@ for (const candidate of candidates) {
   if (slugs.has(candidate.slug) || (candidate.source_url && sources.has(candidate.source_url))) continue;
   const same = byName.get(norm(candidate.name)) || [];
   if (same.some((company) => miles(company, candidate) < 1.25)) { skipped.duplicateName.push(candidate.name); continue; }
-  if (/showbar|gentlem[ae]n'?s club|strip club|adult (store|video|entertainment)/i.test(candidate.name)) { skipped.adult.push(candidate.name); continue; }
+  if (/showbar|gentlem[ae]n'?s club|(?<!chicken )strip club|adult (store|video|entertainment)/i.test(candidate.name)) { skipped.adult.push(candidate.name); continue; }
   if (candidate.category === "Education" && !candidate.website && candidate.address_approximate && /^[A-Z][\w'.-]* School$/.test(candidate.name) && !KNOWN_SCHOOLS.test(candidate.name)) {
     skipped.historicSchool.push(candidate.name);
     continue;

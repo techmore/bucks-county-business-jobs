@@ -34,6 +34,8 @@ jobs:
         run: |
           if [ "$(date -u +%d)" = "02" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             node tools/fetch-pa-registry.js
+            node tools/import-salestax-storefronts.js
+            node tools/merge-candidates.js data/salestax-candidates.json --write
             node tools/match-pa-registry.js --write
             node tools/enrich-osm-tags.js --write || echo "OpenStreetMap busy; will retry next month"
           else
