@@ -320,6 +320,8 @@ function initMapExplorer(companies, mapApi) {
   if (params.get("town")) get("town").value = params.get("town");
   if (params.get("color")) get("color").value = params.get("color");
   if (params.get("status")) get("status").value = params.get("status");
+  if (params.get("miles")) get("miles").value = params.get("miles");
+  if (params.get("from")) get("from").value = params.get("from");
 
   let timer;
   function apply() {
@@ -329,16 +331,22 @@ function initMapExplorer(companies, mapApi) {
     const status = get("status").value;
     const speed = get("speed").value;
     const mode = get("color").value;
+    const maxMiles = Number(get("miles").value) || 0;
+    const [fromLat, fromLon] = get("from").value.split(",").map(Number);
     const list = companies.filter((company) => {
       if (group && industryOf(company).group !== group) return false;
       if (town && townFor(company) !== town) return false;
       if (status === "open" && !["hiring", "careers_page", "shared_site"].includes(statusOf(company))) return false;
       if (status && status !== "open" && statusOf(company) !== status) return false;
       if (speed && industryOf(company).speed !== speed) return false;
+      if (maxMiles && distanceMiles(fromLat, fromLon, company.latitude, company.longitude) > maxMiles) return false;
       const text = searchText(company);
       return terms.every((term) => text.includes(term));
     });
     mapApi.render(list, mode);
+    if (list.length && list.length < companies.length) {
+      mapApi.map.fitBounds(L.latLngBounds(list.map((company) => [company.latitude, company.longitude])).pad(0.15), { maxZoom: 14 });
+    }
     document.querySelector("[data-map-count]").textContent = `${money.format(list.length)} of ${money.format(companies.length)} businesses`;
     document.querySelector("[data-map-legend]").innerHTML = legendHtml(mode, list);
     const next = new URLSearchParams();
@@ -347,6 +355,10 @@ function initMapExplorer(companies, mapApi) {
     if (town) next.set("town", town);
     if (status) next.set("status", status);
     if (mode !== "status") next.set("color", mode);
+    if (maxMiles) {
+      next.set("miles", String(maxMiles));
+      next.set("from", get("from").value);
+    }
     history.replaceState(null, "", `${window.location.pathname}${next.toString() ? `?${next}` : ""}`);
   }
   form.addEventListener("submit", (event) => event.preventDefault());

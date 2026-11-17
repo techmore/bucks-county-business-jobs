@@ -525,7 +525,7 @@ select {
 .explorer { max-width: 1400px; margin: 0 auto; padding: 8px 20px 28px; }
 .map-filters {
   display: grid;
-  grid-template-columns: minmax(220px, 2fr) repeat(5, minmax(130px, 1fr));
+  grid-template-columns: minmax(180px, 1.4fr) repeat(4, minmax(110px, 1fr)) minmax(270px, 1.9fr) minmax(130px, 1fr);
   gap: 10px;
   align-items: end;
   background: var(--surface);
@@ -577,3 +577,16 @@ select {
   .map-filters { grid-template-columns: 1fr; }
 }
 .nav-links a.button, .nav-links a.button:visited { color: #fff; }
+.map-filters .pair { display: flex; gap: 6px; }
+.map-filters .pair select { min-width: 0; }
+/* keep the explorer inside narrow screens */
+.hero-slim { grid-template-columns: minmax(0, 1fr); }
+.map-filters > label { min-width: 0; }
+.map-filters input, .map-filters select { min-width: 0; text-overflow: ellipsis; }
+@media (max-width: 980px) {
+  .map-filters { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+}
+@media (max-width: 520px) {
+  .map-filters { grid-template-columns: minmax(0, 1fr); }
+  .hero-slim h1 { font-size: clamp(2rem, 9vw, 2.6rem); overflow-wrap: anywhere; }
+}
