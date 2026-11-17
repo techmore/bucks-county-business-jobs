@@ -51,7 +51,8 @@ function parseArgs() {
     outputPath: DEFAULT_REPORT_PATH,
     concurrency: 1,
     near: null,
-    maxMiles: null
+    maxMiles: null,
+    staleFirst: false
   };
 
   for (let index = 0; index < args.length; index += 1) {
@@ -71,6 +72,8 @@ function parseArgs() {
     } else if (arg === "--towns") {
       options.towns.push(...readValue(args, index, arg).split(",").map((town) => town.trim()).filter(Boolean));
       index += 1;
+    } else if (arg === "--stale-first") {
+      options.staleFirst = true;
     } else if (arg === "--concurrency") {
       options.concurrency = Math.max(1, parseNumber(readValue(args, index, arg), arg));
       index += 1;
@@ -328,6 +331,10 @@ async function main() {
     const miles = (company) => distanceMiles(options.near.lat, options.near.lon, company.latitude, company.longitude);
     eligible.sort((a, b) => miles(a) - miles(b));
     if (options.maxMiles) eligible.splice(0, eligible.length, ...eligible.filter((company) => miles(company) <= options.maxMiles));
+  }
+  if (options.staleFirst) {
+    // Never-checked first, then the oldest checks, so daily runs rotate through everyone.
+    eligible.sort((a, b) => String(a.hiring_last_checked || "").localeCompare(String(b.hiring_last_checked || "")));
   }
   const batch = eligible.slice(options.offset, options.offset + options.limit);
   const results = [];
