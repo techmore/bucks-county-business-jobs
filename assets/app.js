@@ -390,6 +390,13 @@ function updateStats(companies) {
   const statEmployees = document.querySelector("[data-stat='employees']");
   if (statCompanies) statCompanies.textContent = money.format(companies.length);
   if (statHiring) statHiring.textContent = money.format(companies.filter((company) => statusOf(company) === "hiring").length);
+  const statChecked = document.querySelector("[data-stat='checked']");
+  if (statChecked) {
+    const latest = companies.reduce((max, company) => (company.hiring_last_checked > max ? company.hiring_last_checked : max), "");
+    statChecked.textContent = latest
+      ? new Date(`${latest}T12:00:00`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })
+      : "Not yet";
+  }
   if (statEmployees) statEmployees.textContent = money.format(companies.reduce((sum, company) => sum + (company.total_employees || 0), 0));
 }
 
