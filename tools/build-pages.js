@@ -126,7 +126,9 @@ function page(business) {
         <div class="pop-status" style="--c:${status.color}"><b>${esc(status.label)}</b>${
           business.hiring_last_checked ? ` (checked ${esc(niceDate(business.hiring_last_checked))})` : ""
         }${business.hiring_evidence_url ? ` · <a href="${esc(business.hiring_evidence_url)}" rel="noopener nofollow">See jobs page</a>` : ""}</div>
+        ${business.established_employer ? `<p><span class="pop-badge">Established local employer</span> <span class="meta">Registered in PA 10+ years ago, local, and openings or a careers page seen in checks months apart.</span></p>` : ""}
         <p class="pop-note">${esc(business.hiring_note || status.note)}</p>
+        ${business.hiring_track ? `<p class="pop-note">${esc(business.hiring_track)}.</p>` : ""}
         ${business.verification_note ? `<p class="pop-note warn">${esc(business.verification_note)}</p>` : ""}
 
         <h2>Working here</h2>
@@ -137,7 +139,9 @@ function page(business) {
         <h2>Details</h2>
         <div class="facts">
           <div class="fact"><strong>${esc(business.address || "Address not listed")}</strong><span>${business.address_approximate ? "Approximate location" : "Address"}</span></div>
-          ${business.years_in_business ? `<div class="fact"><strong>${esc(business.years_in_business)} years</strong><span>In business</span></div>` : ""}
+          ${business.founded_label
+            ? `<a class="fact" href="${esc(business.founded_source_url)}" rel="noopener"><strong>${esc(business.founded_label)}</strong><span>${esc(business.founded_note || "")}</span></a>`
+            : business.years_in_business ? `<div class="fact"><strong>${esc(business.years_in_business)} years</strong><span>In business</span></div>` : ""}
           ${business.start_date ? `<div class="fact"><strong>Since ${esc(business.start_date)}</strong><span>Opened (OpenStreetMap)</span></div>` : ""}
           ${business.total_employees ? `<div class="fact"><strong>${esc(business.total_employees)}</strong><span>Employees</span></div>` : ""}
           <div class="fact"><strong>${esc(sourceLabel(business.source_name))}</strong><span>Listing source</span></div>

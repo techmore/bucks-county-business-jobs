@@ -115,11 +115,12 @@ function colorFor(company, mode) {
 
 function markerIcon(company, mode = "status") {
   const color = colorFor(company, mode);
-  const strong = statusOf(company) === "hiring";
+  const strong = statusOf(company) === "hiring" || company.established_employer;
   const size = strong ? 20 : 14;
+  const ring = company.established_employer ? " dot-established" : company.established ? " dot-aged" : "";
   return L.divIcon({
     className: "t3-marker",
-    html: `<span class="dot${strong ? " dot-hiring" : ""}" style="background:${color};width:${size}px;height:${size}px;"></span>`,
+    html: `<span class="dot${strong ? " dot-hiring" : ""}${ring}" style="background:${color};width:${size}px;height:${size}px;"></span>`,
     iconSize: [size, size],
     iconAnchor: [size / 2, size / 2],
     popupAnchor: [0, -size / 2]
@@ -159,7 +160,9 @@ function popupHtml(company) {
       <div class="pop-status" style="--c:${STATUS[status].color}"><b>${STATUS[status].label}</b>${checked}.${evidence}</div>
       <div class="pop-note">${esc(company.hiring_note || STATUS[status].note)}</div>
       ${company.verification_note ? `<div class="pop-note warn">${esc(company.verification_note)}</div>` : ""}
-      ${years}
+      ${company.established_employer ? `<div class="pop-badge">Established local employer</div>` : ""}
+      ${company.founded_label ? `<div class="pop-guide"><b>${esc(company.founded_label)}</b> <span class="pop-fine">(${esc(company.founded_note || "")})</span></div>` : years}
+      ${company.hiring_track ? `<div class="pop-guide">${esc(company.hiring_track)}</div>` : ""}
       <div class="pop-guide"><b>Typical roles:</b> ${esc(info.roles.join(", "))}</div>
       <div class="pop-guide"><b>Skills that help:</b> ${esc(info.skills.join(", "))}</div>
       <div class="pop-guide"><b>${speed.label}</b>, ${speed.detail}. <span class="pop-fine">Typical for the industry, not this business.</span></div>
@@ -237,10 +240,12 @@ function legendHtml(mode, list) {
   }
   const counts = {};
   for (const company of list) counts[statusOf(company)] = (counts[statusOf(company)] || 0) + 1;
+  const established = list.filter((company) => company.established_employer).length;
+  const ringKey = established ? `<span class="key" title="Registered in PA 10+ years ago, local (not a chain), and openings or a careers page seen in checks months apart."><i class="ring"></i>Established local employer <em>${money.format(established)}</em></span>` : "";
   return Object.entries(STATUS)
     .filter(([key]) => counts[key])
     .map(([key, info]) => `<span class="key" title="${esc(info.note)}"><i style="background:${info.color}"></i>${info.label} <em>${money.format(counts[key])}</em></span>`)
-    .join("");
+    .join("") + ringKey;
 }
 
 function initMapExplorer(companies, mapApi) {
@@ -275,7 +280,9 @@ function initMapExplorer(companies, mapApi) {
       if (group && industryOf(company).group !== group) return false;
       if (town && townFor(company) !== town) return false;
       if (status === "open" && !["hiring", "careers_page", "shared_site"].includes(statusOf(company))) return false;
-      if (status && status !== "open" && statusOf(company) !== status) return false;
+      if (status === "established_employer" && !company.established_employer) return false;
+      if (status === "established" && !company.established) return false;
+      if (status && !["open", "established", "established_employer"].includes(status) && statusOf(company) !== status) return false;
       if (speed && industryOf(company).speed !== speed) return false;
       if (maxMiles && distanceMiles(fromLat, fromLon, company.latitude, company.longitude) > maxMiles) return false;
       const text = searchText(company);
@@ -354,8 +361,10 @@ function renderFeatured(companies) {
   const target = document.querySelector("[data-featured-companies]");
   if (!target) return;
   const near = (company) => distanceMiles(TINICUM_CENTER[0], TINICUM_CENTER[1], company.latitude, company.longitude);
-  const hiring = companies.filter((company) => statusOf(company) === "hiring").sort((a, b) => near(a) - near(b));
-  target.innerHTML = hiring.slice(0, 6).map(companyCard).join("");
+  // Affinity for established local employers, then other businesses hiring now; nearest first.
+  const established = companies.filter((company) => company.established_employer).sort((a, b) => near(a) - near(b));
+  const hiring = companies.filter((company) => statusOf(company) === "hiring" && !company.established_employer).sort((a, b) => near(a) - near(b));
+  target.innerHTML = [...established.slice(0, 6), ...hiring].slice(0, 9).map(companyCard).join("");
 }
 
 function initHome(companies) {

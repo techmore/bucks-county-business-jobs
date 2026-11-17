@@ -43,6 +43,14 @@ db.exec(`
     total_employees INTEGER,
     years_in_business INTEGER,
     start_date TEXT,
+    founded_year INTEGER,
+    founded_label TEXT,
+    founded_note TEXT,
+    founded_confidence TEXT,
+    founded_source_url TEXT,
+    established INTEGER DEFAULT 0,
+    established_employer INTEGER DEFAULT 0,
+    hiring_track TEXT,
     data_status TEXT,
     source_name TEXT,
     source_url TEXT
@@ -61,6 +69,7 @@ db.exec(`
   CREATE INDEX idx_checks_slug ON hiring_checks(slug, checked);
   CREATE INDEX idx_business_status ON businesses(hiring_status);
   CREATE INDEX idx_business_town ON businesses(town);
+  CREATE INDEX idx_business_established ON businesses(established_employer, established);
 `);
 
 function townFor(company) {
@@ -79,7 +88,8 @@ const insertBusiness = db.prepare(`
     :slug, :name, :category, :industry_group, :hiring_speed, :address, :address_approximate, :town,
     :latitude, :longitude, :website, :description, :hiring_status, :hiring_signal, :hiring_last_checked,
     :hiring_evidence_url, :hiring_note, :verification_note, :total_employees, :years_in_business,
-    :start_date, :data_status, :source_name, :source_url
+    :start_date, :founded_year, :founded_label, :founded_note, :founded_confidence, :founded_source_url,
+    :established, :established_employer, :hiring_track, :data_status, :source_name, :source_url
   )`);
 
 db.exec("BEGIN");
@@ -107,6 +117,14 @@ for (const company of companies) {
     total_employees: company.total_employees ?? null,
     years_in_business: company.years_in_business ?? null,
     start_date: company.start_date || null,
+    founded_year: company.founded_year ?? null,
+    founded_label: company.founded_label || null,
+    founded_note: company.founded_note || null,
+    founded_confidence: company.founded_confidence || null,
+    founded_source_url: company.founded_source_url || null,
+    established: company.established ? 1 : 0,
+    established_employer: company.established_employer ? 1 : 0,
+    hiring_track: company.hiring_track || null,
     data_status: company.data_status || null,
     source_name: company.source_name || null,
     source_url: company.source_url || null

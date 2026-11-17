@@ -593,3 +593,8 @@ select {
 .detail-panel h2 { font-size: 1.05rem; margin: 22px 0 8px; }
 .history { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
 .history li span { display: inline-block; min-width: 96px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.t3-marker .dot-established { box-shadow: 0 0 0 3px #d4a017, 0 2px 6px rgba(0,0,0,.3); }
+.t3-marker .dot-aged { box-shadow: 0 0 0 2px rgba(212,160,23,.7), 0 2px 6px rgba(0,0,0,.3); }
+.legend .key i.ring { background: #fff; box-shadow: 0 0 0 3px #d4a017; }
+.pop-badge { display: inline-block; margin: 2px 0 4px; padding: 2px 8px; border-radius: 999px; background: #fbf1d3; color: #7a5a00; font-weight: 800; font-size: 0.78rem; }

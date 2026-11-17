@@ -26,6 +26,26 @@ function article(word) {
   return /^[aeiou]/i.test(word) ? "an" : "a";
 }
 
+// Hiring history: dates on which each business showed openings or a careers page.
+const positiveDates = new Map();
+const historyFile = "data/hiring-history.jsonl";
+if (fs.existsSync(historyFile)) {
+  for (const line of fs.readFileSync(historyFile, "utf8").split("\n")) {
+    if (!line.trim()) continue;
+    const row = JSON.parse(line);
+    if (!rules.POSITIVE_SIGNALS.includes(row.signal)) continue;
+    if (!positiveDates.has(row.slug)) positiveDates.set(row.slug, new Set());
+    positiveDates.get(row.slug).add(row.checked);
+  }
+}
+const nameCounts = new Map();
+for (const company of companies) {
+  const key = company.name.toLowerCase().replace(/[^a-z0-9]/g, "");
+  nameCounts.set(key, (nameCounts.get(key) || 0) + 1);
+}
+const THIS_YEAR = new Date().getFullYear();
+const monthYear = (iso) => new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
+
 for (const company of companies) {
   // 1. Placeholder demo records: keep the business, clear the made-up details, mark unverified.
   if (rules.isPlaceholderSite(company.website || "")) {
@@ -84,6 +104,24 @@ for (const company of companies) {
     changes.descriptions += 1;
   }
 
+  // 5. Established local employer: facts only, never claims about pay, culture or retention.
+  //    - registered 10+ years ago in PA (domestic entity, confident match), and
+  //    - not a chain (same name 3+ times in the directory), and
+  //    - openings or a careers page seen in at least two checks 90+ days apart.
+  // A shared careers page (e.g. Peddler's Village) is the host's, not the shop's.
+  const dates = rules.sharedSiteFor(company) ? [] : [...(positiveDates.get(company.slug) || [])].sort();
+  const spread = dates.length >= 2 && (Date.parse(dates[dates.length - 1]) - Date.parse(dates[0])) / 86400000 >= 90;
+  company.hiring_track = dates.length ? `Openings or a careers page seen in ${dates.map(monthYear).join(" and ")} checks` : null;
+  const chain = (nameCounts.get(company.name.toLowerCase().replace(/[^a-z0-9]/g, "")) || 0) >= 3;
+  company.established =
+    Boolean(company.founded_year) &&
+    THIS_YEAR - company.founded_year >= 10 &&
+    ["high", "medium"].includes(company.founded_confidence || "high") &&
+    !/^Foreign/i.test(company.founded_entity_type || "") &&
+    !chain;
+  company.established_employer = company.established && spread;
+  if (!company.hiring_track) delete company.hiring_track;
+
   company.hiring_status = rules.hiringStatus(company);
   company.hiring = company.hiring_status === "hiring";
 }
@@ -97,6 +135,7 @@ console.log(`Off-site evidence removed (${changes.offSiteEvidence.length}):`, ch
 console.log(`Shared-site careers pages (${changes.sharedSite.length})`);
 console.log(`Descriptions rewritten: ${changes.descriptions}`);
 console.log("Hiring status counts:", counts);
+console.log(`Established (10+ yrs registered, local): ${companies.filter((c) => c.established).length}; established local employers (also hiring over time): ${companies.filter((c) => c.established_employer).length}`);
 
 if (write) {
   fs.writeFileSync(INPUT, `${JSON.stringify(companies, null, 2)}\n`);

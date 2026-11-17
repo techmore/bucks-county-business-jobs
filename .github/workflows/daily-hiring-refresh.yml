@@ -29,6 +29,15 @@ jobs:
           node-version: "22"
       - name: Check business websites (oldest info first)
         run: node tools/audit-hiring.js --stale-first --limit "${{ github.event.inputs.limit || '400' }}" --concurrency 8 --update --output reports/daily-hiring-audit.json
+      - name: Monthly - refresh PA registration years (data.pa.gov, public domain)
+        if: github.event_name == 'workflow_dispatch' || startsWith(github.event.schedule, '17 9')
+        run: |
+          if [ "$(date -u +%d)" = "02" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            node tools/fetch-pa-registry.js
+            node tools/match-pa-registry.js --write
+          else
+            echo "Not the monthly run."
+          fi
       - name: Apply transparency rules
         run: node tools/clean-data.js --write
       - name: Rebuild database and business pages
