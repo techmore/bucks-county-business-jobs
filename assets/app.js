@@ -37,17 +37,6 @@ function initials(name) {
     .toUpperCase();
 }
 
-function markerIcon(company) {
-  const color = company.hiring ? "#2f6f43" : "#716b5f";
-  return L.divIcon({
-    className: "t3-marker",
-    html: `<span style="background:${color};border:3px solid #fff;border-radius:999px;box-shadow:0 6px 16px rgba(0,0,0,.24);display:block;height:24px;width:24px;"></span>`,
-    iconSize: [24, 24],
-    iconAnchor: [12, 12],
-    popupAnchor: [0, -10]
-  });
-}
-
 function detailHref(company) {
   return `${pathToRoot()}company/index.html?slug=${encodeURIComponent(company.slug)}`;
 }
@@ -94,6 +83,152 @@ function townFor(company) {
   return "Town needs audit";
 }
 
+// ---- Hiring status (see tools/hiring-rules.js for how it's decided) ----
+const STATUS = {
+  hiring: { label: "Hiring", color: "#1f7a3f", note: "Openings seen on their own website or job system." },
+  careers_page: { label: "Has a careers page", color: "#2f7fa3", note: "Has a careers page. Current openings not confirmed." },
+  shared_site: { label: "Ask directly", color: "#c48a1c", note: "The careers page found belongs to a larger site (e.g. Peddler's Village). Ask the business." },
+  no_online_info: { label: "No hiring info online", color: "#8a8478", note: "Many good local employers don't post jobs online. Call or stop in and ask." },
+  not_checked: { label: "Not checked yet", color: "#c9c4b8", note: "Has a website we haven't checked yet." }
+};
+
+function statusOf(company) {
+  if (company.hiring_status && STATUS[company.hiring_status]) return company.hiring_status;
+  if (company.hiring) return "hiring";
+  return company.website ? "not_checked" : "no_online_info";
+}
+
+// ---- Industry guide: typical hiring speed, roles and skills. Typical for the industry, not this business. ----
+const SPEED = {
+  fast: { label: "Usually hires fast", detail: "often within 1-2 weeks", color: "#1f7a3f" },
+  medium: { label: "Medium hiring speed", detail: "often 2-4 weeks", color: "#c48a1c" },
+  slow: { label: "Slow, formal hiring", detail: "often 1-3 months (clearances, approvals)", color: "#a3472f" }
+};
+
+const INDUSTRY = {
+  "Dining": { group: "Food & Drink", speed: "fast", roles: ["Server", "Line cook", "Dishwasher", "Host", "Barista"], skills: ["Customer service", "Food safety (ServSafe)", "Fast pace", "Weekend availability"] },
+  "Specialty Food & Gifts": { group: "Food & Drink", speed: "fast", roles: ["Counter staff", "Baker", "Sales associate"], skills: ["Customer service", "Food handling", "Cash register"] },
+  "Beer, Wine & Spirits": { group: "Food & Drink", speed: "fast", roles: ["Sales associate", "Stock", "Tasting room staff"], skills: ["Customer service", "Product knowledge", "21+"] },
+  "Retail": { group: "Retail & Shops", speed: "fast", roles: ["Cashier", "Sales associate", "Stock associate", "Shift lead"], skills: ["Customer service", "Cash register / POS", "Merchandising"] },
+  "Lifestyle & Home Decor": { group: "Retail & Shops", speed: "fast", roles: ["Sales associate", "Design consultant", "Stock"], skills: ["Customer service", "Eye for design", "POS"] },
+  "Fashion & Accessories": { group: "Retail & Shops", speed: "fast", roles: ["Sales associate", "Stylist", "Stock"], skills: ["Customer service", "Visual merchandising"] },
+  "Collectibles & Gifts": { group: "Retail & Shops", speed: "fast", roles: ["Sales associate", "Shop assistant"], skills: ["Customer service", "POS"] },
+  "Toys, Books & Hobbies": { group: "Retail & Shops", speed: "fast", roles: ["Sales associate", "Shop assistant"], skills: ["Customer service", "Product knowledge"] },
+  "Galleries & Artisans": { group: "Retail & Shops", speed: "medium", roles: ["Gallery assistant", "Studio assistant", "Sales"], skills: ["Art knowledge", "Sales", "Craft skills"] },
+  "International": { group: "Retail & Shops", speed: "medium", roles: ["Sales associate", "Counter staff"], skills: ["Customer service", "Second language a plus"] },
+  "Healthcare": { group: "Health", speed: "medium", roles: ["Medical assistant", "CNA / aide", "Front desk", "Billing", "Nurse"], skills: ["Patient care", "Medical records software", "Certifications (CNA, CMA, RN)", "HIPAA"] },
+  "Beauty & Wellness": { group: "Health", speed: "medium", roles: ["Stylist", "Nail tech", "Front desk", "Massage therapist"], skills: ["State license", "Booking software", "Customer service"] },
+  "Professional Services": { group: "Office & Professional", speed: "medium", roles: ["Office admin", "Receptionist", "Assistant", "Bookkeeper", "Paralegal"], skills: ["Phones & scheduling", "Microsoft / Google office tools", "Writing", "Organization"] },
+  "Business Services": { group: "Office & Professional", speed: "medium", roles: ["Admin", "Sales rep", "Account coordinator", "IT support"], skills: ["Office software", "Communication", "Sales"] },
+  "Financial & Services": { group: "Office & Professional", speed: "medium", roles: ["Teller", "Customer service rep", "Tax preparer", "Loan assistant"], skills: ["Cash handling", "Accuracy", "Phone skills"] },
+  "Tech": { group: "Office & Professional", speed: "medium", roles: ["IT support", "Network admin", "Developer"], skills: ["Troubleshooting", "IT certifications", "Networking"] },
+  "Manufacturing": { group: "Trades & Industry", speed: "medium", roles: ["Production worker", "Machine operator", "Warehouse", "Maintenance tech", "Quality control"], skills: ["Safety", "Forklift", "Mechanical aptitude"] },
+  "Skilled Trades": { group: "Trades & Industry", speed: "medium", roles: ["Apprentice", "Laborer", "Electrician", "Plumber", "HVAC tech"], skills: ["Hand & power tools", "Trade license", "Driver's license"] },
+  "Energy": { group: "Trades & Industry", speed: "medium", roles: ["Field tech", "Installer"], skills: ["Electrical basics", "Driver's license"] },
+  "Logistics": { group: "Trades & Industry", speed: "fast", roles: ["Driver", "Warehouse associate", "Dispatcher"], skills: ["CDL or clean license", "Forklift", "Scheduling"] },
+  "Agriculture": { group: "Trades & Industry", speed: "fast", roles: ["Farm hand", "Greenhouse worker", "Market staff"], skills: ["Physical work", "Equipment", "Seasonal availability"] },
+  "Automotive": { group: "Automotive", speed: "fast", roles: ["Lube / tire tech", "Mechanic", "Service advisor", "Detailer"], skills: ["Tools", "ASE certification", "Driver's license", "Customer service"] },
+  "Education": { group: "Schools & Government", speed: "slow", roles: ["Aide", "Substitute", "Teacher", "Bus driver", "Office / IT"], skills: ["PA clearances (Act 34/151/114)", "Teaching certificate for teachers", "Patience"] },
+  "Government": { group: "Schools & Government", speed: "slow", roles: ["Clerk", "Maintenance", "Public safety", "IT"], skills: ["Civil service process", "Clearances", "Customer service"] },
+  "Hospitality": { group: "Leisure & Hospitality", speed: "fast", roles: ["Front desk", "Housekeeping", "Banquet staff", "Maintenance"], skills: ["Customer service", "Flexible hours"] },
+  "Lodging": { group: "Leisure & Hospitality", speed: "fast", roles: ["Front desk", "Housekeeping"], skills: ["Customer service", "Flexible hours"] },
+  "Sports & Recreation": { group: "Leisure & Hospitality", speed: "fast", roles: ["Front desk", "Instructor / coach", "Groundskeeper", "Lifeguard"], skills: ["Customer service", "CPR / first aid", "Seasonal availability"] },
+  "Family Fun": { group: "Leisure & Hospitality", speed: "fast", roles: ["Attendant", "Party host", "Front desk"], skills: ["Customer service", "Working with kids"] },
+  "Services": { group: "Services", speed: "fast", roles: ["Technician", "Cleaner", "Driver", "Customer service"], skills: ["Reliability", "Driver's license", "Customer service"] },
+  "Local Business": { group: "Services", speed: "medium", roles: ["General help", "Front counter"], skills: ["Customer service", "Reliability"] }
+};
+const DEFAULT_INDUSTRY = { group: "Services", speed: "medium", roles: ["General help"], skills: ["Customer service", "Reliability"] };
+
+const GROUP_COLORS = {
+  "Food & Drink": "#c0562f",
+  "Retail & Shops": "#7a4fb0",
+  "Health": "#c2417a",
+  "Office & Professional": "#2f6fa3",
+  "Trades & Industry": "#5f6b2f",
+  "Automotive": "#3d3d3d",
+  "Schools & Government": "#b5822b",
+  "Leisure & Hospitality": "#1f8a8a",
+  "Services": "#8a7d5f"
+};
+
+function industryOf(company) {
+  return INDUSTRY[company.category] || DEFAULT_INDUSTRY;
+}
+
+function esc(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
+}
+
+function searchText(company) {
+  if (!company._search) {
+    const info = industryOf(company);
+    company._search = [company.name, company.category, info.group, company.address, townFor(company), ...info.roles, ...info.skills]
+      .join(" ")
+      .toLowerCase();
+  }
+  return company._search;
+}
+
+function colorFor(company, mode) {
+  if (mode === "speed") return SPEED[industryOf(company).speed].color;
+  if (mode === "industry") return GROUP_COLORS[industryOf(company).group] || "#8a7d5f";
+  return STATUS[statusOf(company)].color;
+}
+
+function markerIcon(company, mode = "status") {
+  const color = colorFor(company, mode);
+  const strong = statusOf(company) === "hiring";
+  const size = strong ? 20 : 14;
+  return L.divIcon({
+    className: "t3-marker",
+    html: `<span class="dot${strong ? " dot-hiring" : ""}" style="background:${color};width:${size}px;height:${size}px;"></span>`,
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    popupAnchor: [0, -size / 2]
+  });
+}
+
+function clusterIcon(cluster) {
+  const children = cluster.getAllChildMarkers();
+  const total = children.length;
+  const hiring = children.filter((marker) => marker.options.hiringStatus === "hiring").length;
+  const size = total < 10 ? 36 : total < 100 ? 44 : total < 1000 ? 54 : 64;
+  const share = total ? Math.max(hiring ? 8 : 0, Math.round((hiring / total) * 360)) : 0;
+  return L.divIcon({
+    className: "t3-cluster",
+    html: `<span class="cluster" style="width:${size}px;height:${size}px;background:conic-gradient(#1f7a3f ${share}deg, #d8d3c6 0deg);"><span class="cluster-inner">${money.format(total)}${hiring && total >= 10 ? `<small>${money.format(hiring)} hiring</small>` : ""}</span></span>`,
+    iconSize: [size, size]
+  });
+}
+
+function popupHtml(company) {
+  const status = statusOf(company);
+  const info = industryOf(company);
+  const speed = SPEED[info.speed];
+  const checked = company.hiring_last_checked ? ` (checked ${esc(company.hiring_last_checked)})` : "";
+  const evidence = company.hiring_evidence_url ? ` <a href="${esc(company.hiring_evidence_url)}" target="_blank" rel="noopener">See jobs page</a>` : "";
+  const years = company.years_in_business ? `<div class="pop-guide"><b>${esc(company.years_in_business)} years</b> in business</div>` : "";
+  const site = company.website
+    ? `<a href="${esc(company.website)}" target="_blank" rel="noopener">Website</a>`
+    : `<a href="${websiteDiscoveryHref(company)}" target="_blank" rel="noopener">Look them up</a>`;
+  const directions = company.address
+    ? ` · <a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(company.address)}" target="_blank" rel="noopener">Directions</a>`
+    : "";
+  return `
+    <div class="pop">
+      <strong class="pop-name">${esc(company.name)}</strong>
+      <div class="pop-meta">${esc(company.category)} · ${esc(townFor(company))}</div>
+      <div class="pop-status" style="--c:${STATUS[status].color}"><b>${STATUS[status].label}</b>${checked}.${evidence}</div>
+      <div class="pop-note">${esc(company.hiring_note || STATUS[status].note)}</div>
+      ${company.verification_note ? `<div class="pop-note warn">${esc(company.verification_note)}</div>` : ""}
+      ${years}
+      <div class="pop-guide"><b>Typical roles:</b> ${esc(info.roles.join(", "))}</div>
+      <div class="pop-guide"><b>Skills that help:</b> ${esc(info.skills.join(", "))}</div>
+      <div class="pop-guide"><b>${speed.label}</b>, ${speed.detail}. <span class="pop-fine">Typical for the industry, not this business.</span></div>
+      <div class="pop-links">${site} · <a href="${detailHref(company)}">Details</a>${directions}</div>
+    </div>`;
+}
+
 function setupMap(elementId, companies, options = {}) {
   const map = L.map(elementId, { scrollWheelZoom: options.scrollWheelZoom ?? false }).setView(TINICUM_CENTER, options.zoom ?? 10);
 
@@ -106,31 +241,120 @@ function setupMap(elementId, companies, options = {}) {
     radius: RADIUS_METERS,
     color: "#2f6f43",
     fillColor: "#8fbd73",
-    fillOpacity: 0.12,
-    weight: 2
+    fillOpacity: 0.05,
+    weight: 1.5,
+    interactive: false
   }).addTo(map);
 
-  const markers = window.L.markerClusterGroup ? L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 42 }).addTo(map) : L.layerGroup().addTo(map);
-  companies.forEach((company) => {
-    const hiring = company.hiring ? '<strong style="color:#2f6f43;">Now Hiring</strong>' : "<strong>Not currently hiring</strong>";
-    L.marker([company.latitude, company.longitude], { icon: markerIcon(company), title: company.name })
-      .bindPopup(`
-        <strong>${company.name}</strong><br>
-        ${hiring}<br>
-        ${numberOrUnknown(company.total_employees, " employees")}<br>
-        ${company.description}<br>
-        <a href="${detailHref(company)}">Full company detail</a>
-      `)
-      .addTo(markers);
-  });
+  const markers = window.L.markerClusterGroup
+    ? L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 48, chunkedLoading: true, iconCreateFunction: clusterIcon }).addTo(map)
+    : L.layerGroup().addTo(map);
 
-  if (companies.length) {
-    const bounds = L.latLngBounds(companies.map((company) => [company.latitude, company.longitude]));
-    bounds.extend(TINICUM_CENTER);
-    map.fitBounds(bounds.pad(0.2));
+  const bySlug = new Map();
+  function render(list, mode = "status") {
+    markers.clearLayers();
+    bySlug.clear();
+    const layers = list.map((company) => {
+      const marker = L.marker([company.latitude, company.longitude], {
+        icon: markerIcon(company, mode),
+        title: company.name,
+        hiringStatus: statusOf(company)
+      }).bindPopup(() => popupHtml(company), { maxWidth: 320 });
+      bySlug.set(company.slug, marker);
+      return marker;
+    });
+    if (markers.addLayers) markers.addLayers(layers);
+    else layers.forEach((layer) => layer.addTo(markers));
   }
 
-  return { map, markers };
+  function focus(slug) {
+    const marker = bySlug.get(slug);
+    if (!marker) return;
+    if (markers.zoomToShowLayer) markers.zoomToShowLayer(marker, () => marker.openPopup());
+    else {
+      map.setView(marker.getLatLng(), 15);
+      marker.openPopup();
+    }
+  }
+
+  render(companies, options.colorMode);
+  if (companies.length > 1) {
+    const bounds = L.latLngBounds(companies.map((company) => [company.latitude, company.longitude]));
+    bounds.extend(TINICUM_CENTER);
+    map.fitBounds(bounds.pad(0.05));
+  }
+
+  return { map, markers, render, focus };
+}
+
+// ---- Home page: map explorer with search, filters and color modes ----
+function legendHtml(mode, list) {
+  if (mode === "speed") {
+    return Object.values(SPEED)
+      .map((speed) => `<span class="key"><i style="background:${speed.color}"></i>${speed.label} <em>${speed.detail}</em></span>`)
+      .join("") + `<span class="key-fine">Typical for each industry, not a promise from any one business.</span>`;
+  }
+  if (mode === "industry") {
+    return Object.entries(GROUP_COLORS).map(([group, color]) => `<span class="key"><i style="background:${color}"></i>${group}</span>`).join("");
+  }
+  const counts = {};
+  for (const company of list) counts[statusOf(company)] = (counts[statusOf(company)] || 0) + 1;
+  return Object.entries(STATUS)
+    .filter(([key]) => counts[key])
+    .map(([key, info]) => `<span class="key" title="${esc(info.note)}"><i style="background:${info.color}"></i>${info.label} <em>${money.format(counts[key])}</em></span>`)
+    .join("");
+}
+
+function initMapExplorer(companies, mapApi) {
+  const form = document.querySelector("[data-map-filters]");
+  if (!form) return;
+  const get = (name) => form.querySelector(`[data-map='${name}']`);
+  const groups = [...new Set(companies.map((company) => industryOf(company).group))].sort();
+  get("group").innerHTML = `<option value="">All industries</option>` + groups.map((group) => `<option>${esc(group)}</option>`).join("");
+  const towns = [...new Set(companies.map(townFor))].filter(Boolean).sort();
+  get("town").innerHTML = `<option value="">All towns</option>` + towns.map((town) => `<option>${esc(town)}</option>`).join("");
+
+  const params = new URLSearchParams(window.location.search);
+  get("search").value = params.get("q") || "";
+  if (params.get("group")) get("group").value = params.get("group");
+  if (params.get("town")) get("town").value = params.get("town");
+  if (params.get("color")) get("color").value = params.get("color");
+  if (params.get("status")) get("status").value = params.get("status");
+
+  let timer;
+  function apply() {
+    const terms = get("search").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const group = get("group").value;
+    const town = get("town").value;
+    const status = get("status").value;
+    const speed = get("speed").value;
+    const mode = get("color").value;
+    const list = companies.filter((company) => {
+      if (group && industryOf(company).group !== group) return false;
+      if (town && townFor(company) !== town) return false;
+      if (status === "open" && !["hiring", "careers_page", "shared_site"].includes(statusOf(company))) return false;
+      if (status && status !== "open" && statusOf(company) !== status) return false;
+      if (speed && industryOf(company).speed !== speed) return false;
+      const text = searchText(company);
+      return terms.every((term) => text.includes(term));
+    });
+    mapApi.render(list, mode);
+    document.querySelector("[data-map-count]").textContent = `${money.format(list.length)} of ${money.format(companies.length)} businesses`;
+    document.querySelector("[data-map-legend]").innerHTML = legendHtml(mode, list);
+    const next = new URLSearchParams();
+    if (get("search").value.trim()) next.set("q", get("search").value.trim());
+    if (group) next.set("group", group);
+    if (town) next.set("town", town);
+    if (status) next.set("status", status);
+    if (mode !== "status") next.set("color", mode);
+    history.replaceState(null, "", `${window.location.pathname}${next.toString() ? `?${next}` : ""}`);
+  }
+  form.addEventListener("submit", (event) => event.preventDefault());
+  form.addEventListener("input", () => {
+    clearTimeout(timer);
+    timer = setTimeout(apply, 180);
+  });
+  apply();
 }
 
 function companyCard(company) {
@@ -147,7 +371,7 @@ function companyCard(company) {
           <p class="meta">${company.category} • ${company.address}</p>
         </div>
       </div>
-      <span class="badge ${company.hiring ? "" : "muted"}">${company.hiring ? "Now Hiring" : "Not currently hiring"}</span>
+      <span class="badge ${statusOf(company) === "hiring" ? "" : "muted"}" title="${esc(STATUS[statusOf(company)].note)}">${STATUS[statusOf(company)].label}</span>
       <p>${company.description}</p>
       <p class="meta">${numberOrUnknown(company.total_employees, " employees")} • ${numberOrUnknown(company.years_in_business, " years in business")} • Best Places: ${score} • ${onboarding}${status}${hiringSignal}</p>
       <div class="card-actions">
@@ -165,14 +389,16 @@ function updateStats(companies) {
   const statHiring = document.querySelector("[data-stat='hiring']");
   const statEmployees = document.querySelector("[data-stat='employees']");
   if (statCompanies) statCompanies.textContent = money.format(companies.length);
-  if (statHiring) statHiring.textContent = money.format(companies.filter((company) => company.hiring).length);
+  if (statHiring) statHiring.textContent = money.format(companies.filter((company) => statusOf(company) === "hiring").length);
   if (statEmployees) statEmployees.textContent = money.format(companies.reduce((sum, company) => sum + (company.total_employees || 0), 0));
 }
 
 function renderFeatured(companies) {
   const target = document.querySelector("[data-featured-companies]");
   if (!target) return;
-  target.innerHTML = companies.slice(0, 6).map(companyCard).join("");
+  const near = (company) => distanceMiles(TINICUM_CENTER[0], TINICUM_CENTER[1], company.latitude, company.longitude);
+  const hiring = companies.filter((company) => statusOf(company) === "hiring").sort((a, b) => near(a) - near(b));
+  target.innerHTML = hiring.slice(0, 6).map(companyCard).join("");
 }
 
 function initHome(companies) {
@@ -180,12 +406,10 @@ function initHome(companies) {
   renderFeatured(companies);
   const mapElement = document.getElementById("map");
   if (!mapElement) return;
-  const { map } = setupMap("map", companies, { zoom: 10 });
+  const mapApi = setupMap("map", companies, { zoom: 10, scrollWheelZoom: true });
+  initMapExplorer(companies, mapApi);
   const slug = new URLSearchParams(window.location.search).get("company");
-  const selected = companies.find((company) => company.slug === slug);
-  if (selected) {
-    map.setView([selected.latitude, selected.longitude], 13);
-  }
+  if (slug) mapApi.focus(slug);
 }
 
 function initDirectory(companies) {
@@ -229,7 +453,7 @@ function initDirectory(companies) {
     const sort = sortSelect.value;
 
     let filtered = companies.filter((company) => {
-      const haystack = `${company.name} ${company.category} ${company.description} ${company.address}`.toLowerCase();
+      const haystack = searchText(company);
       const companySignal = company.hiring_signal || "not_audited";
       return (
         (!query || haystack.includes(query)) &&
@@ -479,11 +703,11 @@ function initDetail(companies) {
   const slug = document.body.dataset.companySlug || new URLSearchParams(window.location.search).get("slug");
   const company = companies.find((entry) => entry.slug === slug);
   if (!company) {
-    detail.innerHTML = `<section class="panel"><h1>Company not found</h1><p class="lead">This company is not listed in the current T3 directory.</p></section>`;
+    detail.innerHTML = `<section class="panel"><h1>Company not found</h1><p class="lead">This company is not listed in the current directory.</p></section>`;
     return;
   }
 
-  document.title = `${company.name} | T3`;
+  document.title = `${company.name} | Bucks County Business & Jobs`;
   document.querySelector("[data-company-name]").textContent = company.name;
   document.querySelector("[data-company-description]").textContent = company.description;
   detail.innerHTML = `
@@ -491,12 +715,14 @@ function initDetail(companies) {
       <div class="card-top">
         <div class="logo" aria-hidden="true">${initials(company.name)}</div>
         <div>
-          <span class="badge ${company.hiring ? "" : "muted"}">${company.hiring ? "Now Hiring" : "Not currently hiring"}</span>
+          <span class="badge ${statusOf(company) === "hiring" ? "" : "muted"}" title="${esc(STATUS[statusOf(company)].note)}">${STATUS[statusOf(company)].label}</span>
           <h1>${company.name}</h1>
           <p class="meta">${company.category} • ${company.address}</p>
         </div>
       </div>
-      <p class="lead" style="margin-top:18px;">${company.description}</p>
+      <p class="lead" style="margin-top:18px;">${esc(company.hiring_note || STATUS[statusOf(company)].note)}</p>
+      ${company.verification_note ? `<p class="pop-note warn">${esc(company.verification_note)}</p>` : ""}
+      <p><b>Typical roles:</b> ${esc(industryOf(company).roles.join(", "))}<br><b>Skills that help:</b> ${esc(industryOf(company).skills.join(", "))}<br><b>${SPEED[industryOf(company).speed].label}</b>, ${SPEED[industryOf(company).speed].detail} <span class="meta">(typical for the industry)</span></p>
       <div class="facts">
         <div class="fact"><strong>${numberOrUnknown(company.total_employees)}</strong><span>Employees</span></div>
         <div class="fact"><strong>${numberOrUnknown(company.years_in_business)}</strong><span>Years in business</span></div>

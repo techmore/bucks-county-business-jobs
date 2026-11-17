@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>T3 - Tinicum Talent Transformation</title>
-  <meta name="description" content="Tinicum Talent Transformation is a local company directory and opportunity map for Tinicum Township and the surrounding 25-mile Bucks County radius.">
-  <meta property="og:title" content="T3 - Tinicum Talent Transformation">
-  <meta property="og:description" content="Discover local employers around Tinicum Township, Bucks County.">
+  <title>Bucks County Business &amp; Jobs Directory</title>
+  <meta name="description" content="Every local business within 25 miles of Tinicum and Pipersville, Bucks County PA, on a map, with honest hiring info, typical roles and skills.">
+  <meta property="og:title" content="Bucks County Business &amp; Jobs Directory">
+  <meta property="og:description" content="Every local business around Tinicum and Pipersville, and who is hiring.">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="preconnect" href="https://tile.openstreetmap.org">
@@ -18,46 +18,92 @@
 <body>
   <header class="site-header">
     <nav class="nav" aria-label="Main navigation">
-      <a class="brand" href="index.html"><span class="brand-mark">T3</span><span>Tinicum Talent Thrive</span></a>
+      <a class="brand" href="index.html"><span class="brand-mark">BC</span><span>Bucks County Business &amp; Jobs</span></a>
       <div class="nav-links">
         <a href="index.html" aria-current="page">Map</a>
         <a href="directory.html">Directory</a>
         <a href="hiring-audit.html">Hiring Audit</a>
         <a href="data-quality.html">Data Quality</a>
         <a href="about.html">About</a>
-        <a class="button" href="https://forms.gle/placeholder">Add Your Company</a>
+        <a class="button" href="https://github.com/techmore/bucks-county-business-jobs/issues/new?title=Add%20or%20update%20a%20business&body=Business%20name%3A%0ATown%3A%0AWhat%20to%20add%20or%20fix%3A%0AAre%20they%20hiring%3F%20How%20do%20you%20know%3F">Add or Fix a Business</a>
       </div>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero hero-slim">
       <div class="hero-copy">
-        <p class="eyebrow">Tinicum Talent Transformation</p>
-        <h1>Talent. Thrive. Transform. Right in Your Backyard.</h1>
-        <p class="lead">A hyper-local company directory and opportunity map for Tinicum Township and the surrounding 25-mile radius in Bucks County, PA.</p>
-        <div class="actions">
-          <a class="button" href="directory.html">Browse Directory</a>
-          <a class="button secondary" href="https://forms.gle/placeholder">Add Your Company</a>
-        </div>
+        <p class="eyebrow">Pipersville · Tinicum · Bucks County, PA</p>
+        <h1>Every local business, and who's hiring.</h1>
+        <p class="lead">A map of 6,000+ businesses within 25 miles of Tinicum, of every kind, not just ones with job boards. Each dot says plainly what we know about hiring and how we know it. Plenty of good employers never post online, so "No hiring info online" means call or stop in.</p>
         <div class="stats" aria-label="Directory statistics">
-          <div class="stat"><strong data-stat="companies">0</strong><span>companies</span></div>
-          <div class="stat"><strong data-stat="hiring">0</strong><span>hiring now</span></div>
-          <div class="stat"><strong data-stat="employees">0</strong><span>local employees</span></div>
+          <div class="stat"><strong data-stat="companies">0</strong><span>businesses</span></div>
+          <div class="stat"><strong data-stat="hiring">0</strong><span>hiring (seen online)</span></div>
+          <div class="stat"><strong>May 2026</strong><span>last hiring check</span></div>
         </div>
       </div>
-      <div class="map-shell" aria-label="Interactive employer map">
+    </section>
+
+    <section class="explorer" aria-label="Business and jobs map">
+      <form class="map-filters" data-map-filters role="search">
+        <label class="grow">
+          <span class="eyebrow">Search</span>
+          <input data-map="search" type="search" placeholder="Business, town, job or skill (e.g. cook, forklift, Doylestown)">
+        </label>
+        <label>
+          <span class="eyebrow">Industry</span>
+          <select data-map="group"></select>
+        </label>
+        <label>
+          <span class="eyebrow">Town</span>
+          <select data-map="town"></select>
+        </label>
+        <label>
+          <span class="eyebrow">Hiring</span>
+          <select data-map="status">
+            <option value="">Everyone</option>
+            <option value="hiring">Hiring (seen online)</option>
+            <option value="open">Hiring or has careers page</option>
+            <option value="careers_page">Has a careers page</option>
+            <option value="shared_site">Ask directly</option>
+            <option value="no_online_info">No hiring info online</option>
+          </select>
+        </label>
+        <label>
+          <span class="eyebrow">Hires</span>
+          <select data-map="speed">
+            <option value="">Any speed</option>
+            <option value="fast">Usually fast</option>
+            <option value="medium">Medium</option>
+            <option value="slow">Slow, formal</option>
+          </select>
+        </label>
+        <label>
+          <span class="eyebrow">Color dots by</span>
+          <select data-map="color">
+            <option value="status">Hiring status</option>
+            <option value="speed">How fast the industry hires</option>
+            <option value="industry">Industry</option>
+          </select>
+        </label>
+      </form>
+      <div class="map-bar">
+        <strong data-map-count></strong>
+        <div class="legend" data-map-legend></div>
+      </div>
+      <div class="map-shell map-big">
         <div id="map"></div>
       </div>
+      <p class="map-fine">Big circles are groups of businesses; the green slice shows how many inside are hiring. Zoom in or click to split them. Roles, skills and hiring speed are typical for each industry, not promises from a specific business. Business locations from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> and local directories; hiring signals from each business's own website.</p>
     </section>
 
     <section class="section">
       <div class="section-head">
         <div>
-          <p class="eyebrow">Featured Employers</p>
-          <h2>Companies inside the 25-mile radius</h2>
+          <p class="eyebrow">Hiring near Tinicum</p>
+          <h2>Closest businesses with openings seen online</h2>
         </div>
-        <p>Each marker and card is driven by the same `companies.json` file, making Phase 1 easy to update manually and ready for future automation.</p>
+        <p>Nearest first. Always confirm with the business; postings change fast.</p>
       </div>
       <div class="card-grid" data-featured-companies></div>
     </section>
@@ -65,8 +111,8 @@
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <span>Tinicum Talent Thrive © 2026</span>
-      <a href="https://github.com/techmore/t3">GitHub</a>
+      <span>Bucks County Business &amp; Jobs Directory © 2026</span>
+      <a href="https://github.com/techmore/bucks-county-business-jobs">GitHub</a>
     </div>
   </footer>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

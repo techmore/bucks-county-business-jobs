@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const rules = require("./hiring-rules");
 
 const INPUT = "companies.json";
 const REPORT_DIR = "reports";
@@ -272,15 +273,19 @@ function applyAudit(companies, results) {
   for (const result of results) {
     const company = bySlug.get(result.slug);
     if (!company) continue;
-    company.hiring_signal = result.hiring_signal;
-    company.hiring_confidence = result.hiring_confidence;
-    company.hiring_evidence_url = result.evidence_url;
-    company.hiring_last_checked = new Date().toISOString().slice(0, 10);
-    if (["hiring_likely", "hiring_possible", "careers_page_found"].includes(result.hiring_signal)) {
-      company.hiring = true;
-    } else if (result.hiring_signal === "not_hiring_signal" && result.hiring_confidence >= 0.65) {
-      company.hiring = false;
+    let signal = result.hiring_signal;
+    let evidence = result.evidence_url;
+    // Don't credit a business with a platform's own careers page (e.g. Facebook -> Meta jobs).
+    if (rules.POSITIVE_SIGNALS.includes(signal) && evidence && !rules.evidenceBelongsTo(evidence, company.website || "")) {
+      signal = "unknown";
+      evidence = null;
     }
+    company.hiring_signal = signal;
+    company.hiring_confidence = signal === result.hiring_signal ? result.hiring_confidence : 0;
+    company.hiring_evidence_url = evidence;
+    company.hiring_last_checked = new Date().toISOString().slice(0, 10);
+    company.hiring_status = rules.hiringStatus(company);
+    company.hiring = company.hiring_status === "hiring";
   }
 }
 

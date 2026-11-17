@@ -1,6 +1,6 @@
-# T3 - Tinicum Talent Transformation
+# Bucks County Business & Jobs Directory
 
-A production-ready static GitHub Pages site for Tinicum Talent Thrive. T3 is a hyper-local company directory and opportunity map for Tinicum Township and the surrounding 25-mile radius in Bucks County, PA.
+A static GitHub Pages site: a local business directory and jobs map for Tinicum Township and the surrounding 25-mile radius in Bucks County, PA.
 
 ## What is included
 
@@ -35,7 +35,7 @@ Then open `http://localhost:8080`.
 
 ## Deploy to GitHub Pages
 
-1. Push this repository to `https://github.com/techmore/t3`.
+1. Push this repository to `https://github.com/techmore/bucks-county-business-jobs`.
 2. In GitHub, open **Settings > Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**.
 4. Select the `main` branch and `/ (root)` folder.
@@ -81,7 +81,7 @@ directory.html?town=Easton&signal=audited
 The current expanded directory is generated from `tools/build-companies.js`, including a seeded Peddler's Village directory from the official March 2025 map PDF.
 
 ```bash
-node tools/build-companies.js
+node tools/build-companies.js && node tools/clean-data.js --write
 ```
 
 After rebuilding, review `companies.json` before publishing. Entries with `data_status: "needs-website-audit"` need human or scripted verification for website, hiring status, employee count, and onboarding details.
@@ -98,6 +98,31 @@ Then add larger regional anchor employers:
 
 ```bash
 node tools/add-anchor-employers.js
+```
+
+## How hiring status works (transparency)
+
+Every business stays on the map, whether or not it has a website. Many good local employers hire by word of mouth, a sign in the window, or a Facebook page. Each dot shows one of these statuses, decided by `tools/hiring-rules.js`:
+
+| Status | What it means |
+|---|---|
+| **Hiring** | Openings seen on the business's own website, Facebook page, or job system. Shows the date checked and links to the evidence. |
+| **Has a careers page** | A careers page exists; current openings weren't confirmed. Large anchor employers are listed here too. |
+| **Ask directly** | The careers page found belongs to a larger site the business shares (for example, shops inside Peddler's Village). |
+| **No hiring info online** | We checked and found nothing online, or the business has no website. Call or stop in. This is not a negative mark. |
+| **Not checked yet** | Has a website we haven't checked. |
+
+Rules that keep it honest:
+
+- A platform's own careers page (Facebook's link to Meta jobs, Instagram, Linktree) never counts as a local business hiring.
+- Redirects from a business's own site to its own jobs site or applicant system (Workday, iCIMS, CareerPlug and similar) do count.
+- Records that came from early sample data (`example.com` websites) keep their name and location but have their placeholder details cleared and are marked **unverified** until someone confirms them.
+- Typical roles, skills, and hiring speed come from the industry, not from the specific business, and the site says so.
+
+After any rebuild, import, or audit, run:
+
+```bash
+node tools/clean-data.js --write
 ```
 
 ## Audit hiring signals
