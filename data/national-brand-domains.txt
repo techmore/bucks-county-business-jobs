@@ -1,0 +1,25 @@
+# Websites of national chains and franchises. A local location of one of these
+# can still be a fine place to work, but it doesn't get the "Established local
+# employer" badge, because the founding year is the company's, not the store's.
+# One domain per line. Add more as you find them.
+chuckecheese.com
+clubpilates.com
+ethanallen.com
+puregreenfranchise.com
+rotorooter.com
+rubytuesday.com
+terracon.com
+vcahospitals.com
+onelineage.com
+raymondjames.com
+jerseycollege.edu
+thesmilist.com
+harborfreight.com
+popeyes.com
+ritasice.com
+dunkindonuts.com
+sherwin-williams.com
+sportsmans.com
+kiddieacademy.com
+lesliespool.com
+plowhearth.com

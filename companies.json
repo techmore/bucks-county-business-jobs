@@ -52,7 +52,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-60-hackerman-patz-house-way-185019715"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "100 Witmer Road",
@@ -1604,7 +1605,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-7-eleven-node-7314204690"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "7-Eleven",
@@ -1635,7 +1637,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-7-eleven-node-8944716368"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "7-Eleven",
@@ -1666,7 +1669,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-7-eleven-way-277422053"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "7-Eleven",
@@ -1697,7 +1701,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-7-eleven-way-389933799"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "7-Eleven",
@@ -1728,7 +1733,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-7-eleven-way-837656452"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "701 Medical Arts Building",
@@ -2498,7 +2504,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-a-1-hibachi-steakhouse-node-7935299276"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "A-Gas Americas",
@@ -3560,7 +3567,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-aaron-s-node-3545757436"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Aaron's",
@@ -3791,7 +3799,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-abington-health-center-warminster-main-building-way-555598837"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Abington Jefferson Health",
@@ -3821,7 +3830,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-abington-jefferson-health-way-842201507"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Abington Smile Center",
@@ -4639,7 +4649,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-action-karate-north-wales-node-4625395077"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Action Party Rentals",
@@ -5094,7 +5105,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-advance-auto-parts-node-3531172120"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Advance Auto Parts",
@@ -5124,7 +5136,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-advance-auto-parts-node-5802735674"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Advance Auto Parts",
@@ -5154,7 +5167,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-advance-auto-parts-way-207794004"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Advance Multi-Service",
@@ -5711,7 +5725,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-afc-urgent-care-node-5035916363"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "AFC Urgent Care",
@@ -5742,7 +5757,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-afc-urgent-care-node-5754699193"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "AFC Urgent Care",
@@ -5773,7 +5789,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-afc-urgent-care-way-481086822"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "AFC Urgent Care Allentown",
@@ -5904,7 +5921,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-affordable-dentures-and-implants-node-5929575804"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "African American Chamber of Commerce of New Jersey",
@@ -6909,7 +6927,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-aldi-node-5802735710"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "ALDI",
@@ -6939,7 +6958,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-aldi-node-5138857670"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "ALDI",
@@ -6970,7 +6990,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-aldi-way-351891090"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Aldie Mansion",
@@ -8132,7 +8153,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-allentown-post-office-way-440106674"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Allentown Public Library",
@@ -9769,7 +9791,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-america-s-best-contacts-and-eyeglasses-node-8891482485"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "American Atelier, Inc.",
@@ -10081,7 +10104,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-american-heritage-credit-union-way-548787321"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "American Heritage Federal Credit Union",
@@ -10252,7 +10276,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-american-red-cross-pennsylvania-rivers-chapter-way-728876402"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "American Sandwich Co.",
@@ -10456,7 +10481,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-amerigas-node-6904305364"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "AmeriGas",
@@ -10482,7 +10508,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-amerigas-node-5600773521"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "AmeriGas",
@@ -10508,7 +10535,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-amerigas-node-7314020234"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Ames Taping Tools",
@@ -10538,7 +10566,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-ames-taping-tools-node-6092024326"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Amici Italian Market and Deli",
@@ -11522,8 +11551,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-anthony-and-sylvan-pool-supplies-node-2807561480"
     ],
@@ -11532,7 +11561,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1946 (per their website)",
     "founded_note": "\"…Customer Service Locations Design Your Pool Customer Service Careers Schedule a Consultation Careers Founded in 1946, Anthony & Sylvan Pools has been transforming backyards and lives ever since. With…\"",
-    "founded_source_url": "https://anthonysylvan.com/about/careers/"
+    "founded_source_url": "https://anthonysylvan.com/about/careers/",
+    "chain_or_franchise": true
   },
   {
     "name": "Anthony Builders",
@@ -11645,7 +11675,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-anthony-s-coal-fired-pizza-node-3782266644"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Anthony's Pizza II",
@@ -11700,7 +11731,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-anthropologie-node-6789536879"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Antique Haven",
@@ -12667,7 +12699,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-arby-s-way-962379737"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Archbishop Wood High School",
@@ -13872,7 +13905,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-ashley-homestore-node-2703486514"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Ashley HomeStore",
@@ -13902,7 +13936,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-ashley-homestore-way-223898337"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Ashley's Main Street Styles",
@@ -14561,7 +14596,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-at-home-way-90952472"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "ATA Financial Group",
@@ -14678,7 +14714,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-ati-physical-therapy-node-2807416615"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "ATI Physical Therapy",
@@ -14973,7 +15010,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-auntie-anne-s-node-5072598565"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Auntie Anne's",
@@ -15443,7 +15481,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-autozone-node-5760934902"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "AutoZone",
@@ -15469,7 +15508,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-autozone-node-6418709985"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "AutoZone",
@@ -15499,7 +15539,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-autozone-way-207794036"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "AutoZone",
@@ -15529,7 +15570,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-autozone-way-390359843"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "AutoZone",
@@ -15559,7 +15601,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-autozone-way-532609904"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "AutoZone",
@@ -15589,7 +15632,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-autozone-way-806496240"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Avalon Flooring",
@@ -15644,7 +15688,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-ave-lansdale-way-457936409"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Avenue Dental: Mark A. Antonis, DDS",
@@ -17290,7 +17335,8 @@
     "established_employer": false,
     "previous_slugs": [
       "peddlers-village-bank-of-america"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Bank of America",
@@ -17320,7 +17366,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-bank-of-america-way-274828010"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Bank of America",
@@ -17350,7 +17397,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-bank-of-america-way-277421217"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Bank of America",
@@ -17380,7 +17428,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-bank-of-america-way-482788660"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Bank Street Creamery",
@@ -17961,7 +18010,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-barnes-and-noble-node-3554944383"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Barnes & Noble",
@@ -17991,7 +18041,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-barnes-and-noble-node-10836133365"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Barness Pool",
@@ -18330,7 +18381,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-batteries-plus-bulbs-way-521147195"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Bauman Crane",
@@ -23045,7 +23097,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-bitty-and-beau-s-coffee-node-9230913541"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "BJ's Wholesale Club",
@@ -23602,7 +23655,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-bloomingdale-s-node-5180772065"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Blossom Cafe",
@@ -23956,7 +24010,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-bob-s-discount-furniture-node-5166810128"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Bob's Transmissions & Complete Car Care",
@@ -24210,7 +24265,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-bojangles-way-1206760180"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Bokyo Automotive",
@@ -24327,7 +24383,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-bonefish-grill-node-3782403019"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Bonn Place Brewing Company",
@@ -27579,11 +27636,12 @@
     "founded_label": "Registered with the PA Dept. of State in 1990",
     "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
     "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
-    "established": true,
+    "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-buckingham-family-medicine-way-525070549"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Buckingham Green Nails & Spa",
@@ -29314,7 +29372,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-buffalo-wild-wings-node-3576934156"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Buick GMC",
@@ -29613,7 +29672,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-burger-king-node-538514254"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Burger King",
@@ -29644,7 +29704,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-burger-king-way-1472730095"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Burger King",
@@ -29675,7 +29736,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-burger-king-way-392706290"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Burgerim",
@@ -30498,7 +30560,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-c-and-n-bank-way-392703384"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "C&N Bank Amphitheater",
@@ -32681,7 +32744,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-carmax-way-487849235"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Carney All Seasons",
@@ -33020,7 +33084,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-carstar-quality-auto-body-way-1116487650"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Cart.com",
@@ -33665,7 +33730,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-catasaqua-post-office-way-278142407"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Catasauqua Borough Hall",
@@ -34585,7 +34651,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-center-valley-post-office-way-431716514"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Centerfield School Municipal Complex",
@@ -36267,7 +36334,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-chick-fil-a-node-4378216054"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Chick-fil-A",
@@ -36298,7 +36366,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-chick-fil-a-way-351891089"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Chicken Lounge",
@@ -36379,7 +36448,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-chickie-s-and-pete-s-node-5851415241"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Chickie's Daughter 2",
@@ -37017,7 +37087,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-china-wok-node-3733261523"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "China Wok",
@@ -37043,7 +37114,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-china-wok-node-3913262532"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "China Wok",
@@ -37069,7 +37141,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-china-wok-node-5800086225"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Chinatown Restaurant",
@@ -37124,7 +37197,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-chipotle-node-4033114036"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Chipotle",
@@ -37150,7 +37224,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-chipotle-node-13330579690"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Chipotle",
@@ -37176,7 +37251,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-chipotle-node-13465075385"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Chipotle",
@@ -37206,7 +37282,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-chipotle-way-389935805"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Chipotle",
@@ -37236,7 +37313,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-chipotle-way-962379740"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Cho Chiropractic",
@@ -37462,7 +37540,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-chop-specialty-care-and-surgery-center-way-507862376"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Chopsticks",
@@ -37887,8 +37966,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-chuck-e-cheese-node-6580411796"
     ],
@@ -37897,7 +37976,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1977 (per their website)",
     "founded_note": "\"…games, jump on trampolines, celebrate birthdays, and make the kind of memories that stick for a lifetime. Founded in 1977 and still going strong nearly 50 years later, Chuck E. Cheese has grown into the…\"",
-    "founded_source_url": "https://www.chuckecheese.com/about/"
+    "founded_source_url": "https://www.chuckecheese.com/about/",
+    "chain_or_franchise": true
   },
   {
     "name": "Chuck's Automotive Machine Shop",
@@ -38756,7 +38836,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-circle-k-node-538417279"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Cisneros Pizzeria",
@@ -38902,7 +38983,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-citgo-node-4653912260"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Citgo",
@@ -38928,7 +39010,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-citgo-node-5613945221"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Citgo",
@@ -38954,7 +39037,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-citgo-node-9752104474"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Citgo",
@@ -38980,7 +39064,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-citgo-way-541467820"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Citi Trends",
@@ -39034,7 +39119,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-citizens-bank-node-5762218348"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Citizens Bank",
@@ -39060,7 +39146,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-citizens-bank-node-5802735706"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Citizens Bank",
@@ -39086,7 +39173,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-citizens-bank-way-389933774"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Citizens Bank",
@@ -39112,7 +39200,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-citizens-bank-way-481124217"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Citizens Bank",
@@ -39138,7 +39227,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-citizens-bank-way-483276292"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "City Dry Cleaners & Tailor",
@@ -39450,7 +39540,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-claire-s-node-5805096875"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Clara's Stained Glass",
@@ -40058,8 +40149,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-club-pilates-node-6579432253"
     ],
@@ -40068,7 +40159,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 2007 (per their website)",
     "founded_note": "\"…h Instructors training hours OUR STORY Founded on the belief that Pilates is for everybody Club Pilates was founded in 2007 in San Diego with one studio and one conviction: Reformer-based Pilates shouldn't be…\"",
-    "founded_source_url": "https://www.clubpilates.com/about"
+    "founded_source_url": "https://www.clubpilates.com/about",
+    "chain_or_franchise": true
   },
   {
     "name": "Clubstor by EQUIPTO",
@@ -40597,7 +40689,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cold-stone-creamery-node-3782331713"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Coldwell Banker",
@@ -40627,7 +40720,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-coldwell-banker-way-207541914"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Coldwell Banker",
@@ -41268,7 +41362,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-comfort-keepers-way-1472734190"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Comfort Suites Bethlehem Near Lehigh University and LVI Airport",
@@ -42512,7 +42607,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-coopersburg-post-office-way-351727040"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Coordinated Health",
@@ -43107,7 +43203,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-corner-bakery-node-3782266641"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Cornerstone",
@@ -43438,7 +43535,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cosmoprof-node-6907377687"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CosmoProf",
@@ -43464,7 +43562,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cosmoprof-node-12594281671"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CosmoProf",
@@ -43490,7 +43589,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cosmoprof-node-5802735967"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Coterie Commons",
@@ -44653,7 +44753,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-crash-champions-way-1063771425"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Crave",
@@ -46506,7 +46607,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-node-893681733"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46537,7 +46639,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-node-2807561481"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46568,7 +46671,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-node-5104397047"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46599,7 +46703,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-node-5123793432"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46630,7 +46735,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-node-5696658821"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46661,7 +46767,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-node-6993169678"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46692,7 +46799,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-node-7309929864"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46723,7 +46831,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-node-7989218615"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46754,7 +46863,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-way-1206760181"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46785,7 +46895,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-way-264540577"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46816,7 +46927,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-way-390157083"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46847,7 +46959,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-way-601849918"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46878,7 +46991,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-way-699462790"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46909,7 +47023,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-way-778052591"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CVS Pharmacy",
@@ -46940,7 +47055,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-cvs-pharmacy-way-893697471"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "CW Advisors",
@@ -47608,7 +47724,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dairy-queen-node-2912935897"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dairy Queen",
@@ -48074,8 +48191,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-daschbach-and-associates-node-11554728400"
     ],
@@ -48084,7 +48201,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 2014 (per their website)",
     "founded_note": "\"…an Affiliate Search for: Call Now Book Online Pay Bill Home | About About The Smilist Dental The Smilist was founded in 2014 to create a dental organization that offers exceptional patient experiences. Since its…\"",
-    "founded_source_url": "https://thesmilist.com/about-us/"
+    "founded_source_url": "https://thesmilist.com/about-us/",
+    "chain_or_franchise": true
   },
   {
     "name": "Data 1 Graphics",
@@ -49558,7 +49676,7 @@
     "hiring_evidence_url": "https://www.pa.gov/agencies/dcnr/programs-and-services/about/careers",
     "hiring_last_checked": "2026-11-17",
     "hiring_track": "Openings or a careers page seen in Nov 2026 checks",
-    "established": true,
+    "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-delaware-canal-state-park-office-way-632573374"
@@ -49568,7 +49686,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1681 (per their website)",
     "founded_note": "\"…Events Check out upcoming events at Delaware Canal State Park. View all events Return to top Proudly founded in 1681 as a place of tolerance and freedom. Commonwealth of Pennsylvania Social Media Follow on…\"",
-    "founded_source_url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/delaware-canal-state-park"
+    "founded_source_url": "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/delaware-canal-state-park",
+    "chain_or_franchise": true
   },
   {
     "name": "Delaware Park Chemical Engine Fire Company",
@@ -51637,7 +51756,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-general-node-1695386199"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar General",
@@ -51667,7 +51787,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-general-node-11663473080"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar General",
@@ -51697,7 +51818,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-general-node-3531172119"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar General",
@@ -51727,7 +51849,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-general-node-3913262530"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar General",
@@ -51757,7 +51880,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-general-way-1194779658"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar General",
@@ -51783,7 +51907,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-general-way-1314262695"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar Plus",
@@ -51870,7 +51995,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-tree-node-2246689111"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar Tree",
@@ -51900,7 +52026,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-tree-node-11663473083"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar Tree",
@@ -51930,7 +52057,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-tree-node-3531192343"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar Tree",
@@ -51960,7 +52088,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-tree-node-4756888654"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar Tree",
@@ -51990,7 +52119,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-tree-node-5802735739"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar Tree",
@@ -52020,7 +52150,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-tree-node-7554870588"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar Tree",
@@ -52050,7 +52181,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-tree-node-8270839062"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dollar Tree",
@@ -52080,7 +52212,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dollar-tree-node-9696747575"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dolly Haltzman Dance Academy & Repertory Dance Theatre",
@@ -52485,7 +52618,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-domino-s-node-993739558"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Domino's",
@@ -52515,7 +52649,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-domino-s-node-5167851459"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Domino's",
@@ -52545,7 +52680,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-domino-s-node-7309929842"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Domino's",
@@ -52575,7 +52711,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-domino-s-node-9373367719"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Domino's",
@@ -52605,7 +52742,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-domino-s-way-1472552691"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Domino's",
@@ -52635,7 +52773,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-domino-s-way-961425231"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Don's Auto Repair",
@@ -54281,7 +54420,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-doylestown-hospital-way-274642723"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Doylestown Inn",
@@ -54627,7 +54767,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dq-grill-and-chill-node-2178590122"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "DQ Grill & Chill",
@@ -54657,7 +54798,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dq-grill-and-chill-node-5802735963"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "DQ Grill & Chill",
@@ -54687,7 +54829,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dq-grill-and-chill-way-1278656271"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dr Skaff's Dental Center",
@@ -55614,7 +55757,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dtlr-node-6932056560"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "DTown Cafe",
@@ -56015,7 +56159,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-node-683654598"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin'",
@@ -56045,7 +56190,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-node-11182329149"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin'",
@@ -56071,7 +56217,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-node-12352516914"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin'",
@@ -56101,7 +56248,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-node-2191947645"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin'",
@@ -56131,7 +56279,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-node-5233819677"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin'",
@@ -56161,7 +56310,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-way-315205914"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin'",
@@ -56191,7 +56341,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-way-351727024"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin'",
@@ -56221,7 +56372,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-way-388132369"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin'",
@@ -56251,7 +56403,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-way-481086824"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin'",
@@ -56281,7 +56434,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-way-508003970"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin'",
@@ -56311,7 +56465,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-way-530921627"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin'",
@@ -56341,7 +56496,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-way-551362421"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin' Donuts",
@@ -56371,7 +56527,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-donuts-node-2588577350"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin' Donuts",
@@ -56401,7 +56558,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-donuts-node-2699255814"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin' Donuts",
@@ -56431,7 +56589,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-donuts-node-5802735720"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin' Donuts",
@@ -56461,7 +56620,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-donuts-node-7309915363"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin' Donuts",
@@ -56491,7 +56651,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-donuts-way-481124215"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunkin' Donuts",
@@ -56521,7 +56682,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-dunkin-donuts-way-779958841"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Dunngeon Antiques",
@@ -57684,7 +57846,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-east-penn-self-storage-way-351727034"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "East Penn Truck Equipment",
@@ -58151,7 +58314,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-eastern-mountain-sports-way-244877140"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Eastern/Chadrow Associates, Inc.",
@@ -58971,7 +59135,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-edible-arrangements-node-5421248247"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Edible Arrangements",
@@ -59002,7 +59167,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-edible-arrangements-node-11331211991"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Edible Arrangements",
@@ -59028,7 +59194,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-edible-arrangements-node-5802735549"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Edison Court Inc.",
@@ -59110,7 +59277,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-edward-jones-node-6345691093"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Edward Jones",
@@ -59136,7 +59304,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-edward-jones-node-12164391228"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Edward Jones",
@@ -59162,7 +59331,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-edward-jones-way-364962592"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Edward's European Barbershop",
@@ -59346,7 +59516,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-einstein-bros-bagels-node-651890348"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Eisenhower Tool",
@@ -61139,7 +61310,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-enterprise-node-5138862662"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Enterprise",
@@ -61169,7 +61341,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-enterprise-node-5802735544"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Enterprise",
@@ -61195,7 +61368,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-enterprise-node-5802735671"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Enterprise",
@@ -61221,7 +61395,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-enterprise-way-1382102364"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Enterprise",
@@ -61251,7 +61426,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-enterprise-way-414210824"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Enterprise",
@@ -61281,7 +61457,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-enterprise-way-782441535"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Entity Nails & Spa",
@@ -61866,7 +62043,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-essa-bank-and-trust-way-658915272"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Essentials Salon",
@@ -62080,11 +62258,12 @@
     "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
     "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-ethan-allen-way-1273135780"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "ETI",
@@ -62312,7 +62491,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-european-wax-center-node-2807561479"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "European Wax Center",
@@ -62342,7 +62522,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-european-wax-center-node-5755313362"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Eva's Bargain Boutique",
@@ -62457,11 +62638,12 @@
     "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
     "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-evans-wealth-strategies-way-1273574501"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Evercor Facilities Management",
@@ -62767,7 +62949,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-ewing-branch-way-363529551"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Ewing Laundromat",
@@ -63332,7 +63515,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-extra-space-storage-way-392174070"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Extra Space Storage",
@@ -63358,7 +63542,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-extra-space-storage-way-508003946"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Extra Space Storage",
@@ -63389,7 +63574,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-extra-space-storage-way-664981737"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Extra Space Storage",
@@ -63415,7 +63601,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-extra-space-storage-way-669784381"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Extra Virgin",
@@ -63521,7 +63708,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-exxon-node-2814741061"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Exxon",
@@ -63547,7 +63735,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-exxon-way-170682517"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Exxon",
@@ -63584,7 +63773,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-exxon-way-347941681"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Exxon",
@@ -63614,7 +63804,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-exxon-way-351727023"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Exxon",
@@ -63640,7 +63831,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-exxon-way-891112200"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Eye 2 Eye",
@@ -64671,7 +64863,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-famous-footwear-node-1987299900"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Famous Footwear",
@@ -64701,7 +64894,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-famous-footwear-node-2245696081"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Famous Footwear",
@@ -64731,7 +64925,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-famous-footwear-node-2794922516"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Famous Tattoo Works",
@@ -65546,7 +65741,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fedex-office-node-3782403016"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "FedEx Office",
@@ -65572,7 +65768,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fedex-office-node-9254648839"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "FedEx Office",
@@ -65598,7 +65795,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fedex-office-way-390168969"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "FedEx Ship Center",
@@ -66192,7 +66390,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-node-807397297"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Fine Wine & Good Spirits",
@@ -66222,7 +66421,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-node-3531192342"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Fine Wine & Good Spirits",
@@ -66252,7 +66452,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-node-3913262533"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Fine Wine & Good Spirits",
@@ -66282,7 +66483,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-node-4740695415"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Fine Wine & Good Spirits",
@@ -66312,7 +66514,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-node-5108548067"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Fine Wine & Good Spirits",
@@ -66342,7 +66545,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-node-5682586888"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Fine Wine & Good Spirits",
@@ -66372,7 +66576,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-node-5802735668"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Fine Wine & Good Spirits",
@@ -66402,7 +66607,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-node-5802735738"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Fine Wine & Good Spirits",
@@ -66432,7 +66638,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-node-6580411802"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Fine Wine & Good Spirits",
@@ -66462,7 +66669,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-node-6765579595"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Fine Wine & Good Spirits",
@@ -66492,7 +66700,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-node-7554870587"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Fine Wine & Good Spirits",
@@ -66522,7 +66731,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-fine-wine-and-good-spirits-way-962379732"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Finegan Funeral Home",
@@ -67587,7 +67797,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-five-below-node-2245696077"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Five Below",
@@ -67617,7 +67828,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-five-below-node-11331211990"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Five Brothers Taqueria",
@@ -71621,7 +71833,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-frenchtown-post-office-way-625164967"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Frenchtown Preserve",
@@ -72971,7 +73184,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-gabe-s-node-5800086174"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Gabrielle's Pizza & Sub",
@@ -73135,7 +73349,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-gamestop-node-4740298067"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Gap",
@@ -73191,7 +73406,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-gap-way-386991491"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Gap Kids",
@@ -74331,7 +74547,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-gerhard-s-appliances-node-6579432246"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Gerit J Lewisch AIA Architect & Planner",
@@ -74748,7 +74965,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-node-259500777"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant",
@@ -74774,7 +74992,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-node-1811699333"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant",
@@ -74804,7 +75023,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-node-2002965346"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant",
@@ -74834,7 +75054,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-node-2807561477"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant",
@@ -74860,7 +75081,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-node-3913262528"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant",
@@ -74890,7 +75112,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-node-5802735667"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant",
@@ -74920,7 +75143,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-way-131284086"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant",
@@ -74946,7 +75170,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-way-223898184"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant",
@@ -74972,7 +75197,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-way-641972979"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant",
@@ -74998,7 +75224,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-way-782762156"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant",
@@ -75028,7 +75255,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-way-889649699"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant",
@@ -75058,7 +75286,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-giant-way-962379736"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Giant Gas",
@@ -76668,7 +76897,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-good-shepherd-physical-therapy-way-432178298"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Good Shepherd Rehabilitation – Hyland Center",
@@ -76748,7 +76978,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-good-stuff-thrift-node-11080940665"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Good Stuff Thrift",
@@ -76785,7 +77016,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-good-stuff-thrift-way-1124206555"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Good Stuff Thrift",
@@ -76811,7 +77043,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-good-stuff-thrift-way-525059447"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Good Times Pizzeria",
@@ -76913,8 +77146,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-goodwill-store-and-donation-center-node-4346175260"
     ],
@@ -76923,7 +77156,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1902 (per their website)",
     "founded_note": "\"…past 75 years and guides our work that will sustain us for the next 75 years and more. History Goodwill was founded in 1902 in Boston by Rev. Edgar J. Helms, a Methodist minister and early social innovator. Helms…\"",
-    "founded_source_url": "https://www.yourgoodwill.org/learn/history"
+    "founded_source_url": "https://www.yourgoodwill.org/learn/history",
+    "chain_or_franchise": true
   },
   {
     "name": "Goody Bag and Basket",
@@ -77567,7 +77801,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-great-clips-node-2000387137"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Great Clips",
@@ -77597,7 +77832,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-great-clips-node-2794922511"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Great Clips",
@@ -77623,7 +77859,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-great-clips-node-5762218334"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Great Clips",
@@ -77649,7 +77886,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-great-clips-node-5802735709"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Great Clips",
@@ -77679,7 +77917,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-great-clips-node-5805096890"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Great Valley Propane",
@@ -79202,7 +79441,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-h-and-r-block-node-2806892557"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "H&R Block",
@@ -79233,7 +79473,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-h-and-r-block-node-13030677102"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "H&R Block",
@@ -79259,7 +79500,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-h-and-r-block-node-5168010751"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "H&R Block",
@@ -79290,7 +79532,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-h-and-r-block-node-5762218960"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "H&R Block",
@@ -79316,7 +79559,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-h-and-r-block-node-5785274952"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "H&R Block",
@@ -79347,7 +79591,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-h-and-r-block-node-6580411793"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "H&Z Autos",
@@ -79802,7 +80047,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-hair-cuttery-node-2807561486"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Hair Cuttery",
@@ -79832,7 +80078,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-hair-cuttery-node-6580411799"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Hair Designs by Felicia Babio",
@@ -80152,7 +80399,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-hallmark-node-5035918311"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Hallmark",
@@ -80178,7 +80426,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-hallmark-node-11331211994"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Hallmark",
@@ -80204,7 +80453,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-hallmark-node-5762218339"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Hallowell Elementary School",
@@ -80767,7 +81017,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-hand-and-stone-node-5078255867"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Hand & Stone",
@@ -80854,7 +81105,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-hand-and-stone-massage-and-facial-spa-node-8902054684"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Hand Cut Crystal",
@@ -81540,7 +81792,7 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "careers_page",
     "hiring_track": "Openings or a careers page seen in Nov 2026 checks",
-    "established": true,
+    "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-harbor-freight-tools-node-2245696098"
@@ -81550,7 +81802,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1977 (per their website)",
     "founded_note": "\"…About Us Play Who We Are Harbor Freight is America's #1 Tool Store with more than 1600 locations nationwide. Founded in 1977 by Eric Smidt , the company began as a small mail-order tool business in North…\"",
-    "founded_source_url": "https://www.harborfreight.com/about-us"
+    "founded_source_url": "https://www.harborfreight.com/about-us",
+    "chain_or_franchise": true
   },
   {
     "name": "Harborview Rehablilitaion and Care Center at Doylestown",
@@ -82286,7 +82539,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-hartsville-medical-practice-way-482912582"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Hartzell Insurance Associates, Inc",
@@ -83648,7 +83902,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-health-center-at-macungie-way-1446714934"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Health Center at Palmer Township",
@@ -83703,7 +83958,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-health-center-at-quakertown-way-172367325"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Health Dimensions",
@@ -84505,7 +84761,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-hellertown-post-office-way-296384229"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Hellertown Veterinary Center",
@@ -86171,7 +86428,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-hobby-lobby-node-3554993825"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Hocaa Bubble Tea",
@@ -86401,7 +86659,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-holiday-hair-node-5762218317"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Holiday Hair",
@@ -86427,7 +86686,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-holiday-hair-node-13030682112"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Holiday Hair",
@@ -86458,7 +86718,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-holiday-hair-node-5762218961"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Holiday Hair",
@@ -86484,7 +86745,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-holiday-hair-node-7309929845"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Holiday Inn",
@@ -87291,7 +87553,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-homegoods-node-5762218351"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "HomeGoods",
@@ -87322,7 +87585,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-homegoods-node-10836133363"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Homemade Fitness",
@@ -87377,7 +87641,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-homesense-node-8936465576"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "HomeSquare Furniture",
@@ -87860,7 +88125,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-honeygrow-node-1687452182"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Honeywell",
@@ -91608,7 +91874,7 @@
     "hiring_evidence_url": "https://ibew375.org/",
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "no_online_info",
-    "established": true,
+    "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-international-brotherhood-of-electrical-workers-local-375-way-441620751"
@@ -91618,7 +91884,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1914 (per their website)",
     "founded_note": "\"…while earning college credits that are transferable nationwide. Read More Our Rich History - About Local 375 Founded in 1914 with 17 charter members, Local Union 375 of the International Brotherhood of Electrical…\"",
-    "founded_source_url": "https://ibew375.org/"
+    "founded_source_url": "https://ibew375.org/",
+    "chain_or_franchise": true
   },
   {
     "name": "International Institute for Restorative Practices - Office & Library",
@@ -92476,7 +92743,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-j-jill-node-5754699186"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "J.L. Freed Honda",
@@ -93103,7 +93371,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-jamba-node-10088688012"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "James A Michener Library",
@@ -93751,7 +94020,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-jcpenney-node-2357919992"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "JD's Wine & Spirits",
@@ -94262,8 +94532,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-jersey-college-school-of-nursing-way-1205936688"
     ],
@@ -94272,7 +94542,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 2003 (per their website)",
     "founded_note": "\"…to apply, enroll, or make any purchase and you may always contact us directly. Get Started Our History Founded in 2003 by Greg Karzhevsky, Jersey College was originally The Center for Allied Health & Nursing…\"",
-    "founded_source_url": "https://www.jerseycollege.edu/about-us/history"
+    "founded_source_url": "https://www.jerseycollege.edu/about-us/history",
+    "chain_or_franchise": true
   },
   {
     "name": "Jersey Hose",
@@ -94328,7 +94599,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-jersey-mike-s-subs-node-2245696058"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Jersey Mike's Subs",
@@ -94354,7 +94626,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-jersey-mike-s-subs-node-13030682113"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Jersey Mike's Subs",
@@ -94384,7 +94657,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-jersey-mike-s-subs-node-2807561485"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Jesse Johnson Funeral Home",
@@ -94642,7 +94916,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-jiffy-lube-node-3548666162"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Jiffy Lube",
@@ -94673,7 +94948,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-jiffy-lube-node-5802735973"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Jiffy Lube",
@@ -94704,7 +94980,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-jiffy-lube-way-208935619"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Jill Epstein, DPM",
@@ -96390,7 +96667,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-jos-a-bank-node-5769355868"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Joseph A. Fluehr Funeral Home",
@@ -96928,7 +97206,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-jules-thin-crust-way-389831267"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Julia's On The Go Deli",
@@ -98870,7 +99149,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-keybank-node-5802735702"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "KeyBank",
@@ -98896,7 +99176,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-keybank-node-7554725824"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "KeyBank",
@@ -98927,7 +99208,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-keybank-way-172668803"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "KeyBank",
@@ -98953,7 +99235,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-keybank-way-508003950"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "KeyBank",
@@ -98979,7 +99262,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-keybank-way-782441536"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Keycodes Inspection Agency",
@@ -99282,7 +99566,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-kfc-node-3564584495"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Kheir Dental, Inc.",
@@ -99449,8 +99734,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-kiddie-academy-way-526930540"
     ],
@@ -99459,7 +99744,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1981 (per their website)",
     "founded_note": "\"…educates, and inspires children for the future in Kiddie Academy locations across the country. Family Owned Founded in 1981, George and Pauline Miller combined their passion to create an educational child care…\"",
-    "founded_source_url": "https://kiddieacademy.com/about-us/"
+    "founded_source_url": "https://kiddieacademy.com/about-us/",
+    "chain_or_franchise": true
   },
   {
     "name": "Kiddie City",
@@ -101017,7 +101303,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-kohl-s-node-1687451135"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Kohl's",
@@ -101048,7 +101335,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-kohl-s-node-2245696102"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Kool Licks",
@@ -101099,8 +101387,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "careers_page",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-kost-tire-and-auto-service-way-846622563"
     ],
@@ -101109,7 +101397,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1938 (per their website)",
     "founded_note": "\"…RailRiders! About Kost Tire and Auto One of the Top 50 Tire Dealers Nationwide Kost Tire & Auto Service was founded in 1938 by Mike Kost Sr. in the town of Forest City. Kost Tire & Auto Service, a family owned…\"",
-    "founded_source_url": "https://www.kosttirepa.com/about-us/"
+    "founded_source_url": "https://www.kosttirepa.com/about-us/",
+    "chain_or_franchise": true
   },
   {
     "name": "Kraft Foods",
@@ -102969,7 +103258,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-la-z-boy-node-5082624805"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "LaBarre Park",
@@ -103263,7 +103553,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lahaska-post-office-node-357369899"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Lakeland Bank",
@@ -104400,7 +104691,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lapp-structures-node-7316193098"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Larry Chapel - State Farm Insurance Agent",
@@ -105825,7 +106117,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-learning-express-node-7838264443"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Leash Free Dog Run Area",
@@ -107967,7 +108260,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lehigh-valley-health-network-tower-place-way-1416456391"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Lehigh Valley Heritage Museum",
@@ -108086,7 +108380,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lehigh-valley-hospital-macungie-way-575424426"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Lehigh Valley Hospital–Hecktown Oaks",
@@ -108969,8 +109264,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-leslie-s-pool-supplies-node-5802735980"
     ],
@@ -108979,7 +109274,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1963 (per their website)",
     "founded_note": "\"…Information Warranty AccuBlue Membership Agreement Notice of Form 1095-C Availability About Leslie's Pools Founded in 1963, Leslie's is the largest and most trusted direct-to-consumer brand in the U.S. pool and…\"",
-    "founded_source_url": "https://lesliespool.com/about-us.html"
+    "founded_source_url": "https://lesliespool.com/about-us.html",
+    "chain_or_franchise": true
   },
   {
     "name": "Leslie's Pool Supplies",
@@ -109483,7 +109779,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-liberty-ministries-thrift-node-5291671310"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Liberty Park - Leasing Office",
@@ -109651,7 +109948,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-liberty-thrift-and-home-furnishings-node-2267875525"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Liberty Wealth Management",
@@ -110308,7 +110606,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-limeport-post-office-node-5816654560"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "LimeWorks.us",
@@ -110689,7 +110988,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-line-lexington-post-office-node-357372981"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Lineage",
@@ -110715,8 +111015,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-lineage-way-184520352"
     ],
@@ -110725,7 +111025,8 @@
     "founded_confidence": "medium",
     "founded_label": "Founded in 1907 (per their website)",
     "founded_note": "\"…respectively serving as Lineage’s CEO and President/COO from 2012-2015. Richmond Cold Storage was founded in 1907 and began operating a facility encompassing 1 million cubic feet in Richmond, VA. The…\"",
-    "founded_source_url": "https://www.onelineage.com/about-us/heritage"
+    "founded_source_url": "https://www.onelineage.com/about-us/heritage",
+    "chain_or_franchise": true
   },
   {
     "name": "Ling Nan",
@@ -111032,7 +111333,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-little-caesars-node-993745810"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Little Cottage Gardens",
@@ -112539,7 +112841,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lowe-s-node-365789107"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Lowe's",
@@ -112570,7 +112873,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lowe-s-way-223898258"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Lowe's",
@@ -112601,7 +112905,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lowe-s-way-480654412"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Lowe's",
@@ -112631,7 +112936,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lowe-s-way-58531829"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Lower Macungie Township Library & Community Center",
@@ -113114,7 +113420,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lukoil-node-2699255818"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Lukoil",
@@ -113140,7 +113447,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lukoil-node-5802735719"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Lukoil",
@@ -113166,7 +113474,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lukoil-way-482912579"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Lukoil",
@@ -113192,7 +113501,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lukoil-way-547510398"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "LULA",
@@ -113272,7 +113582,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lululemon-node-11663473089"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Luly's Beauty Salon Dominican Style",
@@ -113641,7 +113952,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lvh-coordinated-allentown-node-10844729895"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "LVH Diabetes and Metabolism Center-Tower Place",
@@ -113746,7 +114058,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-lvhn-expresscare-way-706285762"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "LVHN ExpressCare - Airport Road",
@@ -114494,7 +114807,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-m-and-t-bank-node-9563690448"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "M&W Automotive",
@@ -114947,7 +115261,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-macy-s-node-4879623015"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mad Princes Brewing",
@@ -116244,7 +116559,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-manhattan-bagel-node-2779166046"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Manhattan Bagel",
@@ -116274,7 +116590,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-manhattan-bagel-node-4740298070"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Manhattan Bagel",
@@ -116304,7 +116621,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-manhattan-bagel-way-327500170"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Manhattan Barber Shop",
@@ -116724,7 +117042,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-margiotti-and-kroll-pediatrics-node-5805096887"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Margle Law Offices, PC",
@@ -117202,7 +117521,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-marshalls-node-10836133364"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mart",
@@ -117651,7 +117971,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-masons-mill-park-way-225865424"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Massage Envy",
@@ -117706,7 +118027,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-massage-envy-node-5755313364"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Massage Quest",
@@ -118177,7 +118499,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mattress-firm-node-3782654062"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mattress Firm",
@@ -118207,7 +118530,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mattress-firm-node-5802735979"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mattress Firm",
@@ -118237,7 +118561,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mattress-firm-node-6579432250"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mattress Firm",
@@ -118267,7 +118592,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mattress-firm-way-190497870"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mattress Firm",
@@ -118297,7 +118623,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mattress-firm-way-207793999"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mattress Warehouse",
@@ -118327,7 +118654,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mattress-warehouse-node-5180773541"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mauka",
@@ -118417,7 +118745,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mavis-way-806496239"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mavis Discount Tire",
@@ -118447,7 +118776,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mavis-discount-tire-node-735963070"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mavis Discount Tire",
@@ -118473,7 +118803,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mavis-discount-tire-node-5802735653"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mavis Discount Tire",
@@ -118499,7 +118830,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mavis-discount-tire-way-1544044430"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mavis Discount Tire",
@@ -118530,7 +118862,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mavis-discount-tire-way-481124216"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mavis Discount Tire",
@@ -118556,7 +118889,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mavis-discount-tire-way-508003944"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mavis Discount Tire",
@@ -118587,7 +118921,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mavis-discount-tire-way-742061757"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "MAX",
@@ -118705,7 +119040,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-maxx-fitness-clubzz-way-961187822"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "May Jewelers",
@@ -119183,7 +119519,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mcdonald-s-node-1702872783"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "McDonald's",
@@ -119214,7 +119551,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mcdonald-s-node-5696661150"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "McDonald's",
@@ -119245,7 +119583,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mcdonald-s-node-6603260049"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "McDonald's",
@@ -119276,7 +119615,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mcdonald-s-node-6791626960"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "McDonald's",
@@ -119307,7 +119647,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mcdonald-s-way-264540584"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "McDonald's",
@@ -119338,7 +119679,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mcdonald-s-way-346669436"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "McDonald's",
@@ -119369,7 +119711,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mcdonald-s-way-388123558"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "McDonald's",
@@ -119400,7 +119743,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mcdonald-s-way-389933746"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "McDonald's",
@@ -119431,7 +119775,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mcdonald-s-way-58078397"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "McDonald's",
@@ -119462,7 +119807,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mcdonald-s-way-712350480"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "McDonald's",
@@ -119493,7 +119839,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mcdonald-s-way-962381356"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mcelhaney Service Center",
@@ -119863,7 +120210,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mechanicsville-post-office-node-357369889"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Medical Home Pharmacy",
@@ -120157,7 +120505,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-meineke-node-5323295338"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Meineke",
@@ -120588,7 +120937,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-men-s-wearhouse-node-5078255352"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Menchie's",
@@ -121272,7 +121622,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-metro-by-t-mobile-node-6219855049"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Metro by T-Mobile",
@@ -121302,7 +121653,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-metro-by-t-mobile-node-5815686193"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Metro Self Storage",
@@ -121332,7 +121684,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-metro-self-storage-way-628133464"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Metropolitan Community Church of the Lehigh Valley",
@@ -121781,7 +122134,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-michaels-node-2245696105"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Michaels",
@@ -121811,7 +122165,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-michaels-node-6344201897"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Michelle's Cakes & Pastries",
@@ -122039,7 +122394,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-midas-way-207801195"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Midas",
@@ -122065,7 +122421,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-midas-node-5802735721"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Midas",
@@ -122091,7 +122448,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-midas-node-5802735748"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Midas",
@@ -122122,7 +122480,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-midas-way-525456407"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Midas",
@@ -122153,7 +122512,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-midas-way-596139614"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Midas",
@@ -122179,7 +122539,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-midas-way-610922932"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Middle Bucks Institute of Technology",
@@ -123078,7 +123439,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-miller-s-ale-house-way-771969374"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Miller's Paint & Wallpaper",
@@ -123430,7 +123792,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-minuteman-press-way-392703385"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Miracle Motors Allentown",
@@ -123519,7 +123882,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-miracle-ear-way-371979471"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Miracolo Hair Studio, Blow Dry Bar and Boutique",
@@ -123704,7 +124068,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mission-bbq-node-12950745409"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Mister Lee's Noodles",
@@ -124091,7 +124456,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mod-pizza-node-3782331710"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "MOD Pizza",
@@ -124117,7 +124483,7 @@
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://locations.modpizza.com/usa/pa/warrington/1528-n-main-st",
     "hiring_last_checked": "2026-11-17",
-    "established": true,
+    "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-mod-pizza-node-5805096884"
@@ -124127,7 +124493,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 2008 (per their website)",
     "founded_note": "\"…PM Sat 10:30 AM - 11:00 PM Sun 10:30 AM - 10:00 PM INTRODUCING OUR NEW MENU All New Signatures We’ve been serving up pizza with personality since 2008 and now we’re excited to share all new signature pizzas inspired by the flavors you love…\"",
-    "founded_source_url": "https://locations.modpizza.com/usa/pa/warrington/1528-n-main-st"
+    "founded_source_url": "https://locations.modpizza.com/usa/pa/warrington/1528-n-main-st",
+    "chain_or_franchise": true
   },
   {
     "name": "Modern Cleaners",
@@ -124237,7 +124604,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-modern-male-node-13382004710"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Modern Male Barber Academy",
@@ -124360,7 +124728,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-moe-s-southwest-grill-node-4760337401"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Moira Padfield, MS, LPC",
@@ -125398,7 +125767,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-mooyah-node-9429568618"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Moran Eye Associates",
@@ -130543,7 +130913,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-nj-spine-and-orthopedic-node-11150240458"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "NJ State Police",
@@ -131275,8 +131646,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-north-node-9671219217"
     ],
@@ -131285,7 +131656,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1955 (per their website)",
     "founded_note": "\"…a supportive community. Communities thrive because neighbors support each other and give back. Who We Serve Established in 1955, we have a long history of providing programs and services for children, teens, seniors,…\"",
-    "founded_source_url": "https://www.northpennymca.org/about-us/"
+    "founded_source_url": "https://www.northpennymca.org/about-us/",
+    "chain_or_franchise": true
   },
   {
     "name": "North County Branch Hunterdon County Library",
@@ -131315,7 +131687,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-north-county-branch-hunterdon-county-library-node-367692554"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "North Hunterdon High School",
@@ -132468,7 +132841,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-nothing-bundt-cakes-node-5362434665"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Nothing Bundt Cakes",
@@ -132499,7 +132873,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-nothing-bundt-cakes-node-2245696088"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Nothing Bundt Cakes",
@@ -132529,7 +132904,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-nothing-bundt-cakes-node-5805096883"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Noto's Deli",
@@ -135301,7 +135677,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-outback-steakhouse-node-13134433818"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Outback Steakhouse",
@@ -135331,7 +135708,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-outback-steakhouse-way-516749432"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Outlooks",
@@ -135497,7 +135875,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-owowcow-creamery-node-7716651251"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Owowcow Creamery",
@@ -135523,7 +135902,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-owowcow-creamery-node-11384309071"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Owowcow Creamery",
@@ -135549,7 +135929,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-owowcow-creamery-way-1070291956"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Owowcow Creamery",
@@ -135575,7 +135956,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-owowcow-creamery-way-654084334"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Oxford Cleaning & Stitching",
@@ -135655,7 +136037,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-p-f-chang-s-node-2003023261"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "P.J Whelihan's",
@@ -135686,7 +136069,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-p-j-whelihan-s-way-1209136252"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "P.J. Welihan's Pub & Restaurant",
@@ -135716,7 +136100,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-p-j-welihan-s-pub-and-restaurant-node-12895082296"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "P.K. Auto Shop",
@@ -135796,7 +136181,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pa-brain-doc-medical-marijuana-telemedicine-node-11836584256"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "PA Career Link",
@@ -136036,7 +136422,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pacsun-node-5180772076"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pag's Pub",
@@ -136835,7 +137222,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-panera-bread-node-2003014142"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Panera Bread",
@@ -136866,7 +137254,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-panera-bread-node-2794946414"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Panera Bread",
@@ -136897,7 +137286,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-panera-bread-way-962379739"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Panoply Books",
@@ -137003,7 +137393,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-papa-john-s-node-4620354813"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Papa John's",
@@ -137033,7 +137424,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-papa-john-s-node-11021245461"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Papi's",
@@ -138184,7 +138576,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-patient-first-node-3545794331"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Patient First - Allentown",
@@ -139306,7 +139699,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-penn-community-bank-node-1811699331"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Penn Community Bank",
@@ -139337,7 +139731,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-penn-community-bank-node-2794922517"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Penn Community Bank",
@@ -139363,7 +139758,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-penn-community-bank-node-7309929881"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Penn Community Bank",
@@ -139389,7 +139785,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-penn-community-bank-node-7314204687"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Penn Community Bank",
@@ -139415,7 +139812,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-penn-community-bank-way-1211021568"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Penn Community Bank",
@@ -139441,7 +139839,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-penn-community-bank-way-172471036"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Penn Community Bank",
@@ -139467,7 +139866,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-penn-community-bank-way-502250842"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Penn Community Bank",
@@ -139493,7 +139893,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-penn-community-bank-way-541663521"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Penn Community Bank",
@@ -139524,7 +139925,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-penn-community-bank-way-653235341"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Penn Contractors Inc.",
@@ -140929,7 +141331,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pep-boys-way-186132468"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pep Boys",
@@ -140959,7 +141362,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pep-boys-way-207605183"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pep Boys Auto Parts & Service",
@@ -140990,7 +141394,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pep-boys-auto-parts-and-service-way-487848949"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pep Boys Auto Service & Tires",
@@ -141155,7 +141560,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-percy-ruhe-park-way-471405083"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Perez Notary & Tags",
@@ -141499,7 +141905,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-perkins-way-276135597"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Perkiomen Animal Hospital",
@@ -141839,7 +142246,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pet-supplies-plus-node-2807096340"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pet Supplies Plus",
@@ -141869,7 +142277,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pet-supplies-plus-node-5802735677"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pet Supplies Plus",
@@ -141899,7 +142308,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pet-supplies-plus-node-6580411795"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pet Valu",
@@ -142136,7 +142546,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-petsmart-node-683681503"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "PetSmart",
@@ -142166,7 +142577,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-petsmart-node-5762218345"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Petty's Tire and Auto Center Inc.",
@@ -142277,7 +142689,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-phantom-fireworks-of-lansdale-way-265350364"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Phenix Salon Suites",
@@ -142332,7 +142745,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-philadelphia-paint-stores-node-7140146521"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Philadelphia Pizza",
@@ -142934,7 +143348,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-philly-pretzel-factory-node-9889913817"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Philly Pretzel Factory",
@@ -142965,7 +143380,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-philly-pretzel-factory-node-12013204443"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Philly Pretzel Factory",
@@ -142991,7 +143407,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-philly-pretzel-factory-node-13527353482"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Philly Pretzel Factory",
@@ -143017,7 +143434,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-philly-pretzel-factory-node-5802735679"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Philly Pretzel Factory",
@@ -143048,7 +143466,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-philly-pretzel-factory-node-8902054683"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Philo Insulation",
@@ -144146,7 +144565,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pineville-post-office-node-357369812"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pineville Tavern",
@@ -144450,7 +144870,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pizza-hut-node-993745813"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pizza Hut",
@@ -144481,7 +144902,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pizza-hut-node-1811699326"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pizza Hut Express",
@@ -144511,7 +144933,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pizza-hut-express-node-5018622433"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pizza Mart",
@@ -144732,7 +145155,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-planet-fitness-node-1970232359"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Planet Fitness",
@@ -144758,7 +145182,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-planet-fitness-node-11873111386"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Planet Fitness",
@@ -144788,7 +145213,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-planet-fitness-node-11946528367"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Planet Fitness",
@@ -144814,7 +145240,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-planet-fitness-node-2806903280"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Planet Fitness",
@@ -144844,7 +145271,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-planet-fitness-node-2814734792"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Planet Fitness",
@@ -144870,7 +145298,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-planet-fitness-node-5802735708"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Planet Smoothie",
@@ -145150,7 +145579,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-plato-s-closet-node-3782654060"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Playa Bowls",
@@ -145328,8 +145758,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-plow-and-hearth-node-5678995190"
     ],
@@ -145338,7 +145768,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1980 (per their website)",
     "founded_note": "\"…best sellers deal of the week Free Shipping on $99+ with Code: FREESHIP99 Plow & Hearth Company History Play Founded in 1980 as a small country store, Plow & Hearth® has grown into a leading retailer of products…\"",
-    "founded_source_url": "https://plowhearth.com/pages/about-us"
+    "founded_source_url": "https://plowhearth.com/pages/about-us",
+    "chain_or_franchise": true
   },
   {
     "name": "Plumb-Tech Services",
@@ -145635,7 +146066,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pnc-bank-node-2002087561"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "PNC Bank",
@@ -145661,7 +146093,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pnc-bank-node-2806897260"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "PNC Bank",
@@ -145687,7 +146120,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pnc-bank-node-9693901033"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "PNC Bank",
@@ -145713,7 +146147,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pnc-bank-way-189288549"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "PNC Bank",
@@ -145739,7 +146174,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pnc-bank-way-480511718"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Pocos Restaurant & Comedy Cabaret",
@@ -146115,7 +146551,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-police-and-fire-federal-credit-union-node-5927024814"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Polished Lounge",
@@ -146353,7 +146790,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-popeyes-node-6907399010"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Popeyes",
@@ -146391,7 +146829,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-popeyes-way-1380151789"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Popeyes",
@@ -146421,7 +146860,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-popeyes-way-1382151191"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Popeyes",
@@ -146459,7 +146899,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-popeyes-way-782441531"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "PoppTeas",
@@ -147028,7 +147469,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-praxair-way-204565853"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Praxair",
@@ -147054,7 +147496,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-praxair-node-7316382379"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Praxair",
@@ -147080,7 +147523,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-praxair-way-682935261"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Prayosha Adult Day Care Center",
@@ -147297,7 +147741,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-premier-care-family-dental-center-valley-way-1389607766"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Premiere Salon",
@@ -147681,7 +148126,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-primark-node-5180772068"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Prime Storage",
@@ -147711,7 +148157,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-prime-storage-node-5825393795"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Primera Iglesia Bautista Hispana",
@@ -147848,7 +148295,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-primohoagies-node-4533864763"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "PrimoHoagies",
@@ -147879,7 +148327,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-primohoagies-node-8902054682"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "PrimoHoagies",
@@ -147905,7 +148354,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-primohoagies-way-389824308"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Princeton Brain & Spine Care",
@@ -148250,7 +148700,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-produce-junction-way-207801197"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Produce Junction",
@@ -148464,7 +148915,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-prologistix-node-9919736798"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Promise Neighborhoods of the Lehigh Valley",
@@ -148651,7 +149103,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-provident-bank-way-1123937524"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Prudential",
@@ -149210,8 +149663,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-pure-green-juice-bar-node-12536473681"
     ],
@@ -149220,7 +149673,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 2014 (per their website)",
     "founded_note": "\"…IN NEW YORK. BUILT FOR EVERY COMMUNITY. How it started FOUNDED IN 2014 BY ROSS FRANKLIN Pure Green was founded in 2014 by wellness visionary, Ross Franklin, with the mission of building healthier communities…\"",
-    "founded_source_url": "https://www.puregreenfranchise.com/our-story/"
+    "founded_source_url": "https://www.puregreenfranchise.com/our-story/",
+    "chain_or_franchise": true
   },
   {
     "name": "Pure Smile Dentristy",
@@ -149419,7 +149873,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pyramid-healthcare-inc-way-278142408"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Q T Electric Supply",
@@ -149481,7 +149936,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-qdoba-node-3782266646"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Qitopia",
@@ -149563,7 +150019,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-qnb-bank-node-10064384689"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "QNB Bank",
@@ -149589,7 +150046,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-qnb-bank-node-5802735670"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "QNB Bank",
@@ -149626,7 +150084,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1877 (per their website)",
     "founded_note": "\"…QNB Corp. and currently operates fourteen branches in Bucks, Montgomery, and Lehigh Counties. QNB has been serving the residents and businesses in Pennsylvania since 1877 with a customer-centric service focus. QNB is an independent, publicly traded bank…\"",
-    "founded_source_url": "https://www.qnbbank.com/about-us/"
+    "founded_source_url": "https://www.qnbbank.com/about-us/",
+    "chain_or_franchise": true
   },
   {
     "name": "QNB Bank",
@@ -149663,7 +150122,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1877 (per their website)",
     "founded_note": "\"…QNB Corp. and currently operates fourteen branches in Bucks, Montgomery, and Lehigh Counties. QNB has been serving the residents and businesses in Pennsylvania since 1877 with a customer-centric service focus. QNB is an independent, publicly traded bank…\"",
-    "founded_source_url": "https://www.qnbbank.com/about-us/"
+    "founded_source_url": "https://www.qnbbank.com/about-us/",
+    "chain_or_franchise": true
   },
   {
     "name": "Quaker Antique Mall",
@@ -150794,7 +151254,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-quest-diagnostics-node-5108548075"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Quest Diagnostics",
@@ -150824,7 +151285,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-quest-diagnostics-node-11114788110"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Quest Diagnostics",
@@ -150854,7 +151316,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-quest-diagnostics-node-12594281668"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Quest Termite & Pest Management",
@@ -151153,7 +151616,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-r-e-michel-co-way-1024098505"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "R.E. Michel Company",
@@ -152326,7 +152790,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-raymond-james-way-1366157137"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Raymour & Flanigan",
@@ -152356,7 +152821,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-raymour-and-flanigan-way-165403311"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Raymour & Flanigan",
@@ -152387,7 +152853,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-raymour-and-flanigan-way-207793993"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Raymour & Flanigan Furniture Distribution Center",
@@ -153157,7 +153624,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-red-lobster-way-521340829"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Red Notary",
@@ -153467,7 +153935,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-redner-s-node-2000387134"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Redner's",
@@ -154515,7 +154984,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-retro-fitness-node-1037237833"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Reunion",
@@ -156143,7 +156613,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rita-s-italian-ice-node-5265807747"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rita's Italian Ice",
@@ -156174,7 +156645,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rita-s-italian-ice-node-11331211995"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rita's Italian Ice",
@@ -156200,7 +156672,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rita-s-italian-ice-node-12164391819"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rita's Italian Ice",
@@ -156226,7 +156699,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rita-s-italian-ice-node-12741597580"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rita's Italian Ice",
@@ -156256,7 +156730,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rita-s-italian-ice-node-4756888656"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rita's Italian Ice",
@@ -156294,7 +156769,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rita-s-italian-ice-node-4933365799"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rita's Italian Ice",
@@ -156325,7 +156801,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rita-s-italian-ice-node-5802735974"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rita's Italian Ice",
@@ -156356,7 +156833,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rita-s-italian-ice-way-327500290"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rita's Italian Ice",
@@ -156382,7 +156860,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rita-s-italian-ice-way-730442925"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rite Aid",
@@ -156411,7 +156890,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rite-aid-node-2002087559"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rite Aid",
@@ -156441,7 +156921,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rite-aid-node-3171687390"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rite Aid",
@@ -156467,7 +156948,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rite-aid-node-4760337403"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rite Aid",
@@ -156497,7 +156979,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rite-aid-node-479980121"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rite Aid",
@@ -156523,7 +157006,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rite-aid-node-5696663902"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rite Aid",
@@ -156549,7 +157033,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rite-aid-node-6974195656"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rite Aid",
@@ -156579,7 +157064,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rite-aid-node-7282887003"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rite Aid",
@@ -156605,7 +157091,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rite-aid-node-9377981004"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rite Aid",
@@ -156635,7 +157122,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rite-aid-way-349324781"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rite-Stop Deli And Grocery",
@@ -158208,7 +158696,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-roll-by-goodyear-node-7100516984"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Rolling Hills Elementary School",
@@ -158269,7 +158758,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-roma-corperate-center-way-53827524"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Roma Pizza",
@@ -158913,8 +159403,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-roto-rooter-way-1349920430"
     ],
@@ -158923,7 +159413,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1935 (per their website)",
     "founded_note": "\"…a developing leak inside the pipe. Why Roto-Rooter for Whitehall, PA Homeowners Roto-Rooter has been in business since 1935 - a span that reflects a consistent operational model, not just a long calendar. The…\"",
-    "founded_source_url": "https://www.rotorooter.com/whitehallpa/"
+    "founded_source_url": "https://www.rotorooter.com/whitehallpa/",
+    "chain_or_franchise": true
   },
   {
     "name": "Rough Edges Hair Company",
@@ -159506,8 +159997,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-ruby-tuesday-node-1961335513"
     ],
@@ -159516,7 +160007,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1972 (per their website)",
     "founded_note": "\"…Founded in 1972 in Knoxville, TN - Ruby Tuesday Founded in 1972 in Knoxville, TN - Ruby Tuesday…\"",
-    "founded_source_url": "https://www.rubytuesday.com/our-story/"
+    "founded_source_url": "https://www.rubytuesday.com/our-story/",
+    "chain_or_franchise": true
   },
   {
     "name": "Rudy's Beverage",
@@ -160776,7 +161268,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-saint-luke-s-grand-view-hospital-sellersville-way-384917313"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Saint Luke's Hospital Quakertown Campus",
@@ -160807,7 +161300,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-saint-luke-s-hospital-quakertown-campus-way-384917236"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Saint Luke's OB/GYN - Grand View Dublin",
@@ -160837,7 +161331,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-saint-luke-s-ob-gyn-grand-view-dublin-way-1211021565"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Saint Luke’s Penn Foundation – Mental Health Outpatient Services",
@@ -161429,7 +161924,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sally-beauty-node-5035918315"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sally Beauty",
@@ -161455,7 +161951,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sally-beauty-node-5762218336"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sally Beauty",
@@ -161481,7 +161978,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sally-beauty-node-5802735737"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Salon & Beyond",
@@ -161765,8 +162263,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-salons-by-jc-node-13535689189"
     ],
@@ -161775,7 +162273,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1997 (per their website)",
     "founded_note": "\"…support, education, community, and empowerment to enhance their lifestyle. About Us Salons by JC was founded in 1997 by Jack Griffey & Cecil Miller with a vision to transform the beauty and wellness…\"",
-    "founded_source_url": "https://salonsbyjc.com/our-story/"
+    "founded_source_url": "https://salonsbyjc.com/our-story/",
+    "chain_or_franchise": true
   },
   {
     "name": "Salt & Sun",
@@ -162357,7 +162856,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-santander-node-3548407958"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Santander",
@@ -162387,7 +162887,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-santander-way-351727022"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Santander",
@@ -162413,7 +162914,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-santander-way-392847503"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Santander",
@@ -162439,7 +162941,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-santander-way-690936122"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Santiago Cigar Lounge",
@@ -163212,7 +163715,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-saxbys-coffee-node-3746296714"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Saylors & Co",
@@ -164326,7 +164830,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-seasons-olive-oil-and-vinegar-taproom-node-5673769709"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Secret Indian Kitchen",
@@ -164825,7 +165330,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-senior-life-lehigh-valley-way-884957905"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Senoyuit & Associates",
@@ -164972,7 +165478,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sephora-node-5180772085"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sequential Technology International",
@@ -165353,11 +165860,12 @@
     "founded_note": "\"…fleet, STTC has the manpower and expertise to keep you Rolling—guaranteed. Brief History. Mile after mile. Founded in 1955 in Bethlehem, Pennsylvania, Service Tire Truck Centers (STTC) began as a modest 3,000…\"",
     "founded_source_url": "https://www.sttc.com/about-sttc/",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-service-tire-truck-center-way-148905716"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "ServiceMaster",
@@ -165975,7 +166483,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-shell-node-5324877843"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Shell",
@@ -166001,7 +166510,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-shell-node-11366992231"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Shell",
@@ -166027,7 +166537,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-shell-way-390168960"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Shell",
@@ -166057,7 +166568,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-shell-way-494953091"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Shell Gas",
@@ -166351,7 +166863,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1866 (per their website)",
     "founded_note": "\"…and transportation markets in more than 130 countries around the world. Sherwin-Williams at a Glance Founded in 1866, our Company has spent the last 155+ years creating a legacy of growth, creativity and…\"",
-    "founded_source_url": "https://corporate.sherwin-williams.com/us/en/our-company.html"
+    "founded_source_url": "https://corporate.sherwin-williams.com/us/en/our-company.html",
+    "chain_or_franchise": true
   },
   {
     "name": "Sherwin-Williams",
@@ -166388,7 +166901,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1866 (per their website)",
     "founded_note": "\"…and transportation markets in more than 130 countries around the world. Sherwin-Williams at a Glance Founded in 1866, our Company has spent the last 155+ years creating a legacy of growth, creativity and…\"",
-    "founded_source_url": "https://corporate.sherwin-williams.com/us/en/our-company.html"
+    "founded_source_url": "https://corporate.sherwin-williams.com/us/en/our-company.html",
+    "chain_or_franchise": true
   },
   {
     "name": "Sherwin-Williams",
@@ -166414,7 +166928,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sherwin-williams-node-4755825511"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sherwin-Williams",
@@ -166440,7 +166955,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sherwin-williams-node-5802735707"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sherwin-Williams",
@@ -166466,7 +166982,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sherwin-williams-node-8977420443"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sherwood Ball Field",
@@ -167200,7 +167717,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-signarama-way-392703386"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Signature Cleaners",
@@ -168731,7 +169249,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-smashburger-node-11611091513"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Smile Cleaners",
@@ -170793,7 +171312,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-south-mountain-family-practice-way-1409562773"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "South Mountain Park",
@@ -171161,7 +171681,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-spark-car-wash-node-13740424475"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Spark Orthodontics & Oral Surgery",
@@ -171821,7 +172342,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-speedway-node-5807665757"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Speedway",
@@ -171852,7 +172374,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-speedway-way-207793984"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Spencer's",
@@ -171982,7 +172505,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-spine-and-pain-associates-way-588237722"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Spirit Halloween",
@@ -172248,8 +172772,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-sportsman-s-warehouse-node-9563680353"
     ],
@@ -172258,7 +172782,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1986 (per their website)",
     "founded_note": "\"…choose from an assortment of over 60,000 items with region-specific products for local outdoor activities. Founded in 1986, Sportsman’s Warehouse now operates over 110 stores and online at Sportsmans.com. If you…\"",
-    "founded_source_url": "https://stores.sportsmans.com/sportsmans-warehouse/us/pa/warminster/970-west-street-road"
+    "founded_source_url": "https://stores.sportsmans.com/sportsmans-warehouse/us/pa/warminster/970-west-street-road",
+    "chain_or_franchise": true
   },
   {
     "name": "Sportsmen's Cafe",
@@ -173032,7 +173557,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sprouts-farmers-market-node-5166810126"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Spuntino",
@@ -173735,7 +174261,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-st-luke-s-care-now-way-1472552688"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "St. Luke's Care Now - Whitehall",
@@ -173965,7 +174492,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-st-luke-s-fitness-and-sports-performance-center-node-7417383900"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "St. Luke's Gastroenterology - Eighth Avenue",
@@ -174445,7 +174973,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-st-luke-s-orthopedic-care-node-13578478352"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "St. Luke's Orthopedic Care - Whitehall",
@@ -174501,7 +175030,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-st-luke-s-outpatient-center-sellersville-way-613193092"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "St. Luke's Palisades Family Practice",
@@ -175423,7 +175953,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-stanley-steemer-way-1394008979"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Stanton General Store",
@@ -175477,7 +176008,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-staples-node-2011376900"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Staples",
@@ -175507,7 +176039,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-staples-node-2794922514"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Staples",
@@ -175537,7 +176070,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-staples-node-3576934136"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Staples",
@@ -175567,7 +176101,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-staples-node-5802735676"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Star Brite Car Wash",
@@ -175961,7 +176496,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-starbucks-node-13154194866"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Starbucks",
@@ -175987,7 +176523,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-starbucks-node-13543973198"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Starbucks",
@@ -176013,7 +176550,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-starbucks-node-2245696108"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Starbucks",
@@ -176044,7 +176582,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-starbucks-node-7636004578"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Starbucks",
@@ -176075,7 +176614,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-starbucks-way-1191618002"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Starbucks",
@@ -176101,7 +176641,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-starbucks-way-1453596541"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Starbucks",
@@ -176132,7 +176673,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-starbucks-way-274801781"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Starry Nite Party Designs",
@@ -176237,7 +176779,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-state-farm-node-5168010752"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "State Farm",
@@ -176263,7 +176806,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-state-farm-node-5237173721"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "State Farm",
@@ -176289,7 +176833,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-state-farm-way-364840048"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "State Farm - Andrew Perkins",
@@ -178827,7 +179372,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-suburban-north-family-ymca-way-1273969143"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Suburban Propane",
@@ -178909,7 +179455,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-subway-node-2267875546"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Subway",
@@ -178940,7 +179487,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-subway-node-3575589717"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Subway",
@@ -178971,7 +179519,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-subway-node-9254648840"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Subway",
@@ -179002,7 +179551,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-subway-way-170682516"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Success Rehabilitation, Inc.",
@@ -179461,7 +180011,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sunoco-node-14011522802"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sunoco",
@@ -179487,7 +180038,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sunoco-node-14241092112"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sunoco",
@@ -179517,7 +180069,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sunoco-node-3420017301"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sunoco",
@@ -179547,7 +180100,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sunoco-node-538431538"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sunoco",
@@ -179577,7 +180131,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sunoco-way-612803843"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sunoco",
@@ -179607,7 +180162,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sunoco-way-613193095"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sunoco",
@@ -179637,7 +180193,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sunoco-way-687468611"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sunoco Ultra Service Center",
@@ -179666,7 +180223,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-sunoco-ultra-service-center-way-414216395"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Sunset Motel",
@@ -179957,7 +180515,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-supercuts-node-6603260054"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Superfood",
@@ -181218,7 +181777,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-t-mobile-node-2245696112"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "T-Mobile",
@@ -181249,7 +181809,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-t-mobile-node-2807416614"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "T-Mobile",
@@ -181279,7 +181840,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-t-mobile-node-5769355874"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "T-Mobile",
@@ -181310,7 +181872,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-t-mobile-way-521340786"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "T&M Nails",
@@ -181473,7 +182036,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-taco-bell-node-6399380671"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Taco Bell",
@@ -181504,7 +182068,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-taco-bell-way-521340797"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Taco Bell",
@@ -181535,7 +182100,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-taco-bell-way-733103025"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Taco Suave",
@@ -181780,7 +182346,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-talbots-way-390141117"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Tales of Adventure Comics and Games",
@@ -182251,7 +182818,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-target-node-3645269960"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Target",
@@ -182277,7 +182845,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-target-way-1307356839"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Target",
@@ -182308,7 +182877,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-target-way-207542378"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Target",
@@ -182339,7 +182909,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-target-way-480654413"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Target World Inc.",
@@ -182687,7 +183258,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-td-bank-node-6204630852"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "TD Bank",
@@ -182718,7 +183290,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-td-bank-way-207794047"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "TD Bank",
@@ -182749,7 +183322,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-td-bank-way-392705647"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "TD Bank",
@@ -182780,7 +183354,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-td-bank-way-508003932"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "TD Bank",
@@ -182811,7 +183386,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-td-bank-way-516749421"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "TD Bank",
@@ -182842,7 +183418,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-td-bank-way-742061749"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Techniques Hair & Nail Studio",
@@ -183253,8 +183830,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-terracon-consultants-inc-node-11079677912"
     ],
@@ -183263,7 +183840,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 2008 (per their website)",
     "founded_note": "\"…to community organizations, universities, disaster relief, and employee matching contributions since it was established in 2008. Read More Terracon Foundation Awards More than $145,000 in University and Community…\"",
-    "founded_source_url": "https://www.terracon.com/about/foundation/"
+    "founded_source_url": "https://www.terracon.com/about/foundation/",
+    "chain_or_franchise": true
   },
   {
     "name": "Terrain at DelVal",
@@ -183450,7 +184028,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-tgi-fridays-way-170989108"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "TGS Management Company",
@@ -184603,7 +185182,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-cheesecake-factory-node-5180772069"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Chicken Brothers",
@@ -184658,7 +185238,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-children-s-place-node-5180772098"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Church of Pentecost",
@@ -185405,7 +185986,7 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "no_online_info",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
-    "established": true,
+    "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-the-first-national-bank-and-trust-way-481159185"
@@ -185415,7 +185996,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1864 (per their website)",
     "founded_note": "\"…Since 1999, our Warminster branch has provided trusted banking and lending services to our community. Founded in 1864, The First is proud to be Bucks County’s oldest independent community bank. As other…\"",
-    "founded_source_url": "https://www.fnbn.com/location/warminster/"
+    "founded_source_url": "https://www.fnbn.com/location/warminster/",
+    "chain_or_franchise": true
   },
   {
     "name": "The First National Bank and Trust",
@@ -185893,7 +186475,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-goddard-school-way-361791293"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Goddard School",
@@ -185919,7 +186502,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-goddard-school-node-7316382439"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Goddard School",
@@ -185945,7 +186529,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-goddard-school-way-541454586"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Golf Range @ Branchburg",
@@ -186277,7 +186862,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-halal-guys-node-3782331714"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Hattery Stove & Still",
@@ -186390,7 +186976,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-home-depot-way-30996040"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Home Depot",
@@ -186420,7 +187007,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-home-depot-way-265350362"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Home Depot",
@@ -186446,7 +187034,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-home-depot-way-483276282"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Home Depot",
@@ -186476,7 +187065,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-home-depot-way-58075391"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Horse Tavern & Grille",
@@ -187629,7 +188219,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-mattress-factory-node-5802735984"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The MAX Challenge",
@@ -187659,7 +188250,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-max-challenge-node-5755313363"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Meadowbrook School",
@@ -189795,7 +190387,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-solana-doylestown-way-530437290"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Source Hookah Lounge",
@@ -190224,7 +190817,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-tile-shop-node-5082624804"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Total Animal",
@@ -190313,7 +190907,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-ups-store-node-2245696116"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The UPS Store",
@@ -190343,7 +190938,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-ups-store-node-12013204442"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The UPS Store",
@@ -190369,7 +190965,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-ups-store-node-3531192340"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The UPS Store",
@@ -190395,7 +190992,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-ups-store-node-5108548079"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The UPS Store",
@@ -190425,7 +191023,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-ups-store-node-5166565107"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The UPS Store",
@@ -190455,7 +191054,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-ups-store-node-5682586946"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The UPS Store",
@@ -190481,7 +191081,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-ups-store-node-5802735742"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Valley Om",
@@ -190651,7 +191252,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-the-vitamin-shoppe-node-5802735981"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "The Warrington",
@@ -191036,7 +191638,7 @@
     "hiring_evidence_url": "https://ivyrehab.com/careers/why-work-at-ivy/",
     "hiring_last_checked": "2026-11-17",
     "hiring_track": "Openings or a careers page seen in Nov 2026 checks",
-    "established": true,
+    "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-theraplay-node-9373366179"
@@ -191046,7 +191648,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 2003 (per their website)",
     "founded_note": "\"…outpatient physical, occupational, speech and ABA therapy clinics throughout the United States. Founded in 2003, our mission is to help you reach your goals, because they’re our goals, too. Our…\"",
-    "founded_source_url": "https://ivyrehab.com/about-ivy-rehab/the-ivy-story/"
+    "founded_source_url": "https://ivyrehab.com/about-ivy-rehab/the-ivy-story/",
+    "chain_or_franchise": true
   },
   {
     "name": "ThinkForm Architects",
@@ -192543,7 +193146,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-tires-etc-way-521340901"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Title EQ",
@@ -192624,7 +193228,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-tj-maxx-node-5291671306"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "TJ Maxx",
@@ -192655,7 +193260,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-tj-maxx-node-5762218350"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "TJ Maxx",
@@ -192681,7 +193287,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-tj-maxx-node-6280019243"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "TJ Smith's",
@@ -194274,7 +194881,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-tractor-supply-company-node-11753983492"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Tractor Supply Company",
@@ -194300,7 +194908,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-tractor-supply-company-way-1181245300"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Tractor Supply Company",
@@ -194330,7 +194939,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-tractor-supply-company-way-351891088"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Trader Joe's",
@@ -194359,7 +194969,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-trader-joe-s-node-3719477850"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Trading post",
@@ -194385,7 +194996,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-trading-post-way-1106683601"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Trading Post",
@@ -194410,7 +195022,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-trading-post-node-7398800270"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Trading Post",
@@ -194436,7 +195049,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-trading-post-way-1272870596"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Traditions of Lansdale",
@@ -196046,7 +196660,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-tropical-smoothie-cafe-node-13189067603"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Trovato Nutrition",
@@ -196379,7 +196994,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-truist-node-6314874427"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Truist",
@@ -196405,7 +197021,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-truist-way-171316220"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Truist",
@@ -196431,7 +197048,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-truist-way-389828867"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Truist",
@@ -196457,7 +197075,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-truist-way-480645381"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Trum Tavern",
@@ -196520,7 +197139,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-trumark-financial-way-664750065"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "TruMark Financial Credit Union",
@@ -196550,7 +197170,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-trumark-financial-credit-union-way-276135599"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Trumbauer's",
@@ -198083,7 +198704,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-u-s-gas-way-610050982"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "uBreakiFix",
@@ -198109,7 +198731,7 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "careers_page",
     "hiring_track": "Openings or a careers page seen in Nov 2026 checks",
-    "established": true,
+    "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-ubreakifix-node-5927886794"
@@ -198119,7 +198741,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 2009 (per their website)",
     "founded_note": "\"…and device setups to data transfers and accessories. Conveniently located and locally operated Originally founded in 2009 Trained in phone, computer, tablet, and gaming repair Get directions Schedule a repair…\"",
-    "founded_source_url": "https://www.ubreakifix.com/locations/easton"
+    "founded_source_url": "https://www.ubreakifix.com/locations/easton",
+    "chain_or_franchise": true
   },
   {
     "name": "Ukrainian American Sports Center",
@@ -198227,7 +198850,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-ulta-beauty-node-3782266639"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Ulta Beauty",
@@ -198257,7 +198881,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-ulta-beauty-node-5762218344"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Ulta Beauty",
@@ -198287,7 +198912,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-ulta-beauty-node-5769355875"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Ultra Nails",
@@ -198400,7 +199026,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-uncle-aldo-s-node-6206301358"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Uncle Ed's Creamery",
@@ -199233,7 +199860,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-united-tire-and-service-way-851354326"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "United Way",
@@ -200458,7 +201086,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-urban-air-node-6714841798"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Urban L Salon",
@@ -200680,7 +201309,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-us-gas-node-7118152025"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "US Gas",
@@ -200706,7 +201336,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-us-gas-node-7309915354"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "US Gas",
@@ -200732,7 +201363,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-us-gas-way-1020407211"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "US Marine Corps Recruiting Office",
@@ -202126,8 +202758,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-vca-east-penn-animal-hospital-way-449215421"
     ],
@@ -202136,7 +202768,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1929 (per their website)",
     "founded_note": "\"…seven days a week except for major holidays for pet adoptions. Visit ACCT Brandywine Valley SPCA (BVSPCA) Founded in 1929, the Brandywine Valley SPCA exists to end animal suffering and to involve the entire…\"",
-    "founded_source_url": "https://vcahospitals.com/east-penn/hospital"
+    "founded_source_url": "https://vcahospitals.com/east-penn/hospital",
+    "chain_or_franchise": true
   },
   {
     "name": "VCA Gwynedd Animal Hospital",
@@ -202602,7 +203235,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-verizon-node-2807416617"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Verizon",
@@ -202628,7 +203262,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-verizon-node-12164391227"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Verizon",
@@ -202654,7 +203289,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-verizon-node-2253679328"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Verizon",
@@ -202685,7 +203321,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-verizon-node-4740298065"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Verizon",
@@ -202711,7 +203348,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-verizon-node-4760337405"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Verizon",
@@ -202741,7 +203379,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-verizon-node-5802735704"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Verizon",
@@ -202767,7 +203406,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-verizon-node-5802735976"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Verizon",
@@ -202793,7 +203433,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-verizon-node-7309929843"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Verizon - R Wireless",
@@ -203167,7 +203808,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-victoria-s-secret-node-5769152237"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Victory Chapel",
@@ -204173,7 +204815,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-visionworks-node-5069738928"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Visionworks",
@@ -204229,7 +204872,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-visionworks-hamilton-crossings-way-576112460"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Visiting Angels Senior Home Care",
@@ -204955,7 +205599,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-vybe-urgent-care-node-9795934815"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wackenhut Plumbing & Heating",
@@ -205247,7 +205892,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-walmart-pharmacy-node-3576934151"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Walmart Pharmacy",
@@ -205278,7 +205924,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-walmart-pharmacy-node-6993169650"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Walmart Supercenter",
@@ -205309,7 +205956,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-walmart-supercenter-way-58078290"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Walmart Supercenter",
@@ -205340,7 +205988,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-walmart-supercenter-way-621869337"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Walter's Foreign Car Services",
@@ -206792,7 +207441,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-node-893681729"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -206818,7 +207468,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-node-9378006973"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -206848,7 +207499,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-way-1186645582"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -206879,7 +207531,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-way-207601438"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -206910,7 +207563,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-way-223898180"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -206936,7 +207590,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-way-398728011"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -206962,7 +207617,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-way-398728919"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -206988,7 +207644,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-way-525070461"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -207014,7 +207671,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-way-538594478"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -207040,7 +207698,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-way-541208294"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -207071,7 +207730,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-way-546470253"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -207097,7 +207757,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-way-633514370"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa",
@@ -207123,7 +207784,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wawa-way-708893058"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wawa Gas",
@@ -207573,7 +208235,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wegmans-way-189287691"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wehrung's",
@@ -207996,7 +208659,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wells-fargo-node-735974174"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wells Fargo",
@@ -208022,7 +208686,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wells-fargo-node-5324877598"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wells Fargo",
@@ -208048,7 +208713,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wells-fargo-node-7309929882"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wells Fargo",
@@ -208078,7 +208744,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wells-fargo-way-115939171"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wells Fargo",
@@ -208104,7 +208771,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wells-fargo-way-172596026"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wells Fargo",
@@ -208130,7 +208798,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wells-fargo-way-320380023"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wells Fargo",
@@ -208156,7 +208825,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wells-fargo-way-338681052"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wells Fargo",
@@ -208186,7 +208856,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wells-fargo-way-351727025"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wells Fargo",
@@ -208212,7 +208883,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wells-fargo-way-412461543"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wells Fargo",
@@ -208242,7 +208914,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wells-fargo-way-596139620"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wendy & Co.",
@@ -208301,7 +208974,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wendy-s-node-5802735672"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wendy's",
@@ -208331,7 +209005,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wendy-s-way-274801703"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wendy's",
@@ -208361,7 +209036,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-wendy-s-way-443998638"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wensel's Service Center",
@@ -209934,7 +210610,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-whitehall-post-office-way-531122830"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Whitehall Public Library",
@@ -210069,7 +210746,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-whole-foods-market-node-4739236143"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Wicen's Shooting Range",
@@ -210830,7 +211508,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-willscot-node-14383160246"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Willy's Autoservice",
@@ -211819,7 +212498,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-woodforest-national-bank-node-9203706982"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Woodlands Healing Research Center",
@@ -213518,7 +214198,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-your-wireless-easton-node-5929427928"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Yuan Qi Massage",
@@ -214142,7 +214823,8 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-zime-node-13204545506"
-    ]
+    ],
+    "chain_or_franchise": true
   },
   {
     "name": "Zio's Pizzeria",
@@ -214390,8 +215072,8 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "careers_page",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": true,
-    "established_employer": true,
+    "established": false,
+    "established_employer": false,
     "previous_slugs": [
       "osm-zuber-realty-node-7329757339"
     ],
@@ -214400,7 +215082,8 @@
     "founded_confidence": "high",
     "founded_label": "Founded in 1978 (per their website)",
     "founded_note": "\"…services that help customers complete their real estate transactions. Richard A. Zuber Insurance Agency , established in 1978, has grown to provide homeowners, auto, life and commercial lines of insurance.…\"",
-    "founded_source_url": "https://www.zuberrealty.com/about-us/"
+    "founded_source_url": "https://www.zuberrealty.com/about-us/",
+    "chain_or_franchise": true
   },
   {
     "name": "Zumiez",

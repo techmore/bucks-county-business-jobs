@@ -78,6 +78,10 @@ for (const company of companies) {
   nameCounts.set(key, (nameCounts.get(key) || 0) + 1);
 }
 const THIS_YEAR = new Date().getFullYear();
+const brandFile = "data/national-brand-domains.txt";
+const NATIONAL_BRANDS = fs.existsSync(brandFile)
+  ? fs.readFileSync(brandFile, "utf8").split("\n").map((line) => line.trim().toLowerCase()).filter((line) => line && !line.startsWith("#"))
+  : [];
 const monthYear = (iso) => new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
 
 for (const company of companies) {
@@ -146,7 +150,26 @@ for (const company of companies) {
   const dates = rules.sharedSiteFor(company) ? [] : [...(positiveDates.get(company.slug) || [])].sort();
   const spread = dates.length >= 2 && (Date.parse(dates[dates.length - 1]) - Date.parse(dates[0])) / 86400000 >= 90;
   company.hiring_track = dates.length ? `Openings or a careers page seen in ${dates.map(monthYear).join(" and ")} checks` : null;
-  const chain = (nameCounts.get(company.name.toLowerCase().replace(/[^a-z0-9]/g, "")) || 0) >= 3;
+  // Chains and franchises: same name 3+ times here, a store-locator style website,
+  // or a founding quote that talks about many stores/locations/franchises.
+  let sitePath = "";
+  let siteHost = "";
+  try {
+    const url = new URL(company.website || "");
+    sitePath = url.pathname.toLowerCase();
+    siteHost = url.hostname.toLowerCase().replace(/^www\./, "");
+  } catch {
+    sitePath = "";
+  }
+  const nationalBrand = NATIONAL_BRANDS.some((domain) => siteHost === domain || siteHost.endsWith(`.${domain}`));
+  const chain =
+    (nameCounts.get(company.name.toLowerCase().replace(/[^a-z0-9]/g, "")) || 0) >= 3 ||
+    nationalBrand ||
+    /^locations?\./.test(siteHost) ||
+    /franchise/.test(siteHost) ||
+    /\/(locations?|our-locations|stores?|store-details|studios?|branches|find-a-|clinics?|offices|facilities|campuses|agents-offices)\b/.test(`${sitePath}/`) ||
+    /franchis|\b\d{2,}\s+(stores|locations|studios|clinics|restaurants)|nationwide|across the (country|u\.?s\.?|united states)|throughout the united states/i.test(company.founded_note || "");
+  company.chain_or_franchise = chain || undefined;
   company.established =
     Boolean(company.founded_year) &&
     THIS_YEAR - company.founded_year >= 10 &&
