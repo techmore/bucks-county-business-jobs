@@ -77,7 +77,7 @@ function directoryHref(filters = {}) {
 }
 
 function townFor(company) {
-  const parts = (company.address || "").split(",").map((part) => part.trim()).filter(Boolean);
+  const parts = (company.address || "").split(",").map((part) => part.trim().replace(/^near\s+/i, "")).filter(Boolean);
   if (parts.length >= 4 && /^(PA|NJ)$/i.test(parts[parts.length - 2])) return parts[parts.length - 3];
   if (parts.length >= 2) return parts[parts.length - 2].replace(/\bPA\b|\bNJ\b/g, "").trim();
   return "Town needs audit";

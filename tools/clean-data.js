@@ -13,7 +13,7 @@ const companies = JSON.parse(fs.readFileSync(INPUT, "utf8"));
 const changes = { placeholder: [], platformEvidence: [], offSiteEvidence: [], sharedSite: [], descriptions: 0 };
 
 function townOf(company) {
-  const parts = (company.address || "").split(",").map((part) => part.trim()).filter(Boolean);
+  const parts = (company.address || "").split(",").map((part) => part.trim().replace(/^near\s+/i, "")).filter(Boolean);
   if (parts.length >= 4 && /^(PA|NJ)$/i.test(parts[parts.length - 2])) return parts[parts.length - 3];
   if (parts.length >= 2) {
     const town = parts[parts.length - 2].replace(/\b(PA|NJ)\b.*$/, "").trim();
