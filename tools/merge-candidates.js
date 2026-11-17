@@ -23,12 +23,13 @@ for (const company of companies) {
   byName.get(key).push(company);
 }
 const KNOWN_SCHOOLS = /^(Solebury School)$/;
-const slugs = new Set(companies.map((company) => company.slug));
+const slugs = new Set(companies.flatMap((company) => [company.slug, ...(company.previous_slugs || [])]));
+const sources = new Set(companies.map((company) => company.source_url).filter(Boolean));
 const skipped = { duplicateName: [], adult: [], historicSchool: [] };
 const added = [];
 
 for (const candidate of candidates) {
-  if (slugs.has(candidate.slug)) continue;
+  if (slugs.has(candidate.slug) || (candidate.source_url && sources.has(candidate.source_url))) continue;
   const same = byName.get(norm(candidate.name)) || [];
   if (same.some((company) => miles(company, candidate) < 1.25)) { skipped.duplicateName.push(candidate.name); continue; }
   if (/showbar|gentlem[ae]n'?s club|strip club|adult (store|video|entertainment)/i.test(candidate.name)) { skipped.adult.push(candidate.name); continue; }

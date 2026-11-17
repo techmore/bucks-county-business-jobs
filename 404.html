@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found | Bucks County Business &amp; Jobs</title>
+  <link rel="stylesheet" href="/bucks-county-business-jobs/assets/styles.css">
+  <script>
+    // Business pages moved to shorter addresses on Nov 17, 2026. Send old links to the new page.
+    (function () {
+      var match = location.pathname.match(/\/company\/([^/]+)\.html$/);
+      if (!match) return;
+      fetch("/bucks-county-business-jobs/data/slug-map.json")
+        .then(function (response) { return response.ok ? response.json() : {}; })
+        .then(function (map) {
+          var next = map[decodeURIComponent(match[1])];
+          if (next) location.replace("/bucks-county-business-jobs/company/" + next + ".html");
+        })
+        .catch(function () {});
+    })();
+  </script>
+</head>
+<body>
+  <main class="section" style="max-width:720px;margin:0 auto;padding:60px 20px;">
+    <p class="eyebrow">Page not found</p>
+    <h1>We couldn't find that page.</h1>
+    <p class="lead">If you followed a link to a business, it may have moved. Try <a href="/bucks-county-business-jobs/find-work.html">Find Work</a>, the <a href="/bucks-county-business-jobs/">map</a>, or the <a href="/bucks-county-business-jobs/directory.html">directory</a>.</p>
+  </main>
+</body>
+</html>

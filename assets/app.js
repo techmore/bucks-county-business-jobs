@@ -375,7 +375,10 @@ function initHome(companies) {
   const mapApi = setupMap("map", companies, { zoom: 10, scrollWheelZoom: true });
   initMapExplorer(companies, mapApi);
   const slug = new URLSearchParams(window.location.search).get("company");
-  if (slug) mapApi.focus(slug);
+  if (slug) {
+    const match = companies.find((company) => company.slug === slug || (company.previous_slugs || []).includes(slug));
+    if (match) mapApi.focus(match.slug);
+  }
 }
 
 function initDirectory(companies) {
@@ -667,7 +670,11 @@ function initDetail(companies) {
   const detail = document.querySelector("[data-company-detail]");
   if (!detail) return;
   const slug = document.body.dataset.companySlug || new URLSearchParams(window.location.search).get("slug");
-  const company = companies.find((entry) => entry.slug === slug);
+  const company = companies.find((entry) => entry.slug === slug || (entry.previous_slugs || []).includes(slug));
+  if (company && company.slug !== slug) {
+    window.location.replace(`${company.slug}.html`);
+    return;
+  }
   if (!company) {
     detail.innerHTML = `<section class="panel"><h1>Company not found</h1><p class="lead">This company is not listed in the current directory.</p></section>`;
     return;
