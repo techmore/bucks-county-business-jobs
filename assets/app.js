@@ -166,6 +166,7 @@ function popupHtml(company) {
       <div class="pop-guide"><b>Typical roles:</b> ${esc(info.roles.join(", "))}</div>
       <div class="pop-guide"><b>Skills that help:</b> ${esc(info.skills.join(", "))}</div>
       <div class="pop-guide"><b>${speed.label}</b>, ${speed.detail}. <span class="pop-fine">Typical for the industry, not this business.</span></div>
+      ${company.phone ? `<div class="pop-guide"><a href="tel:${esc(company.phone.replace(/[^\d+]/g, ""))}"><b>Call ${esc(company.phone)}</b></a></div>` : ""}
       <div class="pop-links">${site} · <a href="${detailHref(company)}">Details</a>${directions}</div>
     </div>`;
 }

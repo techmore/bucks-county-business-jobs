@@ -57,6 +57,9 @@ function jsonLd(business) {
   if (business.address && !business.address_approximate) data.address = business.address;
   else if (business.town) data.address = { "@type": "PostalAddress", addressLocality: business.town, addressRegion: /, NJ\b/.test(business.address || "") ? "NJ" : "PA" };
   if (business.website) data.url = business.website;
+  if (business.phone) data.telephone = business.phone;
+  if (business.opening_hours) data.openingHours = business.opening_hours;
+  if (business.photo_url) data.image = business.photo_url;
   // Escape "<" so the JSON can't close the script tag.
   return JSON.stringify(data).replace(/</g, "\\u003c");
 }
@@ -121,6 +124,7 @@ function page(business) {
       <p class="eyebrow">${esc(business.category || "Local business")} · ${esc(town)}</p>
       <h1>${esc(business.name)}</h1>
       <p class="lead">${esc(business.description || "")}</p>
+      ${business.phone ? `<p class="actions" style="margin-top:12px;"><a class="button" href="tel:${esc(business.phone.replace(/[^\d+]/g, ""))}">Call ${esc(business.phone)}</a></p>` : ""}
     </section>
     <section class="detail-layout">
       <div class="panel detail-panel">
@@ -140,6 +144,8 @@ function page(business) {
         <h2>Details</h2>
         <div class="facts">
           <div class="fact"><strong>${esc(business.address || "Address not listed")}</strong><span>${business.address_approximate ? "Approximate location" : "Address"}</span></div>
+          ${business.phone ? `<a class="fact" href="tel:${esc(business.phone.replace(/[^\d+]/g, ""))}"><strong>${esc(business.phone)}</strong><span>Phone (from OpenStreetMap)</span></a>` : ""}
+          ${business.opening_hours ? `<div class="fact"><strong>${esc(business.opening_hours)}</strong><span>Hours (from OpenStreetMap; may be out of date)</span></div>` : ""}
           ${business.founded_label
             ? `<a class="fact" href="${esc(business.founded_source_url)}" rel="noopener"><strong>${esc(business.founded_label)}</strong><span>${esc(business.founded_note || "")}</span></a>`
             : business.years_in_business ? `<div class="fact"><strong>${esc(business.years_in_business)} years</strong><span>In business</span></div>` : ""}
@@ -159,7 +165,10 @@ function page(business) {
         </div>
         <p class="meta" style="margin-top:14px;">Something wrong or out of date? <a href="${esc(issueLink(business))}">Fix this listing</a>.</p>
       </div>
-      <div class="map-shell"><div id="mini-map"></div></div>
+      <div class="detail-side">
+        ${business.photo_url ? `<figure class="photo"><img src="${esc(business.photo_url)}" alt="${esc(business.name)}" loading="lazy"><figcaption>Photo: <a href="${esc(business.photo_credit_url)}" rel="noopener">Wikimedia Commons</a> (see page for author and license)</figcaption></figure>` : ""}
+        <div class="map-shell"><div id="mini-map"></div></div>
+      </div>
     </section>
   </main>
   <footer class="site-footer">

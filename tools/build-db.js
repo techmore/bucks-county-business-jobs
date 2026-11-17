@@ -51,6 +51,11 @@ db.exec(`
     established INTEGER DEFAULT 0,
     established_employer INTEGER DEFAULT 0,
     hiring_track TEXT,
+    phone TEXT,
+    opening_hours TEXT,
+    photo_url TEXT,
+    photo_credit_url TEXT,
+    brand TEXT,
     data_status TEXT,
     source_name TEXT,
     source_url TEXT
@@ -89,7 +94,8 @@ const insertBusiness = db.prepare(`
     :latitude, :longitude, :website, :description, :hiring_status, :hiring_signal, :hiring_last_checked,
     :hiring_evidence_url, :hiring_note, :verification_note, :total_employees, :years_in_business,
     :start_date, :founded_year, :founded_label, :founded_note, :founded_confidence, :founded_source_url,
-    :established, :established_employer, :hiring_track, :data_status, :source_name, :source_url
+    :established, :established_employer, :hiring_track, :phone, :opening_hours, :photo_url, :photo_credit_url, :brand,
+    :data_status, :source_name, :source_url
   )`);
 
 db.exec("BEGIN");
@@ -125,6 +131,11 @@ for (const company of companies) {
     established: company.established ? 1 : 0,
     established_employer: company.established_employer ? 1 : 0,
     hiring_track: company.hiring_track || null,
+    phone: company.phone || null,
+    opening_hours: company.opening_hours || null,
+    photo_url: company.photo_url || null,
+    photo_credit_url: company.photo_credit_url || null,
+    brand: company.brand || null,
     data_status: company.data_status || null,
     source_name: company.source_name || null,
     source_url: company.source_url || null

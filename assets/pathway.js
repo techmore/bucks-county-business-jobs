@@ -156,6 +156,7 @@
         <div class="card-actions">
           <a class="button secondary" href="company/${encodeURIComponent(company.slug)}.html">Details</a>
           ${site ? `<a class="button ghost" href="${esc(site)}" rel="noopener">${company.hiring_evidence_url ? "Jobs page" : "Website"}</a>` : ""}
+          ${company.phone ? `<a class="button ghost" href="tel:${esc(company.phone.replace(/[^\d+]/g, ""))}">Call</a>` : ""}
           <a class="button ghost" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`${company.latitude},${company.longitude}`)}" rel="noopener">Directions</a>
         </div>
       </article>`;

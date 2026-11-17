@@ -165,6 +165,7 @@ for (const company of companies) {
   const chain =
     (nameCounts.get(company.name.toLowerCase().replace(/[^a-z0-9]/g, "")) || 0) >= 3 ||
     nationalBrand ||
+    Boolean(company.brand) ||
     /^locations?\./.test(siteHost) ||
     /franchise/.test(siteHost) ||
     /\/(locations?|our-locations|stores?|store-details|studios?|branches|find-a-|clinics?|offices|facilities|campuses|agents-offices)\b/.test(`${sitePath}/`) ||

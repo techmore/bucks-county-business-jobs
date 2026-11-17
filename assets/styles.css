@@ -623,3 +623,8 @@ select {
 .chip-group { border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; background: #fcfbf7; }
 .chip-group summary { cursor: pointer; list-style: revert; }
 .chip-group[open] summary { margin-bottom: 8px; }
+
+.detail-side { display: grid; gap: 14px; align-content: start; }
+.photo { margin: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #fff; }
+.photo img { display: block; width: 100%; max-height: 320px; object-fit: cover; }
+.photo figcaption { font-size: 0.78rem; color: var(--muted); padding: 6px 10px; }
