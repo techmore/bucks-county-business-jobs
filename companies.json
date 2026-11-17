@@ -769,14 +769,19 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/10781827424",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "careers_page",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-2nd-avenue-thrift-superstore-node-10781827424"
     ],
     "phone": "(267) 990-5730",
-    "opening_hours": "Mo-Su 09:00-21:00"
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "hiring_signal": "careers_page_found",
+    "hiring_confidence": 0.45,
+    "hiring_evidence_url": "https://stores.savers.com/pa/fairlesshills/2ndave-thrift-store-1611.html",
+    "hiring_last_checked": "2026-11-17",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "2nd Life Antiques & Collectibles",
@@ -4757,7 +4762,7 @@
     "address": "620 Union Boulevard, Allentown, PA, 18109",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": 29,
+    "years_in_business": 59,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Retail",
@@ -4767,20 +4772,24 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6917220897",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
-    "founded_year": 1997,
-    "founded_source": "pa-dos",
+    "hiring_status": "careers_page",
+    "founded_year": 1967,
+    "founded_source": "website",
     "founded_confidence": "high",
-    "founded_entity_type": "Domestic Business Corporation",
-    "founded_label": "Registered with the PA Dept. of State in 1997",
-    "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
-    "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
+    "founded_label": "Founded in 1967 (per their website)",
+    "founded_note": "\"…Our mission is to provide excellent service and quality rentals to build an amazing event. We have been proudly serving the Lehigh Valley since 1967. Led by our President, Suzy Horn, a dedicated member of the American Rental Association…\"",
+    "founded_source_url": "https://www.actionpartyrentals.com/about-us",
     "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-action-party-rentals-node-6917220897"
     ],
-    "phone": "(610) 435-8900"
+    "phone": "(610) 435-8900",
+    "hiring_signal": "careers_page_found",
+    "hiring_confidence": 0.45,
+    "hiring_evidence_url": "https://www.actionpartyrentals.com/careers",
+    "hiring_last_checked": "2026-11-17",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "Action Wheels",
@@ -5204,7 +5213,7 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/3531172120",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -5213,7 +5222,11 @@
     "chain_or_franchise": true,
     "phone": "(484) 851-7006",
     "opening_hours": "Mo-Sa 07:30-21:00; Su 09:00-20:00",
-    "brand": "Advance Auto Parts"
+    "brand": "Advance Auto Parts",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://stores.advanceautoparts.com/pa/hellertown/7-main-st",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Advance Auto Parts",
@@ -7651,13 +7664,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6910839646",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-all-star-auto-glass-node-6910839646"
     ],
-    "phone": "(610) 625-1535"
+    "phone": "(610) 625-1535",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://allstarautoglasspa.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "All Star Notary and Tags",
@@ -8956,7 +8973,7 @@
     "address": "2004 Union Boulevard, Allentown, PA, 18109",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 16,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Lifestyle & Home Decor",
@@ -8966,13 +8983,23 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/1372812361",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
-    "established": false,
+    "hiring_status": "no_online_info",
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-almonte-used-appliance-way-1372812361"
     ],
-    "phone": "(610) 351-1283"
+    "phone": "(610) 351-1283",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://www.almonte-appliances.com/",
+    "hiring_last_checked": "2026-11-17",
+    "founded_year": 2010,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 2010 (per their website)",
+    "founded_note": "\"…CONTACT US MICROWAVES DISHWASHERS ABOUT US Almonte Appliances is a family-owned and operated business. Founded in 2010, our friendly, knowledgeable staff is committed to providing our customers with a…\"",
+    "founded_source_url": "https://www.almonte-appliances.com/about-us/"
   },
   {
     "name": "Alou Tot Lot",
@@ -11203,7 +11230,7 @@
     "longitude": -75.4375487,
     "address": "1425 Maxwell Street, Allentown, PA, 18109",
     "total_employees": null,
-    "hiring": false,
+    "hiring": true,
     "years_in_business": null,
     "best_places_score": null,
     "onboarding_note": null,
@@ -11214,12 +11241,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/12686065383",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "hiring",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-andrews-logistics-lp-node-12686065383"
-    ]
+    ],
+    "hiring_signal": "hiring_possible",
+    "hiring_confidence": 0.6,
+    "hiring_evidence_url": "https://andrewslogistics.com/",
+    "hiring_last_checked": "2026-11-17",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "Andy Ferrigno Exercise Equipment",
@@ -14148,14 +14180,18 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/1450167924",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-asbury-post-office-way-1450167924"
     ],
     "opening_hours": "Mo-Fr 09:00-16:30",
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://tools.usps.com/locations/details/1353441",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Ash Mills Farm",
@@ -14602,14 +14638,18 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6901410260",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-assaf-antiques-node-6901410260"
     ],
     "phone": "(610) 776-1865",
-    "opening_hours": "Mo-Fr 09:00-17:00; Sa 11:00-15:00; Su off"
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 11:00-15:00; Su off",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "http://assafantiques.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Assembly Tech",
@@ -15117,7 +15157,7 @@
     "address": "777 Smith Lane, Northampton, PA, 18067",
     "total_employees": null,
     "hiring": true,
-    "years_in_business": 39,
+    "years_in_business": 45,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Manufacturing",
@@ -15132,13 +15172,12 @@
     "hiring_evidence_url": "https://www.atlasmw.com/careers/",
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "hiring",
-    "founded_year": 1987,
-    "founded_source": "pa-dos",
+    "founded_year": 1981,
+    "founded_source": "website",
     "founded_confidence": "high",
-    "founded_entity_type": "Domestic Business Corporation",
-    "founded_label": "Registered with the PA Dept. of State in 1987",
-    "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
-    "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
+    "founded_label": "Founded in 1981 (per their website)",
+    "founded_note": "\"…262-1374 (610) 360-1674 24/7 Emergency Service About Atlas About Atlas Atlas Machining & Welding, Inc. was founded in 1981 to provide emergency repair and maintenance services for the Eastern Pennsylvania cement…\"",
+    "founded_source_url": "https://www.atlasmw.com/about-atlas/",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
     "established": true,
     "established_employer": true,
@@ -16483,13 +16522,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/1418292073",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-b-and-r-fabriacation-and-machine-way-1418292073"
     ],
-    "phone": "(610) 820-0410"
+    "phone": "(610) 820-0410",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://bandrfabrication.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "B & R Fabrication & Machine",
@@ -24896,7 +24939,7 @@
     "address": "781 State Route 57, Port Murray, NJ, 07865-4337",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 6,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Professional Services",
@@ -24918,7 +24961,13 @@
       "osm-bollard-home-services-node-13383582983"
     ],
     "phone": "(908) 864-2900",
-    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00"
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
+    "founded_year": 2020,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 2020 (per their website)",
+    "founded_note": "\"…Accountability to client expectations Data over opinion Our Value Statement Bollard Inspection Services was founded in 2020 with a simple goal: to bring clarity, consistency, and confidence to the inspection…\"",
+    "founded_source_url": "https://bollardinspects.com/about"
   },
   {
     "name": "Bonefish Grill",
@@ -25687,13 +25736,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/987951944",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-boyd-s-cardinal-hollow-winery-way-987951944"
     ],
-    "phone": "(215) 801-2227"
+    "phone": "(215) 801-2227",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://cardinalhollowwinery.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Boyer, Holzinger & Harak",
@@ -26221,7 +26274,7 @@
     "address": "1226 Union Boulevard, Allentown, PA, 18109",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 62,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Professional Services",
@@ -26231,13 +26284,23 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6909493808",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
-    "established": false,
+    "hiring_status": "no_online_info",
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-breslin-ridyard-fadero-architects-node-6909493808"
     ],
-    "phone": "(610) 437-9626"
+    "phone": "(610) 437-9626",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://www.breslinarchitects.com/",
+    "hiring_last_checked": "2026-11-17",
+    "founded_year": 1964,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1964 (per their website)",
+    "founded_note": "\"…with which we engage. Our History Robert J. Breslin (1936 – 2023) Firm Founder Breslin Architects was established in 1964 by Robert J. Breslin. With unwavering integrity and a deep commitment to design…\"",
+    "founded_source_url": "https://www.breslinarchitects.com/about/"
   },
   {
     "name": "Bresnak Home Solutions",
@@ -27019,13 +27082,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6238063692",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-bright-choice-dental-node-6238063692"
     ],
-    "phone": "(610) 691-2121"
+    "phone": "(610) 691-2121",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0,
+    "hiring_evidence_url": "https://www.brightchoicedentistry.com/bethlehem/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Bright Futures Child Care Center",
@@ -28363,13 +28430,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/480511717",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-buckingham-post-office-way-480511717"
     ],
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://tools.usps.com/locations/details/1356216",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Buckingham Township Building",
@@ -35154,13 +35225,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6917220899",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-celtic-stone-granite-node-6917220899"
     ],
-    "phone": "(610) 435-7625"
+    "phone": "(610) 435-7625",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0,
+    "hiring_evidence_url": "https://www.celticstonegranite.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Center For Psychology & Counseling",
@@ -36158,13 +36233,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/377510277",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-chalfont-post-office-way-377510277"
     ],
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://tools.usps.com/locations/details/1357583",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Chamber of Commerce",
@@ -40642,7 +40721,7 @@
     "address": "1117 West Broad Street, Bethlehem, PA, 18018",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": 29,
+    "years_in_business": 30,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Retail",
@@ -40652,20 +40731,23 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6282067445",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
-    "founded_year": 1997,
-    "founded_source": "pa-dos",
-    "founded_confidence": "medium",
-    "founded_entity_type": "Domestic Business Corporation",
-    "founded_label": "Registered with the PA Dept. of State in 1997",
-    "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
-    "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
+    "hiring_status": "no_online_info",
+    "founded_year": 1996,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1996 (per their website)",
+    "founded_note": "\"…light. ABOUT US Reliable Closet Design & Organization Think, Shop, Buy Local. Clever Closets has been serving the Lehigh Valley and surrounding areas since 1996. As a small, locally owned business, we have built our reputation through referrals,…\"",
+    "founded_source_url": "https://cleverclosets.com/",
     "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-clever-closets-node-6282067445"
     ],
-    "phone": "(610) 867-2778"
+    "phone": "(610) 867-2778",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://cleverclosets.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Clever Girl Winery",
@@ -42593,14 +42675,18 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6910839655",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-competitive-edge-node-6910839655"
     ],
     "phone": "(484) 294-6837",
-    "opening_hours": "Mo-Fr 06:00-00:00; Sa-Su 06:00-18:00"
+    "opening_hours": "Mo-Fr 06:00-00:00; Sa-Su 06:00-18:00",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://www.competitiveedgepower.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Complete Dental of Easton",
@@ -44875,7 +44961,7 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/1230939544",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "founded_year": 2019,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -44887,7 +44973,12 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-country-club-brewing-way-1230939544"
-    ]
+    ],
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0,
+    "hiring_evidence_url": null,
+    "hiring_last_checked": "2026-11-17",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "Country Corner Store & Cafe",
@@ -45645,14 +45736,18 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/5160211564",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-crab-du-jour-node-5160211564"
     ],
     "phone": "(610) 443-8676",
-    "opening_hours": "Mo-Th,Su 11:30-22:30; Fr-Sa 11:00-23:00"
+    "opening_hours": "Mo-Th,Su 11:30-22:30; Fr-Sa 11:00-23:00",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://crabdujourwhitehallpa.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Crafco Inc. Supply Center",
@@ -49447,7 +49542,7 @@
     "address": "438 US Highway 206, Hillsborough, NJ, 08844",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 15,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Skilled Trades",
@@ -49462,13 +49557,19 @@
     "hiring_evidence_url": "https://www.davescomputers.com/",
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "no_online_info",
-    "established": false,
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-dave-s-computers-node-5775064730"
     ],
     "phone": "(908) 428-9558",
-    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-15:00; Su off"
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-15:00; Su off",
+    "founded_year": 2011,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 2011 (per their website)",
+    "founded_note": "\"…always know who to call when something goes wrong. — Sarah K. — Somerville, NJ ‹ › G View all Google reviews Serving New Jersey Since 2011. Offering quality computer repair, data recovery and Small Business IT Support Services.…\"",
+    "founded_source_url": "https://www.davescomputers.com/"
   },
   {
     "name": "Dave's Home Furnishings",
@@ -52452,7 +52553,7 @@
     "longitude": -75.4413039,
     "address": "1007 Union Boulevard, Allentown, PA, 18109",
     "total_employees": null,
-    "hiring": false,
+    "hiring": true,
     "years_in_business": null,
     "best_places_score": null,
     "onboarding_note": null,
@@ -52463,13 +52564,18 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6909493840",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "hiring",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-district-court-31-1-05-node-6909493840"
     ],
-    "phone": "(610) 439-0661"
+    "phone": "(610) 439-0661",
+    "hiring_signal": "hiring_possible",
+    "hiring_confidence": 0.6,
+    "hiring_evidence_url": "https://www.lccpa.org/employment/",
+    "hiring_last_checked": "2026-11-17",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "District Taco",
@@ -55770,13 +55876,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/274812594",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-doylestown-post-office-way-274812594"
     ],
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://tools.usps.com/locations/details/1361269",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Doylestown Produce",
@@ -57327,7 +57437,7 @@
     "address": "2599 Eberhart Road, Whitehall, PA, 18052",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 39,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Local Business",
@@ -57337,13 +57447,23 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/1076617346",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
-    "established": false,
+    "hiring_status": "no_online_info",
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-dun-rite-way-1076617346"
     ],
-    "phone": "(610) 264-5550"
+    "phone": "(610) 264-5550",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://website17913.wixsite.com/dun-riteelectrical",
+    "hiring_last_checked": "2026-11-17",
+    "founded_year": 1987,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1987 (per their website)",
+    "founded_note": "\"…Services, Inc. A Company You Can Trust for all of your Electrical, HVAC, and Specialty Wiring Needs. Serving the Eastern Pennsylvania area since 1987 © 2023 by THE BUILDER. Proudly created with Wix.com bottom of page…\"",
+    "founded_source_url": "https://website17913.wixsite.com/dun-riteelectrical"
   },
   {
     "name": "Duncan Auto Body",
@@ -61130,13 +61250,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6943186651",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-el-patron-node-6943186651"
     ],
-    "phone": "(610) 433-2900"
+    "phone": "(610) 433-2900",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://elpatron405.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "El Primaso Tire & Mechanic Shop",
@@ -61919,8 +62043,8 @@
     "longitude": -75.4291649,
     "address": "1801 Union Boulevard, Allentown, PA, 18109",
     "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
+    "hiring": true,
+    "years_in_business": 46,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Professional Services",
@@ -61930,13 +62054,24 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6904305354",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
-    "established": false,
+    "hiring_status": "hiring",
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-elwood-staffing-node-6904305354"
     ],
-    "phone": "(610) 435-9270"
+    "phone": "(610) 435-9270",
+    "hiring_signal": "hiring_possible",
+    "hiring_confidence": 0.6,
+    "hiring_evidence_url": "https://www.elwoodstaffing.com/contact-us-and-locations/PA/Allentown",
+    "hiring_last_checked": "2026-11-17",
+    "founded_year": 1980,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1980 (per their website)",
+    "founded_note": "\"…companies in their fields, and place the best talent in the marketplace. Isn't it time for something better? Founded in 1980, Elwood Staffing®, a privately owned corporation, is a leading provider of talent-based…\"",
+    "founded_source_url": "https://www.elwoodstaffing.com/about-us/",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "Emaus Avenue Family Dentistry",
@@ -62591,13 +62726,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/4802524123",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-energy-station-node-4802524123"
     ],
-    "phone": "(215) 513-7387"
+    "phone": "(215) 513-7387",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://barkavepetstore.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Energystar Services, Inc.",
@@ -63103,8 +63242,8 @@
     "longitude": -75.4888227,
     "address": "402 State Avenue, Emmaus, PA, 18049",
     "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
+    "hiring": true,
+    "years_in_business": 99,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Professional Services",
@@ -63114,13 +63253,24 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/856945551",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
-    "established": false,
+    "hiring_status": "hiring",
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-equinox-agency-way-856945551"
     ],
-    "phone": "(610) 366-3777"
+    "phone": "(610) 366-3777",
+    "hiring_signal": "hiring_likely",
+    "hiring_confidence": 0.85,
+    "hiring_evidence_url": "https://jobs.ajg.com/ajg-home",
+    "hiring_last_checked": "2026-11-17",
+    "founded_year": 1927,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1927 (per their website)",
+    "founded_note": "\"…organization employs over 71,000 people and our global network provides services in more than 130 countries. Since 1927, we've been working together with our clients to find effective solutions to their challenges,…\"",
+    "founded_source_url": "https://www.ajg.com/about-us/",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "ERG Staffing",
@@ -64157,7 +64307,7 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6909493834",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "founded_year": 2013,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -64170,7 +64320,11 @@
     "previous_slugs": [
       "osm-evergreen-oriental-market-node-6909493834"
     ],
-    "phone": "(610) 841-3688"
+    "phone": "(610) 841-3688",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://sites.google.com/view/evergreenorientalmarket/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "EveryHome Realtors",
@@ -69301,7 +69455,7 @@
     "longitude": -75.4314544,
     "address": "1249 North Quebec Street, Allentown, PA, 18109",
     "total_employees": null,
-    "hiring": false,
+    "hiring": true,
     "years_in_business": null,
     "best_places_score": null,
     "onboarding_note": null,
@@ -69312,13 +69466,18 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/9731224855",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "hiring",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-fishman-flooring-solutions-node-9731224855"
     ],
-    "phone": "(610) 432-1330"
+    "phone": "(610) 432-1330",
+    "hiring_signal": "hiring_possible",
+    "hiring_confidence": 0.6,
+    "hiring_evidence_url": "https://www.lfishman.com/careers",
+    "hiring_last_checked": "2026-11-17",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "Fit4Mom",
@@ -69563,14 +69722,18 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/1369862350",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-five-maidens-cider-company-way-1369862350"
     ],
     "phone": "(610) 419-1990",
-    "opening_hours": "Su-Tu off; We-Th 17:00-22:00; Fr 17:00-23:00; Sa 12:00-23:00"
+    "opening_hours": "Su-Tu off; We-Th 17:00-22:00; Fr 17:00-23:00; Sa 12:00-23:00",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://5mcider.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Five Mile Woods Preserve Headquarters",
@@ -70692,13 +70855,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/510928961",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-forest-grove-post-office-way-510928961"
     ],
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://tools.usps.com/locations/details/1363670",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Forever 21",
@@ -71230,13 +71397,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6550686119",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-fountainville-post-office-node-6550686119"
     ],
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://tools.usps.com/locations/details/1363911",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Four Points by Sheraton Allentown Lehigh Valley",
@@ -74613,13 +74784,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/481104419",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-furlong-post-office-way-481104419"
     ],
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://tools.usps.com/locations/details/1364280",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Furnace Dam Park",
@@ -74653,7 +74828,7 @@
     "longitude": -75.461236,
     "address": "611 West Brookdale Street, Allentown, PA, 18103",
     "total_employees": null,
-    "hiring": false,
+    "hiring": true,
     "years_in_business": null,
     "best_places_score": null,
     "onboarding_note": null,
@@ -74664,13 +74839,18 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/223605753",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "hiring",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-furniture-mecca-way-223605753"
     ],
-    "phone": "(484) 221-8230"
+    "phone": "(484) 221-8230",
+    "hiring_signal": "hiring_likely",
+    "hiring_confidence": 0.85,
+    "hiring_evidence_url": "https://myfurnituremecca.com/careers",
+    "hiring_last_checked": "2026-11-17",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "Fusion Palace",
@@ -75639,13 +75819,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6917251315",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-gebhardt-s-node-6917251315"
     ],
-    "phone": "(610) 439-8464"
+    "phone": "(610) 439-8464",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://gebhardts.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Gehman Chiropractic Office",
@@ -77446,7 +77630,7 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/5794800234",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "founded_year": 2021,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -77460,7 +77644,11 @@
       "osm-ginza-sushi-node-5794800234"
     ],
     "phone": "(610) 419-1023",
-    "opening_hours": "Mo 11:00-21:30; Tu off; We-Th 11:00-21:30; Fr-Sa 11:00-22:30; Su 12:00-21:30"
+    "opening_hours": "Mo 11:00-21:30; Tu off; We-Th 11:00-21:30; Fr-Sa 11:00-22:30; Su 12:00-21:30",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://ginzabethlehem.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Gio Salon",
@@ -78929,8 +79117,8 @@
     "longitude": -75.5610553,
     "address": "4634 Broadway, Allentown, PA, 18104",
     "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
+    "hiring": true,
+    "years_in_business": 124,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Retail",
@@ -78940,7 +79128,7 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/4326260596",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "hiring",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -78949,7 +79137,18 @@
     "phone": "(610) 391-9760",
     "opening_hours": "Mo-Sa 09:00-20:00; Su 10:00-18:00",
     "brand": "Goodwill",
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "hiring_signal": "hiring_likely",
+    "hiring_confidence": 0.85,
+    "hiring_evidence_url": "https://www.yourgoodwill.org/employment",
+    "hiring_last_checked": "2026-11-17",
+    "founded_year": 1902,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1902 (per their website)",
+    "founded_note": "\"…past 75 years and guides our work that will sustain us for the next 75 years and more. History Goodwill was founded in 1902 in Boston by Rev. Edgar J. Helms, a Methodist minister and early social innovator. Helms…\"",
+    "founded_source_url": "https://www.yourgoodwill.org/learn/history",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "Goodwill",
@@ -79226,7 +79425,7 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/7928569885",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "founded_year": 2010,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -79238,7 +79437,11 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-gourmet-buffet-and-grill-node-7928569885"
-    ]
+    ],
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://foodeist.com/place/gourmetbuffet",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Government Services Center",
@@ -80091,7 +80294,7 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/4620677320",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "founded_year": 2016,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -80105,7 +80308,11 @@
       "osm-green-fork-and-local-roots-market-node-4620677320"
     ],
     "phone": "(267) 217-7997",
-    "opening_hours": "Mo-Th,Su 10:00-22:00; Fr-Sa 10:00-23:00"
+    "opening_hours": "Mo-Th,Su 10:00-22:00; Fr-Sa 10:00-23:00",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://elsilveradomexicanrestaurant.com/north-wales-pa",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Green Lane Park Deep Creek Campground",
@@ -82260,7 +82467,7 @@
     "address": "438 U.S. 206, Hillsborough, NJ, 08844",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 16,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Dining",
@@ -82275,13 +82482,19 @@
     "hiring_evidence_url": "http://polishdelinj.com/",
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "no_online_info",
-    "established": false,
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-halinka-polish-deli-node-3943710022"
     ],
     "phone": "(908) 829-3271",
-    "opening_hours": "Mo-Fr 08:00-19:30; Sa 08:00-18:00; Su 10:00-15:00"
+    "opening_hours": "Mo-Fr 08:00-19:30; Sa 08:00-18:00; Su 10:00-15:00",
+    "founded_year": 2010,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 2010 (per their website)",
+    "founded_note": "\"…in Hillsborough, NJ Halinka Polish Deli is a family owned and operated business that has been offering and serving authentic and delicious Polish delights since 2010. Halinka and our family came to New Jersey in 1999 bringing along our knowledge of…\"",
+    "founded_source_url": "http://polishdelinj.com/"
   },
   {
     "name": "Hall Christmas Tree Farm",
@@ -82547,13 +82760,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6307325895",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-hamm-s-pawsome-dog-wash-node-6307325895"
     ],
-    "phone": "(610) 625-2900"
+    "phone": "(610) 625-2900",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://hammspawsomedogwash.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Hammer Heads Tavern",
@@ -86826,13 +87043,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/13030677103",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-hellertown-veterinary-center-node-13030677103"
     ],
-    "phone": "(484) 851-3890"
+    "phone": "(484) 851-3890",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://hellertownvetcenter.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Hendershot's Garage",
@@ -86873,7 +87094,7 @@
     "address": "202 Main Street, Emmaus, PA, 18049",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 55,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Automotive",
@@ -86883,13 +87104,23 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/846622550",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
-    "established": false,
+    "hiring_status": "no_online_info",
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-hendrick-and-sons-auto-center-way-846622550"
     ],
-    "phone": "(610) 967-5507"
+    "phone": "(610) 967-5507",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://hendricksautocenter.com/",
+    "hiring_last_checked": "2026-11-17",
+    "founded_year": 1971,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1971 (per their website)",
+    "founded_note": "\"…car repair and maintenance services for a smooth ride Book Now 610 967 5507 HENDRICKS & SONS AUTO CENTER FAMILY OWNED AND OPERATED SINCE 1971 At HENDRICKS & SONS AUTO CENTER, we pride ourselves on being a family-owned and operated…\"",
+    "founded_source_url": "https://hendricksautocenter.com/"
   },
   {
     "name": "Hendrixson's Furniture",
@@ -87977,14 +88208,19 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6970267372",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "careers_page",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-hillsborough-library-node-6970267372"
     ],
     "phone": "(908) 458-8420",
-    "opening_hours": "Mo-Th 10:00-20:00; Fr-Sa 10:00-18:00; Su 13:00-17:00"
+    "opening_hours": "Mo-Th 10:00-20:00; Fr-Sa 10:00-18:00; Su 13:00-17:00",
+    "hiring_signal": "careers_page_found",
+    "hiring_confidence": 0.45,
+    "hiring_evidence_url": "https://sclsnj.org/skill-building/jobs-and-careers/",
+    "hiring_last_checked": "2026-11-17",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "Hillsborough MUA",
@@ -88310,7 +88546,7 @@
     "address": "520 East 4th Street, Bethlehem, PA, 18015",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 58,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Professional Services",
@@ -88320,12 +88556,22 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/1369866818",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
-    "established": false,
+    "hiring_status": "no_online_info",
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-hispanic-center-lehigh-valley-administration-and-programs-building-way-1369866818"
-    ]
+    ],
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://www.hclv.org/",
+    "hiring_last_checked": "2026-11-17",
+    "founded_year": 1968,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1968 (per their website)",
+    "founded_note": "\"…(HCLV) has been a trusted community resource for individuals and families throughout the Lehigh Valley. ​ Founded in 1968, HCLV was created with a commitment to improving the quality of life for families while…\"",
+    "founded_source_url": "https://www.hclv.org/who-we-are"
   },
   {
     "name": "Histands Equipment",
@@ -88706,13 +88952,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/5108548087",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-holicong-post-office-node-5108548087"
     ],
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://tools.usps.com/locations/details/1367178",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Holiday Hair",
@@ -90874,13 +91124,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6909493854",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-horwith-fuel-oil-and-propane-node-6909493854"
     ],
-    "phone": "(610) 799-3204"
+    "phone": "(610) 799-3204",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://www.horwithfueloil.com/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Hot Rods Hot Dogs",
@@ -92210,7 +92464,7 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/way/42433987",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "founded_year": 1975,
     "founded_source": "pa-dos",
     "founded_confidence": "medium",
@@ -92222,7 +92476,11 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-hydac-technology-way-42433987"
-    ]
+    ],
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://www.hydac.com/en-us/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Hydrate2O",
@@ -93121,13 +93379,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/13114355673",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-iirp-graduate-school-node-13114355673"
     ],
-    "phone": "(610) 807-9221"
+    "phone": "(610) 807-9221",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0,
+    "hiring_evidence_url": "https://www.iirp.edu/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Ike's Airport Garage",
@@ -94123,13 +94385,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/6312673770",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-international-institute-for-restorative-practices-office-and-library-node-6312673770"
     ],
-    "phone": "(610) 807-9221"
+    "phone": "(610) 807-9221",
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://www.iirp.edu/",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "International Quick Cash",
@@ -95259,7 +95525,7 @@
     "longitude": -75.4875292,
     "address": "2157 MacArthur Road, Whitehall, PA, 18052",
     "total_employees": null,
-    "hiring": false,
+    "hiring": true,
     "years_in_business": null,
     "best_places_score": null,
     "onboarding_note": null,
@@ -95270,7 +95536,7 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/5160169328",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "hiring",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -95278,7 +95544,12 @@
     ],
     "phone": "(610) 589-0592",
     "opening_hours": "Mo-We,Fr 08:00-18:00; Th 08:00-20:30; Sa 08:00-17:00; Su 09:00-17:00",
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "hiring_signal": "hiring_possible",
+    "hiring_confidence": 0.6,
+    "hiring_evidence_url": "https://www.mavis.com/careers/",
+    "hiring_last_checked": "2026-11-17",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "Jack's Auto",
@@ -95877,13 +96148,17 @@
     "source_name": "OpenStreetMap Overpass business candidate import",
     "source_url": "https://www.openstreetmap.org/node/357369789",
     "data_status": "needs-website-audit",
-    "hiring_status": "not_checked",
+    "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
       "osm-jamison-post-office-node-357369789"
     ],
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "hiring_signal": "unknown",
+    "hiring_confidence": 0.25,
+    "hiring_evidence_url": "https://tools.usps.com/locations/details/1368276",
+    "hiring_last_checked": "2026-11-17"
   },
   {
     "name": "Jamison Pour House",
@@ -108874,7 +109149,7 @@
     "address": "5 Ilene Court, Hillsborough, NJ, 08844",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 31,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Automotive",
@@ -108890,13 +109165,19 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "careers_page",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": false,
-    "established_employer": false,
+    "established": true,
+    "established_employer": true,
     "previous_slugs": [
       "osm-leeberbs-node-13665531419"
     ],
     "phone": "(973) 477-6717",
-    "opening_hours": "Mo-Fr 09:00-18:00"
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "founded_year": 1995,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1995 (per their website)",
+    "founded_note": "\"…NJ XPEL Ultimate Plus & Stealth | Ceramic Coatings | XPEL Prime XR Ceramic Window Tint | Auto Detailing | Serving the Tri-State Area Since 1995 © Leeberbs. All Rights Reserved. Privacy Policy HOME CONTACT XPEL Paint Protection Film…\"",
+    "founded_source_url": "https://leeberbs.com/"
   },
   {
     "name": "Legacy Beauty Supply",
@@ -142761,7 +143042,7 @@
     "address": "989 Lenox Drive, Lawrence Township, NJ, 08648",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 97,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Professional Services",
@@ -142777,13 +143058,19 @@
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "careers_page",
     "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
-    "established": false,
-    "established_employer": false,
+    "established": true,
+    "established_employer": true,
     "previous_slugs": [
       "osm-pellettieri-rabstein-and-altman-node-13272092262"
     ],
     "phone": "(609) 520-0900",
-    "opening_hours": "Mo-Fr 09:00-17:00"
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "founded_year": 1929,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1929 (per their website)",
+    "founded_note": "\"…Jersey and Pennsylvania trust Pellettieri Rabstein & Altman to help them navigate life’s biggest challenges. Founded in 1929, our firm has built a reputation for providing savvy legal advice, strategic…\"",
+    "founded_source_url": "https://www.pralaw.com/our-firm/"
   },
   {
     "name": "Pembroke Auto Sales & Services",
@@ -150761,7 +151048,7 @@
     "address": "2138 West Union Boulevard, Bethlehem, PA, 18018",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 52,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Sports & Recreation",
@@ -150779,7 +151066,13 @@
     ],
     "phone": "(610) 419-9080",
     "brand": "Powerhouse Gym",
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "founded_year": 1974,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1974 (per their website)",
+    "founded_note": "\"…for over 47+ years The Strongest Name in Fitness since 1974 Powerhouse Gym is a worldwide recognized brand founded in 1974 by brothers, William and Norman Dabish. The health club chain, which began as a single…\"",
+    "founded_source_url": "https://powerhousegym.com/about-powerhouse-gym/"
   },
   {
     "name": "Powers Equipment Company",
@@ -179889,7 +180182,7 @@
     "address": "1826 Hanover Avenue, Allentown, PA, 18109",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 58,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Dining",
@@ -179900,13 +180193,19 @@
     "source_url": "https://www.openstreetmap.org/node/6904198066",
     "data_status": "needs-website-audit",
     "hiring_status": "not_checked",
-    "established": false,
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-stahley-s-node-6904198066"
     ],
     "phone": "(610) 433-2468",
-    "opening_hours": "07:00-02:00"
+    "opening_hours": "07:00-02:00",
+    "founded_year": 1968,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1968 (per their website)",
+    "founded_note": "\"…Restaurant & Sports Bar Stahley's Bar & Restaurant Great Food . Cold Drinks . Big Games . Good Times . Serving the Lehigh Valley since 1968, Stahley's is your go-to spot for delicious food, friendly faces, live entertainment,…\"",
+    "founded_source_url": "https://www.stahleys.com/"
   },
   {
     "name": "Stan's Vitamins and Supplements",
@@ -191534,7 +191833,7 @@
     "address_approximate": false,
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 286,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Hospitality",
@@ -191549,11 +191848,17 @@
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://www.barleysheaf.com/",
     "hiring_last_checked": "2026-11-17",
-    "established": false,
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-the-inn-at-barley-sheaf-farm-way-1070482865"
-    ]
+    ],
+    "founded_year": 1740,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1740 (per their website)",
+    "founded_note": "\"…Sheaf Farm is a 30-acre, private estate where heritage architecture meets effortless elegance. Originally established in 1740, the New Hope property has evolved into one of Pennsylvania’s most refined bed &…\"",
+    "founded_source_url": "https://www.barleysheaf.com/"
   },
   {
     "name": "The Inn at Bowman's Hill",
@@ -196644,7 +196949,7 @@
     "address": "1635 River Road, New Hope, PA, 18938",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 17,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Local Business",
@@ -196655,13 +196960,19 @@
     "source_url": "https://www.openstreetmap.org/way/719549718",
     "data_status": "needs-website-audit",
     "hiring_status": "not_checked",
-    "established": false,
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-thompson-neely-house-way-719549718"
     ],
     "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thompson-Neely_House%2C_Solebury_Township%2C_PA.jpg?width=800",
-    "photo_credit_url": "https://commons.wikimedia.org/wiki/File:Thompson-Neely_House%2C_Solebury_Township%2C_PA.jpg"
+    "photo_credit_url": "https://commons.wikimedia.org/wiki/File:Thompson-Neely_House%2C_Solebury_Township%2C_PA.jpg",
+    "founded_year": 2009,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 2009 (per their website)",
+    "founded_note": "\"…Menu --> About the Friends of Washington Crossing Park Our Story The Friends of Washington Crossing Park was founded in 2009 when state budget cuts threatened the future of Washington Crossing Historic Park and…\"",
+    "founded_source_url": "https://www.washingtoncrossingpark.org/about/"
   },
   {
     "name": "Thoreau Veterinary Hospital",
@@ -207511,7 +207822,7 @@
     "address": "1615 West Point Pike, Lansdale, PA, 19446",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 153,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Healthcare",
@@ -207530,7 +207841,13 @@
     "phone": "(215) 699-9294",
     "opening_hours": "Mo-We 08:00-18:00; Th 08:00-16:00; Fr 09:00-17:00",
     "brand": "VCA Animal Hospitals",
-    "chain_or_franchise": true
+    "chain_or_franchise": true,
+    "founded_year": 1873,
+    "founded_source": "website",
+    "founded_confidence": "medium",
+    "founded_label": "Founded in 1873 (per their website)",
+    "founded_note": "\"…to enhancing the well-being of companion animals with their human caregivers and communities. They have been serving the state of Delaware since 1873. They promote the humane treatment of animals by providing adoption opportunities,…\"",
+    "founded_source_url": "https://vcahospitals.com/gwynedd/hospital"
   },
   {
     "name": "Vecere Jewelers",
@@ -213424,7 +213741,7 @@
     "address": "729 East Highland Street, Allentown, PA, 18109",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": 54,
+    "years_in_business": 58,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Education",
@@ -213435,13 +213752,12 @@
     "source_url": "https://www.openstreetmap.org/node/6917192984",
     "data_status": "needs-website-audit",
     "hiring_status": "not_checked",
-    "founded_year": 1972,
-    "founded_source": "pa-dos",
-    "founded_confidence": "medium",
-    "founded_entity_type": "Domestic Business Corporation",
-    "founded_label": "Registered with the PA Dept. of State in 1972",
-    "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
-    "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
+    "founded_year": 1968,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 1968 (per their website)",
+    "founded_note": "\"…Certification Other Services Home About Us About Us Welder Training and Testing Institute (WTTI), was founded in 1968 in Allentown, Pennsylvania, and was originally called Breeden's School of Welding. The…\"",
+    "founded_source_url": "https://wtti.edu/about-us.html",
     "established": true,
     "established_employer": false,
     "previous_slugs": [
@@ -216288,7 +216604,7 @@
     "address": "101 East Washington Avenue, Washington, NJ, 07882",
     "total_employees": null,
     "hiring": false,
-    "years_in_business": null,
+    "years_in_business": 10,
     "best_places_score": null,
     "onboarding_note": null,
     "category": "Dining",
@@ -216303,13 +216619,19 @@
     "hiring_evidence_url": "https://www.williamsirishtavern.com/",
     "hiring_last_checked": "2026-11-17",
     "hiring_status": "no_online_info",
-    "established": false,
+    "established": true,
     "established_employer": false,
     "previous_slugs": [
       "osm-william-s-irish-pub-node-2793603335"
     ],
     "phone": "(908) 689-9411",
-    "opening_hours": "Mo 16:00-24:30, Tu-Th,Su 12:00-24:30, Fr,Sa 12:00-26:00"
+    "opening_hours": "Mo 16:00-24:30, Tu-Th,Su 12:00-24:30, Fr,Sa 12:00-26:00",
+    "founded_year": 2016,
+    "founded_source": "website",
+    "founded_confidence": "high",
+    "founded_label": "Founded in 2016 (per their website)",
+    "founded_note": "\"…Home About Signatures Menu News FAQ Contact William's Irish Tavern - Authentic Pub in Washington, New Jersey Est. 2016 • Washington, NJ ↓ Our Story Authentic Irish Atmosphere in Warren County Located in the…\"",
+    "founded_source_url": "https://www.williamsirishtavern.com/"
   },
   {
     "name": "Williams Spanish Restaurant",
