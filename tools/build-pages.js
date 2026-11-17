@@ -127,7 +127,7 @@ function page(business) {
         <div class="pop-status" style="--c:${status.color}"><b>${esc(status.label)}</b>${
           business.hiring_last_checked ? ` (checked ${esc(niceDate(business.hiring_last_checked))})` : ""
         }${business.hiring_evidence_url ? ` · <a href="${esc(business.hiring_evidence_url)}" rel="noopener nofollow">See jobs page</a>` : ""}</div>
-        ${business.established_employer ? `<p><span class="pop-badge">Established local employer</span> <span class="meta">Registered in PA 10+ years ago, local, and openings or a careers page seen in checks months apart.</span></p>` : ""}
+        ${business.established_employer ? `<p><span class="pop-badge">Established local employer</span> <span class="meta">In business 10+ years (their website or PA registration), local, and openings or a careers page seen in checks months apart.</span></p>` : ""}
         <p class="pop-note">${esc(business.hiring_note || status.note)}</p>
         ${business.hiring_track ? `<p class="pop-note">${esc(business.hiring_track)}.</p>` : ""}
         ${business.verification_note ? `<p class="pop-note warn">${esc(business.verification_note)}</p>` : ""}

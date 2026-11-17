@@ -38,6 +38,10 @@ jobs:
           else
             echo "Not the monthly run."
           fi
+      - name: Find "open since" years on websites not checked yet
+        run: |
+          node tools/find-website-years.js --limit 150 --concurrency 6
+          node tools/find-website-years.js --apply
       - name: Apply transparency rules
         run: node tools/clean-data.js --write
       - name: Rebuild database and business pages
@@ -46,7 +50,7 @@ jobs:
           node --no-warnings tools/build-pages.js
       - name: Publish if anything changed
         run: |
-          git add -A companies.json data/hiring-history.jsonl company sitemap.xml robots.txt
+          git add -A companies.json data/hiring-history.jsonl data/website-years.json company sitemap.xml robots.txt
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0

@@ -241,7 +241,7 @@ function legendHtml(mode, list) {
   const counts = {};
   for (const company of list) counts[statusOf(company)] = (counts[statusOf(company)] || 0) + 1;
   const established = list.filter((company) => company.established_employer).length;
-  const ringKey = established ? `<span class="key" title="Registered in PA 10+ years ago, local (not a chain), and openings or a careers page seen in checks months apart."><i class="ring"></i>Established local employer <em>${money.format(established)}</em></span>` : "";
+  const ringKey = established ? `<span class="key" title="In business 10+ years (their website or PA registration), local (not a chain), and openings or a careers page seen in checks months apart."><i class="ring"></i>Established local employer <em>${money.format(established)}</em></span>` : "";
   return Object.entries(STATUS)
     .filter(([key]) => counts[key])
     .map(([key, info]) => `<span class="key" title="${esc(info.note)}"><i style="background:${info.color}"></i>${info.label} <em>${money.format(counts[key])}</em></span>`)
