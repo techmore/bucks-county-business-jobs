@@ -48,7 +48,10 @@ function parseArgs() {
     onlyWithWebsite: true,
     onlyUnaudited: false,
     towns: [],
-    outputPath: DEFAULT_REPORT_PATH
+    outputPath: DEFAULT_REPORT_PATH,
+    concurrency: 1,
+    near: null,
+    maxMiles: null
   };
 
   for (let index = 0; index < args.length; index += 1) {
@@ -67,6 +70,16 @@ function parseArgs() {
       index += 1;
     } else if (arg === "--towns") {
       options.towns.push(...readValue(args, index, arg).split(",").map((town) => town.trim()).filter(Boolean));
+      index += 1;
+    } else if (arg === "--concurrency") {
+      options.concurrency = Math.max(1, parseNumber(readValue(args, index, arg), arg));
+      index += 1;
+    } else if (arg === "--near") {
+      const [lat, lon] = readValue(args, index, arg).split(",").map(Number);
+      options.near = { lat, lon };
+      index += 1;
+    } else if (arg === "--max-miles") {
+      options.maxMiles = Number(readValue(args, index, arg));
       index += 1;
     } else if (arg === "--output") {
       options.outputPath = readValue(args, index, arg);
@@ -110,6 +123,12 @@ function normalizeUrl(value) {
       return null;
     }
   }
+}
+
+function distanceMiles(lat1, lon1, lat2, lon2) {
+  const toRad = (value) => (value * Math.PI) / 180;
+  const a = Math.sin(toRad(lat2 - lat1) / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(toRad(lon2 - lon1) / 2) ** 2;
+  return 3958.8 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
 function townFor(company) {
@@ -273,6 +292,11 @@ function applyAudit(companies, results) {
   for (const result of results) {
     const company = bySlug.get(result.slug);
     if (!company) continue;
+    if (/^Website fetch failed/.test(result.notes || "") && company.hiring_signal) {
+      // Don't erase an earlier result because a site was slow or down today.
+      company.hiring_fetch_failed = new Date().toISOString().slice(0, 10);
+      continue;
+    }
     let signal = result.hiring_signal;
     let evidence = result.evidence_url;
     // Don't credit a business with a platform's own careers page (e.g. Facebook -> Meta jobs).
@@ -284,6 +308,8 @@ function applyAudit(companies, results) {
     company.hiring_confidence = signal === result.hiring_signal ? result.hiring_confidence : 0;
     company.hiring_evidence_url = evidence;
     company.hiring_last_checked = new Date().toISOString().slice(0, 10);
+    delete company.hiring_fetch_failed;
+    delete company.hiring_note;
     company.hiring_status = rules.hiringStatus(company);
     company.hiring = company.hiring_status === "hiring";
   }
@@ -298,14 +324,27 @@ async function main() {
     if (options.towns.length && !options.towns.includes(townFor(company).toLowerCase())) return false;
     return true;
   });
+  if (options.near) {
+    const miles = (company) => distanceMiles(options.near.lat, options.near.lon, company.latitude, company.longitude);
+    eligible.sort((a, b) => miles(a) - miles(b));
+    if (options.maxMiles) eligible.splice(0, eligible.length, ...eligible.filter((company) => miles(company) <= options.maxMiles));
+  }
   const batch = eligible.slice(options.offset, options.offset + options.limit);
   const results = [];
 
-  for (let index = 0; index < batch.length; index += 1) {
-    const company = batch[index];
-    process.stdout.write(`[${index + 1}/${batch.length}] ${company.name}\n`);
-    results.push(await auditCompany(company));
+  // Check several sites at once; results keep batch order.
+  let next = 0;
+  let done = 0;
+  async function worker() {
+    while (next < batch.length) {
+      const index = next++;
+      const company = batch[index];
+      results[index] = await auditCompany(company);
+      done += 1;
+      process.stdout.write(`[${done}/${batch.length}] ${company.name}: ${results[index].hiring_signal}\n`);
+    }
   }
+  await Promise.all(Array.from({ length: Math.min(options.concurrency, batch.length) }, worker));
 
   fs.mkdirSync(path.dirname(options.outputPath), { recursive: true });
   const report = {
