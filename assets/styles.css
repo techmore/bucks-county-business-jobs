@@ -590,3 +590,6 @@ select {
   .map-filters { grid-template-columns: minmax(0, 1fr); }
   .hero-slim h1 { font-size: clamp(2rem, 9vw, 2.6rem); overflow-wrap: anywhere; }
 }
+.detail-panel h2 { font-size: 1.05rem; margin: 22px 0 8px; }
+.history { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
+.history li span { display: inline-block; min-width: 96px; color: var(--muted); font-variant-numeric: tabular-nums; }

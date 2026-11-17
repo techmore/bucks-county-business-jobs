@@ -125,6 +125,15 @@ After any rebuild, import, or audit, run:
 node tools/clean-data.js --write
 ```
 
+## Database and business pages
+
+- `companies.json` (current state of every business) and `data/hiring-history.jsonl` (every hiring check, append-only) are the source files kept in git.
+- `node --no-warnings tools/build-db.js` builds `data/directory.sqlite` (not committed) with `businesses` and `hiring_checks` tables for querying.
+- `node --no-warnings tools/build-pages.js` generates a static page per business at `company/<slug>.html`, plus `sitemap.xml` and `robots.txt`.
+- The daily GitHub Action re-checks the 400 oldest listings, applies the transparency rules, rebuilds the database and pages, and publishes.
+
+Images: only freely licensed images (for example Wikimedia Commons links on OpenStreetMap) should be added. Don't copy photos from business websites.
+
 ## Audit hiring signals
 
 Run a website audit batch to look for careers pages, job links, and hiring language:

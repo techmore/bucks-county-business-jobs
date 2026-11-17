@@ -365,6 +365,20 @@ async function main() {
 
   if (options.update) {
     applyAudit(companies, results);
+    // Append every check to the hiring history (one JSON line per check).
+    const today = new Date().toISOString().slice(0, 10);
+    const lines = results.map((result) =>
+      JSON.stringify({
+        slug: result.slug,
+        checked: today,
+        signal: /^Website fetch failed/.test(result.notes || "") ? "site_unreachable" : result.hiring_signal,
+        confidence: result.hiring_confidence ?? null,
+        evidence_url: result.evidence_url || null,
+        source: "website-check"
+      })
+    );
+    fs.mkdirSync("data", { recursive: true });
+    fs.appendFileSync(path.join("data", "hiring-history.jsonl"), `${lines.join("\n")}\n`);
     fs.writeFileSync(INPUT, `${JSON.stringify(companies, null, 2)}\n`);
   }
 
