@@ -598,3 +598,28 @@ select {
 .t3-marker .dot-aged { box-shadow: 0 0 0 2px rgba(212,160,23,.7), 0 2px 6px rgba(0,0,0,.3); }
 .legend .key i.ring { background: #fff; box-shadow: 0 0 0 3px #d4a017; }
 .pop-badge { display: inline-block; margin: 2px 0 4px; padding: 2px 8px; border-radius: 999px; background: #fbf1d3; color: #7a5a00; font-weight: 800; font-size: 0.78rem; }
+
+/* ---- Find Work Near Me ---- */
+.path-steps { max-width: 1180px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 18px; align-items: start; }
+.path-form { display: grid; gap: 14px; }
+.path-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) auto; gap: 10px; align-items: end; }
+.path-row label { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.path-row input, .path-row select { min-height: 42px; border: 1px solid var(--line); border-radius: 6px; padding: 0 10px; font: inherit; background: #fff; min-width: 0; }
+.path-row input[data-path='zip'] { font-size: 1.15rem; font-weight: 800; letter-spacing: 0.06em; }
+.path-tags { display: grid; gap: 8px; }
+.chips, .quick { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { border: 1px solid var(--line); background: #fff; color: var(--text); border-radius: 999px; padding: 5px 11px; font: inherit; font-size: 0.86rem; cursor: pointer; text-decoration: none; }
+.chip[aria-pressed='true'] { background: var(--green); border-color: var(--green); color: #fff; }
+.path-saved h3 { font-size: 0.95rem; margin: 14px 0 6px; }
+.path-results { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.path-card-top { display: flex; justify-content: space-between; gap: 10px; }
+.path-card h3 a { text-decoration: none; }
+.star { border: none; background: none; font-size: 1.5rem; line-height: 1; cursor: pointer; color: #b5822b; }
+.status-pill { display: inline-block; border-left: 4px solid var(--c); padding: 1px 8px; background: #f5f3ec; border-radius: 4px; font-weight: 800; font-size: 0.85rem; }
+@media (max-width: 860px) {
+  .path-steps { grid-template-columns: minmax(0, 1fr); }
+  .path-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+}
+.chip-group { border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; background: #fcfbf7; }
+.chip-group summary { cursor: pointer; list-style: revert; }
+.chip-group[open] summary { margin-bottom: 8px; }

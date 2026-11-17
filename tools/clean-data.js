@@ -9,7 +9,41 @@ const rules = require("./hiring-rules");
 
 const INPUT = "companies.json";
 const write = process.argv.includes("--write");
-const companies = JSON.parse(fs.readFileSync(INPUT, "utf8"));
+const NJ_BORDER_MILES = 3;
+let companies = JSON.parse(fs.readFileSync(INPUT, "utf8"));
+
+// 0. Stay in Pennsylvania, plus New Jersey border towns across the river.
+//    An NJ business stays only if it's within NJ_BORDER_MILES of a PA business on the map.
+const isNJ = (company) => /\bNJ\b/.test(company.address || "");
+const milesBetween = (a, b) => {
+  const toRad = (v) => (v * Math.PI) / 180;
+  const h = Math.sin(toRad(b.latitude - a.latitude) / 2) ** 2 + Math.cos(toRad(a.latitude)) * Math.cos(toRad(b.latitude)) * Math.sin(toRad(b.longitude - a.longitude) / 2) ** 2;
+  return 3958.8 * 2 * Math.atan2(Math.sqrt(h), Math.sqrt(1 - h));
+};
+const cell = (lat, lon) => `${Math.floor(lat * 20)},${Math.floor(lon * 20)}`;
+const paGrid = new Map();
+for (const company of companies.filter((c) => !isNJ(c))) {
+  const key = cell(company.latitude, company.longitude);
+  if (!paGrid.has(key)) paGrid.set(key, []);
+  paGrid.get(key).push(company);
+}
+function nearPA(company) {
+  const lat0 = Math.floor(company.latitude * 20);
+  const lon0 = Math.floor(company.longitude * 20);
+  for (let i = -2; i <= 2; i += 1)
+    for (let j = -2; j <= 2; j += 1)
+      for (const pa of paGrid.get(`${lat0 + i},${lon0 + j}`) || []) if (milesBetween(company, pa) <= NJ_BORDER_MILES) return true;
+  return false;
+}
+const outOfArea = companies.filter((company) => isNJ(company) && !nearPA(company));
+if (outOfArea.length) {
+  const drop = new Set(outOfArea.map((company) => company.slug));
+  companies = companies.filter((company) => !drop.has(company.slug));
+  if (write) {
+    fs.mkdirSync("data", { recursive: true });
+    fs.writeFileSync("data/removed-out-of-area.json", `${JSON.stringify(outOfArea, null, 2)}\n`);
+  }
+}
 const changes = { placeholder: [], platformEvidence: [], offSiteEvidence: [], sharedSite: [], descriptions: 0 };
 
 function townOf(company) {
@@ -129,6 +163,7 @@ for (const company of companies) {
 const counts = {};
 for (const company of companies) counts[company.hiring_status] = (counts[company.hiring_status] || 0) + 1;
 
+console.log(`Out of area (NJ beyond ${NJ_BORDER_MILES} mi of the PA border) removed: ${outOfArea.length}`);
 console.log(`Placeholder records marked unverified (${changes.placeholder.length}):`, changes.placeholder.join("; "));
 console.log(`Platform careers links removed (${changes.platformEvidence.length})`);
 console.log(`Off-site evidence removed (${changes.offSiteEvidence.length}):`, changes.offSiteEvidence.join("; "));

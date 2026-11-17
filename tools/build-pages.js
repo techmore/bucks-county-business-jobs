@@ -106,6 +106,7 @@ function page(business) {
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="../index.html"><span class="brand-mark">BC</span><span>Bucks County Business &amp; Jobs</span></a>
       <div class="nav-links">
+        <a href="../find-work.html">Find Work</a>
         <a href="../index.html">Map</a>
         <a href="../directory.html">Directory</a>
         <a href="../hiring-audit.html">Hiring Audit</a>
@@ -206,6 +207,7 @@ for (const file of fs.readdirSync(OUT_DIR)) {
 const today = new Date().toISOString().slice(0, 10);
 const urls = [
   `  <url><loc>${SITE}</loc><lastmod>${today}</lastmod></url>`,
+  `  <url><loc>${SITE}find-work.html</loc><lastmod>${today}</lastmod></url>`,
   `  <url><loc>${SITE}directory.html</loc><lastmod>${today}</lastmod></url>`,
   `  <url><loc>${SITE}about.html</loc></url>`,
   ...businesses.map((business) => `  <url><loc>${SITE}company/${business.slug}.html</loc>${business.hiring_last_checked ? `<lastmod>${business.hiring_last_checked}</lastmod>` : ""}</url>`)

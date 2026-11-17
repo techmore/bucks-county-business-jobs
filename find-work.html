@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find Work Near Me | Bucks County Business &amp; Jobs</title>
+  <meta name="description" content="Enter your ZIP and the kind of work you want. See local businesses ranked by evidence of hiring, established local employers, and distance.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">BC</span><span>Bucks County Business &amp; Jobs</span></a>
+      <div class="nav-links">
+        <a href="find-work.html" aria-current="page">Find Work</a>
+        <a href="index.html">Map</a>
+        <a href="directory.html">Directory</a>
+        <a href="about.html">About</a>
+        <a class="button" href="https://github.com/techmore/bucks-county-business-jobs/issues/new?title=Add%20or%20update%20a%20business&body=Business%20name%3A%0ATown%3A%0AWhat%20to%20add%20or%20fix%3A%0AAre%20they%20hiring%3F%20How%20do%20you%20know%3F">Add or Fix a Business</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pathway">
+    <section class="page-hero">
+      <p class="eyebrow">Find work near me</p>
+      <h1>Start with your ZIP.</h1>
+      <p class="lead">Tell us where you are and what kind of work you want. We'll list nearby businesses, with the ones showing real evidence of hiring and established local employers first.</p>
+    </section>
+
+    <section class="path-steps">
+      <form class="panel path-form" data-path-form>
+        <div class="path-row">
+          <label>
+            <span class="eyebrow">1 · Your ZIP</span>
+            <input data-path="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="18947">
+          </label>
+          <label>
+            <span class="eyebrow">How far</span>
+            <select data-path="radius">
+              <option value="5">5 miles</option>
+              <option value="10" selected>10 miles</option>
+              <option value="15">15 miles</option>
+              <option value="25">25 miles</option>
+            </select>
+          </label>
+          <label>
+            <span class="eyebrow">Sort by</span>
+            <select data-path="sort">
+              <option value="best">Best match</option>
+              <option value="evidence">Most hiring evidence</option>
+              <option value="nearest">Nearest</option>
+            </select>
+          </label>
+          <button class="button secondary" type="button" data-path="locate">Use my location</button>
+        </div>
+        <p class="meta" data-path-where></p>
+
+        <div class="path-tags">
+          <p class="eyebrow">2 · Kinds of work <span class="meta">(pick any)</span></p>
+          <div class="chips" data-chips="group"></div>
+          <details class="chip-group" data-details="role">
+            <summary><span class="eyebrow">Jobs you'd do</span> <span class="meta" data-picked="role"></span></summary>
+            <div class="chips" data-chips="role"></div>
+          </details>
+          <details class="chip-group" data-details="skill">
+            <summary><span class="eyebrow">Skills you have</span> <span class="meta" data-picked="skill"></span></summary>
+            <div class="chips" data-chips="skill"></div>
+          </details>
+          <label class="check"><input type="checkbox" data-path="fast"> Only industries that usually hire fast</label>
+          <label class="check"><input type="checkbox" data-path="evidence-only"> Only places with hiring evidence</label>
+        </div>
+      </form>
+
+      <aside class="panel path-saved">
+        <p class="eyebrow">Your shortcuts</p>
+        <p class="meta">Saved only in this browser on this device. No account, nothing sent anywhere.</p>
+        <h3>Recent searches</h3>
+        <div data-path-recent class="quick"></div>
+        <h3>Saved places</h3>
+        <div data-path-saved class="quick"></div>
+        <button class="button ghost" type="button" data-path="clear">Clear my saved data</button>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">3 · Places to try</p>
+          <h2 data-path-count>Enter a ZIP to start</h2>
+        </div>
+        <p>Ranked by hiring evidence (openings seen on their own site, careers pages, established local employers), how well they match what you picked, and distance. Roles and skills are typical for each industry, so a place without online postings may still be hiring: call or stop in.</p>
+      </div>
+      <div class="path-results" data-path-results></div>
+      <p style="text-align:center;margin-top:16px;"><button class="button secondary" type="button" data-path="more" hidden>Show more</button></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>Bucks County Business &amp; Jobs Directory © 2026</span>
+      <a href="https://github.com/techmore/bucks-county-business-jobs">GitHub</a>
+    </div>
+  </footer>
+  <script src="assets/guide.js"></script>
+  <script src="assets/pathway.js"></script>
+</body>
+</html>
