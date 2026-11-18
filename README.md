@@ -2,6 +2,8 @@
 
 A static GitHub Pages site: a local business directory and jobs map for Tinicum Township and the surrounding 25-mile radius in Bucks County, PA.
 
+**Live site:** https://techmore.github.io/bucks-county-business-jobs/
+
 ## What is included
 
 - Static HTML, CSS, and vanilla JavaScript
@@ -257,3 +259,5 @@ After applying approved websites, rerun the hiring audit for the newly website-b
 ```bash
 node tools/audit-hiring.js --only-unaudited --update
 ```
+
+Part of [Techmore](https://techmore.github.io/pages/repos/).
