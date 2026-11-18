@@ -7,12 +7,14 @@
 //     or at least three known businesses within 150 m
 //   - no PO boxes or c/o addresses
 //   - skip if a business with a similar name is already within 150 m (no duplicates)
+//   - skip chains that have closed every store (data/closed-chains.txt); the licence file lags behind
 //
 //   node tools/import-salestax-storefronts.js     # writes data/salestax-candidates.json
 //   node tools/merge-candidates.js data/salestax-candidates.json --write
 
 const fs = require("fs");
 const path = require("path");
+const { isClosedChain } = require("./closed-rules");
 
 const CENTER = { latitude: 40.4825, longitude: -75.1069 };
 const RADIUS = 25;
@@ -85,11 +87,12 @@ const rows = fs
 
 const slugs = new Set(companies.map((company) => company.slug));
 const out = [];
-const skipped = { notSales: 0, person: 0, noPoint: 0, far: 0, poBox: 0, notCommercial: 0, duplicate: 0 };
+const skipped = { notSales: 0, person: 0, closedChain: 0, noPoint: 0, far: 0, poBox: 0, notCommercial: 0, duplicate: 0 };
 const seen = [];
 for (const row of rows) {
   if (!/^Sales License/i.test(row.license_type || "") || !row.trade_name) { skipped.notSales += 1; continue; }
   if (!ENTITY.test(String(row.legal_name || "").toUpperCase())) { skipped.person += 1; continue; }
+  if (isClosedChain(row.trade_name) || isClosedChain(displayName(row.trade_name)) || isClosedChain(row.legal_name)) { skipped.closedChain += 1; continue; }
   const coords = row.georeferenced_latitude_longitude_points?.coordinates;
   if (!coords) { skipped.noPoint += 1; continue; }
   const point = { latitude: coords[1], longitude: coords[0] };

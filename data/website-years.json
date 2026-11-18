@@ -383,11 +383,6 @@
     "website": "https://www.famousfootwear.com/stores/pa/doylestown/18901/doylestown-shopping-ctr-02964",
     "checked": "2026-11-17"
   },
-  "c-and-n-bank-doylestown": {
-    "status": "unreachable",
-    "website": "https://www.cnbankpa.com/About/Lets-Connect/Locations/Doylestown-PA",
-    "checked": "2026-11-17"
-  },
   "mathnasium-doylestown": {
     "status": "unreachable",
     "website": "https://www.mathnasium.com/math-centers/doylestown",
@@ -5861,11 +5856,6 @@
     "website": "https://voraciousdeliandcatering.com/",
     "checked": "2026-11-17"
   },
-  "bethlehem-house-gallery-bethlehem": {
-    "status": "none",
-    "website": "https://www.bethlehemhousegallery.com/",
-    "checked": "2026-11-17"
-  },
   "urbano-bethlehem": {
     "status": "none",
     "website": "https://www.urbanobethlehem.com",
@@ -7856,11 +7846,6 @@
     "website": "https://www.bcwsa.net/",
     "checked": "2026-11-17"
   },
-  "savers-thrift-stores-bethlehem": {
-    "status": "unreachable",
-    "website": "https://local.biglots.com/pa/bethlehem/2192-w-union-blvd",
-    "checked": "2026-11-17"
-  },
   "pinnacle-exteriors-allentown": {
     "status": "found",
     "year": 2009,
@@ -9203,11 +9188,6 @@
     "website": "https://cashforgoldewing.com",
     "checked": "2026-11-17"
   },
-  "chick-fil-a-whitehall": {
-    "status": "unreachable",
-    "website": "https://www.chick-fil-a.com/locations/pa/lehigh-valley-mall",
-    "checked": "2026-11-17"
-  },
   "crafco-supply-center-allentown": {
     "status": "found",
     "year": 1976,
@@ -9727,11 +9707,6 @@
   "ethan-allen-allentown": {
     "status": "none",
     "website": "https://www.ethanallen.com/en_US/store-details?StoreID=857",
-    "checked": "2026-11-17"
-  },
-  "big-lots-whitehall": {
-    "status": "unreachable",
-    "website": "https://local.biglots.com/pa/whitehall/2631-macarthur-rd",
     "checked": "2026-11-17"
   },
   "whitehall-dental-group-whitehall": {

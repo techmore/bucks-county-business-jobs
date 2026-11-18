@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { isClosedChain, lifecycleClosed } = require("./closed-rules");
 
 const CENTER = { latitude: 40.4825, longitude: -75.1069 };
 const RADIUS_METERS = Math.round(25 * 1609.344);
@@ -120,6 +121,8 @@ function normalize(element) {
   const latitude = element.lat || element.center?.lat;
   const longitude = element.lon || element.center?.lon;
   if (!name || !hasUsableName(name) || !latitude || !longitude || !hasUsableAddress(tags)) return null;
+  // Not operating any more: disused/vacant/abandoned in OpenStreetMap, or a chain that has closed.
+  if (lifecycleClosed(tags) || isClosedChain(name) || isClosedChain(tags.brand)) return null;
   if (distanceMiles(CENTER.latitude, CENTER.longitude, latitude, longitude) > 25) return null;
 
   const slug = `osm-${slugify(name)}-${element.type}-${element.id}`;

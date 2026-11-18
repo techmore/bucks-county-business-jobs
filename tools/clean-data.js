@@ -6,6 +6,7 @@
 
 const fs = require("fs");
 const rules = require("./hiring-rules");
+const { isClosedChain } = require("./closed-rules");
 
 const INPUT = "companies.json";
 const write = process.argv.includes("--write");
@@ -43,6 +44,13 @@ if (outOfArea.length) {
     fs.mkdirSync("data", { recursive: true });
     fs.writeFileSync("data/removed-out-of-area.json", `${JSON.stringify(outOfArea, null, 2)}\n`);
   }
+}
+// 0b. Chains that have closed every store (data/closed-chains.txt) don't belong on the map,
+//     whichever import or hand edit brought them in.
+const closedChain = companies.filter((company) => isClosedChain(company.name) || isClosedChain(company.brand));
+if (closedChain.length) {
+  const drop = new Set(closedChain.map((company) => company.slug));
+  companies = companies.filter((company) => !drop.has(company.slug));
 }
 const changes = { placeholder: [], platformEvidence: [], offSiteEvidence: [], sharedSite: [], descriptions: 0 };
 
@@ -188,6 +196,7 @@ const counts = {};
 for (const company of companies) counts[company.hiring_status] = (counts[company.hiring_status] || 0) + 1;
 
 console.log(`Out of area (NJ beyond ${NJ_BORDER_MILES} mi of the PA border) removed: ${outOfArea.length}`);
+console.log(`Closed chains removed (data/closed-chains.txt): ${closedChain.length}`);
 console.log(`Placeholder records marked unverified (${changes.placeholder.length}):`, changes.placeholder.join("; "));
 console.log(`Platform careers links removed (${changes.platformEvidence.length})`);
 console.log(`Off-site evidence removed (${changes.offSiteEvidence.length}):`, changes.offSiteEvidence.join("; "));

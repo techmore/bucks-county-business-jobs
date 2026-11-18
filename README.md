@@ -118,7 +118,7 @@ Rules that keep it honest:
 
 - A platform's own careers page (Facebook's link to Meta jobs, Instagram, Linktree) never counts as a local business hiring.
 - Redirects from a business's own site to its own jobs site or applicant system (Workday, iCIMS, CareerPlug and similar) do count.
-- Records that came from early sample data (`example.com` websites) keep their name and location but have their placeholder details cleared and are marked **unverified** until someone confirms them.
+- Businesses that are no longer operating are left out: OpenStreetMap places tagged disused, vacant or abandoned are skipped at import, and chains that have closed every store are listed in `data/closed-chains.txt` (see `tools/closed-rules.js`). The invented sample businesses from the first build were removed; nothing is seeded without a source.
 - Typical roles, skills, and hiring speed come from the industry, not from the specific business, and the site says so.
 
 After any rebuild, import, or audit, run:

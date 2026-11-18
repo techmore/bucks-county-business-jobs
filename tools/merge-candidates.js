@@ -1,8 +1,10 @@
 // Merge reviewed candidate businesses (e.g. data/osm-candidates-near-pipersville.json) into companies.json.
 //   node tools/merge-candidates.js data/osm-candidates-near-pipersville.json [--write]
-// Skips: names already in companies.json, adult venues, and likely-historic schoolhouse points
-// (no website, approximate address, name like "Fretz School").
+// Skips: names already in companies.json, adult venues, likely-historic schoolhouse points
+// (no website, approximate address, name like "Fretz School"), and chains that have closed
+// every store (data/closed-chains.txt).
 const fs = require("fs");
+const { isClosedChain } = require("./closed-rules");
 
 const [file] = process.argv.slice(2).filter((arg) => !arg.startsWith("--"));
 const write = process.argv.includes("--write");
@@ -25,11 +27,12 @@ for (const company of companies) {
 const KNOWN_SCHOOLS = /^(Solebury School)$/;
 const slugs = new Set(companies.flatMap((company) => [company.slug, ...(company.previous_slugs || [])]));
 const sources = new Set(companies.map((company) => company.source_url).filter(Boolean));
-const skipped = { duplicateName: [], adult: [], historicSchool: [] };
+const skipped = { duplicateName: [], adult: [], historicSchool: [], closedChain: [] };
 const added = [];
 
 for (const candidate of candidates) {
   if (slugs.has(candidate.slug) || (candidate.source_url && sources.has(candidate.source_url))) continue;
+  if (isClosedChain(candidate.name) || isClosedChain(candidate.brand)) { skipped.closedChain.push(candidate.name); continue; }
   const same = byName.get(norm(candidate.name)) || [];
   if (same.some((company) => miles(company, candidate) < 1.25)) { skipped.duplicateName.push(candidate.name); continue; }
   if (/showbar|gentlem[ae]n'?s club|(?<!chicken )strip club|adult (store|video|entertainment)/i.test(candidate.name)) { skipped.adult.push(candidate.name); continue; }

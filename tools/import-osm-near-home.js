@@ -17,6 +17,7 @@ const fs = require("fs");
 const os = require("os");
 const path = require("path");
 const rules = require("./hiring-rules");
+const { isClosedChain, lifecycleClosed } = require("./closed-rules");
 
 const ROOT = path.resolve(__dirname, "..");
 const args = process.argv.slice(2);
@@ -315,6 +316,8 @@ function isExcluded(tags) {
   if (tags.shop && SKIP_SHOP.has(tags.shop)) return true;
   if (tags.office && SKIP_OFFICE.has(tags.office)) return true;
   if (tags.disused === "yes" || tags.abandoned === "yes" || tags.opening_hours === "closed") return true;
+  // Not operating any more: disused:*/abandoned:*/vacant in OpenStreetMap, or a chain that has closed.
+  if (lifecycleClosed(tags) || isClosedChain(tags.name) || isClosedChain(tags.brand)) return true;
   if (tags.amenity === "place_of_worship" && !tags.shop && !tags.office) return true;
   if (tags.leisure === "park" || tags.leisure === "nature_reserve") return true;
   if (tags.building && !BUILDING.has(tags.building) && !tags.shop && !tags.amenity && !tags.office && !tags.craft &&

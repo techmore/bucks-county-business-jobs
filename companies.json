@@ -281,32 +281,6 @@
     "opening_hours": "Mo,Su off; Tu 12:15-20:30; We-Th 10:00-20:00; Fr 12:00-18:00; Sa 10:00-16:00"
   },
   {
-    "name": "12 West Stylon",
-    "slug": "12-west-stylon-bethlehem",
-    "latitude": 40.6228201,
-    "longitude": -75.4000336,
-    "address": "1228 West Broad Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "12 West Stylon (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6167263650",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-12-west-stylon-node-6167263650"
-    ],
-    "phone": "(610) 868-2713"
-  },
-  {
     "name": "1231 Blue Moon",
     "slug": "1231-blue-moon-bethlehem",
     "latitude": 40.63085,
@@ -14739,31 +14713,6 @@
     "established": false,
     "established_employer": false,
     "hiring_status": "no_online_info"
-  },
-  {
-    "name": "Amazon Fresh",
-    "slug": "amazon-fresh-willow-grove",
-    "latitude": 40.1419704,
-    "longitude": -75.1172996,
-    "address": "102 Park Avenue, Willow Grove, PA, 19090",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": null,
-    "description": "Amazon Fresh (supermarket) is in Willow Grove. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/5161752823",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-amazon-fresh-node-5161752823"
-    ]
   },
   {
     "name": "Amazon Fresh",
@@ -32693,38 +32642,6 @@
     ]
   },
   {
-    "name": "Bethlehem Furnace Co",
-    "slug": "bethlehem-furnace-bethlehem",
-    "latitude": 40.6226122,
-    "longitude": -75.3906908,
-    "address": "526 West Broad Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": 47,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "Bethlehem Furnace Co (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/4317500113",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "founded_year": 1979,
-    "founded_source": "pa-dos",
-    "founded_confidence": "high",
-    "founded_entity_type": "Domestic Business Corporation",
-    "founded_label": "Registered with the PA Dept. of State in 1979",
-    "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
-    "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
-    "established": true,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-bethlehem-furnace-co-node-4317500113"
-    ]
-  },
-  {
     "name": "Bethlehem Gallery Of Floors",
     "slug": "bethlehem-gallery-of-floors-bethlehem",
     "latitude": 40.66649,
@@ -32803,37 +32720,6 @@
       "osm-bethlehem-haircuts-node-6338872247"
     ],
     "phone": "(484) 506-1695"
-  },
-  {
-    "name": "Bethlehem House Gallery",
-    "slug": "bethlehem-house-gallery-bethlehem",
-    "latitude": 40.6205764,
-    "longitude": -75.3822894,
-    "address": "459 Main Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": "https://www.bethlehemhousegallery.com/",
-    "description": "Bethlehem House Gallery (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/5673769711",
-    "data_status": "needs-website-audit",
-    "hiring_signal": "unknown",
-    "hiring_confidence": 0.25,
-    "hiring_evidence_url": "https://bethlehemhousegallery.com/",
-    "hiring_last_checked": "2026-11-18",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-bethlehem-house-gallery-node-5673769711"
-    ],
-    "phone": "(610) 419-6262",
-    "opening_hours": "We-Th 11:00-19:00; Fr-Sa 12:00-21:00; Su 12:00-17:00"
   },
   {
     "name": "Bethlehem Housing Authority",
@@ -33321,31 +33207,6 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-bethlehem-star-cleaners-node-993736324"
-    ]
-  },
-  {
-    "name": "Bethlehem Steel Corporation General Office Building",
-    "slug": "bethlehem-steel-general-office-building-bethlehem",
-    "latitude": 40.6127269,
-    "longitude": -75.3693847,
-    "address": "701 East 3rd Street, Bethlehem, PA, 18015",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Manufacturing",
-    "website": null,
-    "description": "Bethlehem Steel Corporation General Office Building (business) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/relation/15960299",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-bethlehem-steel-corporation-general-office-building-relation-15960299"
     ]
   },
   {
@@ -34201,38 +34062,6 @@
     ],
     "phone": "(215) 441-0152",
     "opening_hours": "Mo-We 17:00-02:00; Th-Sa 12:00-02:00; Su 12:00-21:00"
-  },
-  {
-    "name": "Big Lots",
-    "slug": "big-lots-whitehall",
-    "latitude": 40.6461075,
-    "longitude": -75.4897198,
-    "address": "2631 Macarthur Road, Whitehall, PA, 18052",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": "https://local.biglots.com/pa/whitehall/2631-macarthur-rd",
-    "description": "Big Lots (vacant) is in Whitehall. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6982908566",
-    "data_status": "needs-website-audit",
-    "hiring_signal": "unknown",
-    "hiring_confidence": 0,
-    "hiring_evidence_url": "https://local.biglots.com/pa/whitehall/2631-macarthur-rd",
-    "hiring_last_checked": "2026-05-06",
-    "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-18",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-big-lots-node-6982908566"
-    ],
-    "phone": "(610) 266-8190",
-    "opening_hours": "09:00-21:00"
   },
   {
     "name": "Big Roll Co",
@@ -41956,32 +41785,6 @@
     ]
   },
   {
-    "name": "Bucks County BioWorks",
-    "slug": "bucks-county-bioworks-doylestown",
-    "latitude": 40.3101,
-    "longitude": -75.1299,
-    "address": "4050 Skyron Drive, Doylestown, PA 18902",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Tech",
-    "website": null,
-    "description": "Bucks County BioWorks is listed in Doylestown but has not been verified yet.",
-    "logo_url": null,
-    "source_name": null,
-    "source_url": null,
-    "data_status": "unverified",
-    "verification_note": "Listed from early sample data. We have not confirmed this business or its details yet. If you know it, please send an update.",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "bucks-county-bioworks"
-    ]
-  },
-  {
     "name": "Bucks County Biscotti",
     "slug": "bucks-county-biscotti-hilltown",
     "latitude": 40.3420963,
@@ -45678,38 +45481,6 @@
     "previous_slugs": [
       "osm-c-and-i-minerals-node-11895267863"
     ]
-  },
-  {
-    "name": "C&N Bank",
-    "slug": "c-and-n-bank-doylestown",
-    "latitude": 40.3199922,
-    "longitude": -75.1304238,
-    "address": "465 North Main Street, Doylestown, PA, 18901",
-    "total_employees": null,
-    "hiring": true,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Financial & Services",
-    "website": "https://www.cnbankpa.com/About/Lets-Connect/Locations/Doylestown-PA",
-    "description": "C&N Bank (bank) is in Doylestown. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/way/392703384",
-    "data_status": "needs-website-audit",
-    "hiring_signal": "hiring_likely",
-    "hiring_confidence": 0.85,
-    "hiring_evidence_url": "https://www.cnbankpa.com/About/Explore-C-N/Careers",
-    "hiring_last_checked": "2026-05-06",
-    "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-18",
-    "hiring_track": "Openings or a careers page seen in May 2026 checks",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-c-and-n-bank-way-392703384"
-    ],
-    "chain_or_franchise": true
   },
   {
     "name": "C&N Bank Amphitheater",
@@ -53724,37 +53495,6 @@
   },
   {
     "name": "Chick-fil-A",
-    "slug": "chick-fil-a-whitehall",
-    "latitude": 40.6303861,
-    "longitude": -75.4803763,
-    "address": "826 Lehigh Lifestyle Center, Whitehall, PA, 18052",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Dining",
-    "website": "https://www.chick-fil-a.com/locations/pa/lehigh-valley-mall",
-    "description": "Chick-fil-A (fast food) is in Whitehall. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/4378216054",
-    "data_status": "needs-website-audit",
-    "hiring_signal": "unknown",
-    "hiring_confidence": 0,
-    "hiring_evidence_url": "https://www.chick-fil-a.com/locations/pa/lehigh-valley-mall",
-    "hiring_last_checked": "2026-05-06",
-    "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-18",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-chick-fil-a-node-4378216054"
-    ],
-    "chain_or_franchise": true
-  },
-  {
-    "name": "Chick-fil-A",
     "slug": "chick-fil-a-quakertown",
     "latitude": 40.4601347,
     "longitude": -75.3693659,
@@ -59208,31 +58948,6 @@
     "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-19:00"
   },
   {
-    "name": "Clip Joint",
-    "slug": "clip-joint-bethlehem",
-    "latitude": 40.6177896,
-    "longitude": -75.3965059,
-    "address": "1001 Spring Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "Clip Joint (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6223512018",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-clip-joint-node-6223512018"
-    ]
-  },
-  {
     "name": "Clocks On Time",
     "slug": "clocks-on-time-bethlehem",
     "latitude": 40.60331,
@@ -64461,31 +64176,6 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-council-rock-high-school-north-way-243947472"
-    ]
-  },
-  {
-    "name": "Counseling Affiliates",
-    "slug": "counseling-affiliates-bethlehem",
-    "latitude": 40.6223528,
-    "longitude": -75.3934356,
-    "address": "727 West Broad Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "Counseling Affiliates (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6302523203",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-counseling-affiliates-node-6302523203"
     ]
   },
   {
@@ -73189,32 +72879,6 @@
     ]
   },
   {
-    "name": "Delaware Canal Home Health",
-    "slug": "delaware-canal-home-health-frenchtown",
-    "latitude": 40.5054,
-    "longitude": -75.0641,
-    "address": "12 Bridge Street, Frenchtown, NJ 08825",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Healthcare",
-    "website": null,
-    "description": "Delaware Canal Home Health is listed in Frenchtown but has not been verified yet.",
-    "logo_url": null,
-    "source_name": null,
-    "source_url": null,
-    "data_status": "unverified",
-    "verification_note": "Listed from early sample data. We have not confirmed this business or its details yet. If you know it, please send an update.",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "delaware-canal-home-health"
-    ]
-  },
-  {
     "name": "Delaware Canal State Park Office",
     "slug": "delaware-canal-state-park-office-lodi",
     "latitude": 40.5495352,
@@ -75259,31 +74923,6 @@
     "founded_label": "Registered with the PA Dept. of State in 2006",
     "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
     "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c"
-  },
-  {
-    "name": "Dimitrios Lunch",
-    "slug": "dimitrios-lunch-bethlehem",
-    "latitude": 40.609334,
-    "longitude": -75.3845729,
-    "address": "401 Broadway, Bethlehem, PA, 18015",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "Dimitrios Lunch (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6206301357",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-dimitrios-lunch-node-6206301357"
-    ]
   },
   {
     "name": "Diner 248",
@@ -80837,32 +80476,6 @@
     "opening_hours": "Mo-Fr 12:00-21:00; Sa-Su 11:00-18:00"
   },
   {
-    "name": "Doylestown Solar & Electrical",
-    "slug": "doylestown-solar-and-electrical-doylestown",
-    "latitude": 40.3187,
-    "longitude": -75.1327,
-    "address": "145 South Main Street, Doylestown, PA 18901",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Energy",
-    "website": null,
-    "description": "Doylestown Solar & Electrical is listed in Doylestown but has not been verified yet.",
-    "logo_url": null,
-    "source_name": null,
-    "source_url": null,
-    "data_status": "unverified",
-    "verification_note": "Listed from early sample data. We have not confirmed this business or its details yet. If you know it, please send an update.",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "doylestown-solar-and-electrical"
-    ]
-  },
-  {
     "name": "Doylestown Township Administration Building",
     "slug": "doylestown-township-administration-building-doylestown-township",
     "latitude": 40.2832044,
@@ -81224,31 +80837,6 @@
     ],
     "phone": "(215) 860-6101",
     "opening_hours": "Mo,Tu,Fr 10:00-18:00, We 13:00-18:00"
-  },
-  {
-    "name": "Dr. Edward A. Beagell, DPM",
-    "slug": "dr-edward-a-beagell-dpm-bethlehem",
-    "latitude": 40.6233085,
-    "longitude": -75.4088198,
-    "address": "1806 West Broad Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "Dr. Edward A. Beagell, DPM (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6282067436",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-dr-edward-a-beagell-dpm-node-6282067436"
-    ]
   },
   {
     "name": "Dr. Gary C. Goodwin",
@@ -88510,31 +88098,6 @@
     "founded_label": "Registered with the PA Dept. of State in 2024",
     "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
     "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c"
-  },
-  {
-    "name": "Elks Lodge",
-    "slug": "elks-lodge-bethlehem",
-    "latitude": 40.6249771,
-    "longitude": -75.3893306,
-    "address": "431 West Union Boulevard, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "Elks Lodge (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6297544399",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-elks-lodge-node-6297544399"
-    ]
   },
   {
     "name": "Ellcie",
@@ -134885,31 +134448,6 @@
   },
   {
     "name": "Iron Hill Brewery & Restaurant",
-    "slug": "iron-hill-brewery-and-restaurant-north-wales",
-    "latitude": 40.2101319,
-    "longitude": -75.2228412,
-    "address": "1460 Bethlehem Pike, North Wales, PA, 19454",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Dining",
-    "website": null,
-    "description": "Iron Hill Brewery & Restaurant (restaurant) is in North Wales. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/5125361473",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-iron-hill-brewery-and-restaurant-node-5125361473"
-    ]
-  },
-  {
-    "name": "Iron Hill Brewery & Restaurant",
     "slug": "iron-hill-brewery-and-restaurant-whitehall",
     "latitude": 40.62904,
     "longitude": -75.48185,
@@ -135626,38 +135164,6 @@
     "founded_label": "Registered with the PA Dept. of State in 2024",
     "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
     "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c"
-  },
-  {
-    "name": "J Garden",
-    "slug": "j-garden-bethlehem",
-    "latitude": 40.6223932,
-    "longitude": -75.3973303,
-    "address": "1025 West Broad Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": 4,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "J Garden (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/7671036069",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "founded_year": 2022,
-    "founded_source": "pa-dos",
-    "founded_confidence": "medium",
-    "founded_entity_type": "Domestic Limited Liability Company",
-    "founded_label": "Registered with the PA Dept. of State in 2022",
-    "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
-    "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-j-garden-node-7671036069"
-    ]
   },
   {
     "name": "J Jill Cv",
@@ -139741,31 +139247,6 @@
     "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c"
   },
   {
-    "name": "Joanne T. Nigito-Raftas, MS, LPC",
-    "slug": "joanne-t-nigito-raftas-ms-lpc-bethlehem",
-    "latitude": 40.6231419,
-    "longitude": -75.4077278,
-    "address": "1754 West Broad Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "Joanne T. Nigito-Raftas, MS, LPC (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/5794810343",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-joanne-t-nigito-raftas-ms-lpc-node-5794810343"
-    ]
-  },
-  {
     "name": "JobConnection Services",
     "slug": "jobconnection-services-allentown",
     "latitude": 40.6029783,
@@ -140373,31 +139854,6 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-john-d-blumenthal-law-offices-way-392659365"
-    ]
-  },
-  {
-    "name": "John Daher Salon",
-    "slug": "john-daher-salon-allentown",
-    "latitude": 40.6355011,
-    "longitude": -75.4237647,
-    "address": "1452 Pennsylvania Avenue, Allentown, PA, 18109",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Beauty & Wellness",
-    "website": null,
-    "description": "John Daher Salon (hairdresser) is in Allentown. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6307326505",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-john-daher-salon-node-6307326505"
     ]
   },
   {
@@ -146519,38 +145975,6 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-kiddie-city-node-6904305355"
-    ]
-  },
-  {
-    "name": "Kids Castle",
-    "slug": "kids-castle-allentown",
-    "latitude": 40.628463,
-    "longitude": -75.439185,
-    "address": "1193 Airport Road, Allentown, PA, 18109",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": 28,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "Kids Castle (disused) is in Allentown. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6923619211",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "founded_year": 1998,
-    "founded_source": "pa-dos",
-    "founded_confidence": "medium",
-    "founded_entity_type": "Domestic Limited Liability Company",
-    "founded_label": "Registered with the PA Dept. of State in 1998",
-    "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
-    "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
-    "established": true,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-kids-castle-node-6923619211"
     ]
   },
   {
@@ -156500,38 +155924,6 @@
       "osm-lehigh-valley-animal-crematory-services-inc-way-373704765"
     ],
     "phone": "(610) 838-3200"
-  },
-  {
-    "name": "Lehigh Valley Appliances",
-    "slug": "lehigh-valley-appliances-allentown",
-    "latitude": 40.6226976,
-    "longitude": -75.4504602,
-    "address": "600 Union Boulevard, Allentown, PA, 18109",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": 12,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": null,
-    "description": "Lehigh Valley Appliances (vacant) is in Allentown. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6917220896",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "founded_year": 2014,
-    "founded_source": "pa-dos",
-    "founded_confidence": "high",
-    "founded_entity_type": "Domestic Business Corporation",
-    "founded_label": "Registered with the PA Dept. of State in 2014",
-    "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
-    "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
-    "established": true,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-lehigh-valley-appliances-node-6917220896"
-    ]
   },
   {
     "name": "Lehigh Valley Arts Council",
@@ -174257,38 +173649,6 @@
     "phone": "(215) 257-0860"
   },
   {
-    "name": "McAllister Brewing Company",
-    "slug": "mcallister-brewing-north-wales",
-    "latitude": 40.2202751,
-    "longitude": -75.2794596,
-    "address": "810 Dickerson Road, North Wales, PA, 19454",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": 8,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Local Business",
-    "website": null,
-    "description": "McAllister Brewing Company (brewery) is in North Wales. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/way/470632419",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "founded_year": 2018,
-    "founded_source": "pa-dos",
-    "founded_confidence": "high",
-    "founded_entity_type": "Domestic Limited Liability Company",
-    "founded_label": "Registered with the PA Dept. of State in 2018",
-    "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
-    "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-mcallister-brewing-company-way-470632419"
-    ]
-  },
-  {
     "name": "McArdle's Holiday Farm",
     "slug": "mcardles-holiday-farm-mechanics-valley",
     "latitude": 40.3287959,
@@ -181876,31 +181236,6 @@
     "founded_label": "Registered with the PA Dept. of State in 2024",
     "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
     "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c"
-  },
-  {
-    "name": "Moira Padfield, MS, LPC",
-    "slug": "moira-padfield-ms-lpc-bethlehem",
-    "latitude": 40.6231592,
-    "longitude": -75.4077196,
-    "address": "1754 West Broad Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "Moira Padfield, MS, LPC (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/5794810342",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-moira-padfield-ms-lpc-node-5794810342"
-    ]
   },
   {
     "name": "Mojo 516 Cafe",
@@ -190787,32 +190122,6 @@
     "phone": "(267) 404-2717"
   },
   {
-    "name": "Nockamixon Hospitality Group",
-    "slug": "nockamixon-hospitality-group-perkasie",
-    "latitude": 40.4633,
-    "longitude": -75.2412,
-    "address": "1065 Old Bethlehem Road, Perkasie, PA 18944",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Hospitality",
-    "website": null,
-    "description": "Nockamixon Hospitality Group is listed in Perkasie but has not been verified yet.",
-    "logo_url": null,
-    "source_name": null,
-    "source_url": null,
-    "data_status": "unverified",
-    "verification_note": "Listed from early sample data. We have not confirmed this business or its details yet. If you know it, please send an update.",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "nockamixon-hospitality-group"
-    ]
-  },
-  {
     "name": "Nockamixon Township Municipal Building",
     "slug": "nockamixon-township-municipal-building-upper-black-eddy",
     "latitude": 40.5360247,
@@ -198603,31 +197912,6 @@
     "phone": "(610) 285-6061"
   },
   {
-    "name": "Painting with a Twist",
-    "slug": "painting-with-a-twist-allentown",
-    "latitude": 40.5795299,
-    "longitude": -75.4795864,
-    "address": "1515 Lehigh Street, Allentown, PA, 18103",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": null,
-    "description": "Painting with a Twist (paint) is in Allentown. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/11684849342",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-painting-with-a-twist-node-11684849342"
-    ]
-  },
-  {
     "name": "Painting With A Twist - Warrington",
     "slug": "painting-with-a-twist-warrington-warington",
     "latitude": 40.23082,
@@ -201206,31 +200490,6 @@
     ]
   },
   {
-    "name": "Pat's Newstand",
-    "slug": "pats-newstand-bethlehem",
-    "latitude": 40.6108986,
-    "longitude": -75.3783176,
-    "address": "327 South New Street, Bethlehem, PA, 18015",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": null,
-    "description": "Pat's Newstand (vacant) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/4309656588",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-pat-s-newstand-node-4309656588"
-    ]
-  },
-  {
     "name": "Patel Beverage",
     "slug": "patel-beverage-allentown",
     "latitude": 40.63563,
@@ -202571,31 +201830,6 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-pearson-koutcher-node-7671036054"
-    ]
-  },
-  {
-    "name": "Peculiar Wine Bar",
-    "slug": "peculiar-wine-bar-bethlehem",
-    "latitude": 40.6211563,
-    "longitude": -75.3818335,
-    "address": "520 Main Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "Peculiar Wine Bar (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/5675639657",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-peculiar-wine-bar-node-5675639657"
     ]
   },
   {
@@ -211307,32 +210541,6 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-plumstead-family-practice-way-388132821"
-    ]
-  },
-  {
-    "name": "Plumstead Market Co-op",
-    "slug": "plumstead-market-op-plumsteadville",
-    "latitude": 40.3851,
-    "longitude": -75.1466,
-    "address": "5784 Easton Road, Plumsteadville, PA 18949",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": null,
-    "description": "Plumstead Market Co-op is listed in Plumsteadville but has not been verified yet.",
-    "logo_url": null,
-    "source_name": null,
-    "source_url": null,
-    "data_status": "unverified",
-    "verification_note": "Listed from early sample data. We have not confirmed this business or its details yet. If you know it, please send an update.",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "plumstead-market-co-op"
     ]
   },
   {
@@ -221604,31 +220812,6 @@
     ]
   },
   {
-    "name": "Rayco",
-    "slug": "rayco-allentown",
-    "latitude": 40.622047,
-    "longitude": -75.4509161,
-    "address": "560 Union Boulevard, Allentown, PA, 18109",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": null,
-    "description": "Rayco (vacant) is in Allentown. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6917211480",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-rayco-node-6917211480"
-    ]
-  },
-  {
     "name": "Raymer's Homemade Candies",
     "slug": "raymers-homemade-candies-doylestown",
     "latitude": 40.309397,
@@ -226567,32 +225750,6 @@
     ]
   },
   {
-    "name": "Ridge Valley Family Farms",
-    "slug": "ridge-valley-family-farms-ottsville",
-    "latitude": 40.4486,
-    "longitude": -75.2148,
-    "address": "201 Ridge Valley Road, Ottsville, PA 18942",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Agriculture",
-    "website": null,
-    "description": "Ridge Valley Family Farms is listed in Ottsville but has not been verified yet.",
-    "logo_url": null,
-    "source_name": null,
-    "source_url": null,
-    "data_status": "unverified",
-    "verification_note": "Listed from early sample data. We have not confirmed this business or its details yet. If you know it, please send an update.",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "ridge-valley-family-farms"
-    ]
-  },
-  {
     "name": "Ridgeline Rental Properties",
     "slug": "ridgeline-rental-properties-bethlehem",
     "latitude": 40.6226899,
@@ -227622,283 +226779,6 @@
     "hiring_status": "no_online_info"
   },
   {
-    "name": "Rite Aid",
-    "slug": "rite-aid-ambler",
-    "latitude": 40.1579314,
-    "longitude": -75.2135623,
-    "address": "1201 South Bethlehem Pike, Ambler, PA, 19002",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": "https://www.riteaid.com/locations/pa/ambler/1201-south-bethlehem-pike.html",
-    "description": "Rite Aid (chemist) is in Ambler. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/2002087559",
-    "data_status": "needs-website-audit",
-    "hiring_signal": "unknown",
-    "hiring_confidence": 0.25,
-    "hiring_evidence_url": "https://riteaid.com/locations/pa",
-    "hiring_last_checked": "2026-11-17",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-rite-aid-node-2002087559"
-    ],
-    "chain_or_franchise": true,
-    "phone": "(215) 646-8351",
-    "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-21:00",
-    "brand": "Rite Aid"
-  },
-  {
-    "name": "Rite Aid",
-    "slug": "rite-aid-doylestown",
-    "latitude": 40.3587231,
-    "longitude": -75.0878422,
-    "address": "5176 Cold Spring Creamery Road, Doylestown, PA, 18902",
-    "address_approximate": false,
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Healthcare",
-    "website": "https://www.riteaid.com/locations/pa/doylestown/5176-cold-springs-creamery-rd.html",
-    "description": "Rite Aid (pharmacy) is in Doylestown. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/3171687390",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "hiring_signal": "unknown",
-    "hiring_confidence": 0.25,
-    "hiring_evidence_url": "https://riteaid.com/locations/pa/doylestown",
-    "hiring_last_checked": "2026-11-17",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-rite-aid-node-3171687390"
-    ],
-    "chain_or_franchise": true,
-    "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:00-19:30; Su 09:00-20:00",
-    "brand": "Rite Aid"
-  },
-  {
-    "name": "Rite Aid",
-    "slug": "rite-aid-warrington-township",
-    "latitude": 40.2309815,
-    "longitude": -75.1402173,
-    "address": "642 Easton Road, Warrington Township, PA, 18976",
-    "address_approximate": false,
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Healthcare",
-    "website": null,
-    "description": "Rite Aid (pharmacy) is in Warrington Township. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/4760337403",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-rite-aid-node-4760337403"
-    ],
-    "chain_or_franchise": true,
-    "brand": "Rite Aid"
-  },
-  {
-    "name": "Rite Aid",
-    "slug": "rite-aid-perkasie",
-    "latitude": 40.3640282,
-    "longitude": -75.2969345,
-    "address": "near Perkasie, PA",
-    "address_approximate": true,
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Healthcare",
-    "website": "https://www.riteaid.com/locations/pa/perkasie/519-constitution-avenue.html",
-    "description": "Rite Aid (pharmacy) is near Perkasie. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/479980121",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "hiring_signal": "unknown",
-    "hiring_confidence": 0.25,
-    "hiring_evidence_url": "https://riteaid.com/locations/pa",
-    "hiring_last_checked": "2026-11-17",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-rite-aid-node-479980121"
-    ],
-    "chain_or_franchise": true,
-    "brand": "Rite Aid"
-  },
-  {
-    "name": "Rite Aid",
-    "slug": "rite-aid-souderton",
-    "latitude": 40.3159293,
-    "longitude": -75.3081925,
-    "address": "near Souderton, PA",
-    "address_approximate": true,
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Healthcare",
-    "website": null,
-    "description": "Rite Aid (pharmacy) is near Souderton. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/5696663902",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-rite-aid-node-5696663902"
-    ],
-    "chain_or_franchise": true,
-    "brand": "Rite Aid"
-  },
-  {
-    "name": "Rite Aid",
-    "slug": "rite-aid-rich-hill",
-    "latitude": 40.4175711,
-    "longitude": -75.3452297,
-    "address": "near Rich Hill, PA",
-    "address_approximate": true,
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Healthcare",
-    "website": null,
-    "description": "Rite Aid (pharmacy) is near Rich Hill. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6974195656",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-rite-aid-node-6974195656"
-    ],
-    "chain_or_franchise": true,
-    "brand": "Rite Aid"
-  },
-  {
-    "name": "Rite Aid",
-    "slug": "rite-aid-lansdale",
-    "latitude": 40.2587707,
-    "longitude": -75.2664873,
-    "address": "1856 North Broad Street, Lansdale, PA, 19446",
-    "address_approximate": false,
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Healthcare",
-    "website": "https://www.riteaid.com/locations/pa/lansdale/1856-north-broad-street.html",
-    "description": "Rite Aid (pharmacy) is in Lansdale. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/7282887003",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "hiring_signal": "unknown",
-    "hiring_confidence": 0.25,
-    "hiring_evidence_url": "https://riteaid.com/locations/pa/lansdale",
-    "hiring_last_checked": "2026-11-17",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-rite-aid-node-7282887003"
-    ],
-    "chain_or_franchise": true,
-    "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-18:00; Su 09:00-17:00",
-    "brand": "Rite Aid"
-  },
-  {
-    "name": "Rite Aid",
-    "slug": "rite-aid-pipersville",
-    "latitude": 40.3807583,
-    "longitude": -75.1451978,
-    "address": "5707 Easton Road, Pipersville, PA, 18947",
-    "address_approximate": false,
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": null,
-    "description": "Rite Aid (chemist) is in Pipersville. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/9377981004",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-rite-aid-node-9377981004"
-    ],
-    "chain_or_franchise": true,
-    "phone": "(215) 766-7350",
-    "brand": "Rite Aid"
-  },
-  {
-    "name": "Rite Aid",
-    "slug": "rite-aid-hellertown",
-    "latitude": 40.5730673,
-    "longitude": -75.3416637,
-    "address": "110 Main Street, Hellertown, PA, 18055",
-    "address_approximate": false,
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Healthcare",
-    "website": "https://www.riteaid.com/locations/pa/hellertown/110-main-street.html",
-    "description": "Rite Aid (pharmacy) is in Hellertown. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/way/349324781",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "hiring_signal": "unknown",
-    "hiring_confidence": 0.25,
-    "hiring_evidence_url": "https://riteaid.com/locations/pa/hellertown",
-    "hiring_last_checked": "2026-11-17",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-rite-aid-way-349324781"
-    ],
-    "chain_or_franchise": true,
-    "phone": "(610) 838-7371",
-    "brand": "Rite Aid"
-  },
-  {
     "name": "Rite-Stop Deli And Grocery",
     "slug": "rite-stop-deli-and-grocery-bethlehem",
     "latitude": 40.6124594,
@@ -228355,32 +227235,6 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-rivera-s-plumbing-supply-node-12963854713"
-    ]
-  },
-  {
-    "name": "Riverbend Veterinary Partners",
-    "slug": "riverbend-veterinary-partners-riegelsville",
-    "latitude": 40.5982,
-    "longitude": -75.1907,
-    "address": "1415 Main Street, Riegelsville, PA 18077",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Healthcare",
-    "website": null,
-    "description": "Riverbend Veterinary Partners is listed in Riegelsville but has not been verified yet.",
-    "logo_url": null,
-    "source_name": null,
-    "source_url": null,
-    "data_status": "unverified",
-    "verification_note": "Listed from early sample data. We have not confirmed this business or its details yet. If you know it, please send an update.",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "riverbend-veterinary-partners"
     ]
   },
   {
@@ -237117,63 +235971,6 @@
       "osm-saucon-valley-senior-high-school-way-554659865"
     ],
     "phone": "(610) 838-7001"
-  },
-  {
-    "name": "SavAge Cafe",
-    "slug": "savage-cafe-new-hope",
-    "latitude": 40.360979,
-    "longitude": -74.9499848,
-    "address": "110 South Main Street, New Hope, PA, 18938",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Dining",
-    "website": null,
-    "description": "SavAge Cafe (cafe) is in New Hope. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/12006496730",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-savage-cafe-node-12006496730"
-    ]
-  },
-  {
-    "name": "Savers Thrift Stores",
-    "slug": "savers-thrift-stores-bethlehem",
-    "latitude": 40.6277781,
-    "longitude": -75.4197784,
-    "address": "2192 West Union Boulevard, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": "https://local.biglots.com/pa/bethlehem/2192-w-union-blvd",
-    "description": "Savers Thrift Stores (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6238063691",
-    "data_status": "needs-website-audit",
-    "hiring_signal": "unknown",
-    "hiring_confidence": 0,
-    "hiring_evidence_url": "https://local.biglots.com/pa/bethlehem/2192-w-union-blvd",
-    "hiring_last_checked": "2026-05-06",
-    "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-18",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-savers-thrift-stores-node-6238063691"
-    ],
-    "phone": "(610) 868-2913",
-    "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-21:00"
   },
   {
     "name": "Savory Spice Shop",
@@ -248371,32 +247168,6 @@
     ]
   },
   {
-    "name": "Solebury Learning Center",
-    "slug": "solebury-learning-center-new-hope",
-    "latitude": 40.3623,
-    "longitude": -74.9519,
-    "address": "2789 River Road, New Hope, PA 18938",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Education",
-    "website": null,
-    "description": "Solebury Learning Center is listed in New Hope but has not been verified yet.",
-    "logo_url": null,
-    "source_name": null,
-    "source_url": null,
-    "data_status": "unverified",
-    "verification_note": "Listed from early sample data. We have not confirmed this business or its details yet. If you know it, please send an update.",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "solebury-learning-center"
-    ]
-  },
-  {
     "name": "Solebury Orchards",
     "slug": "solebury-orchards-peters-corner",
     "latitude": 40.3819119,
@@ -252362,31 +251133,6 @@
     "phone": "(610) 868-6071"
   },
   {
-    "name": "Spring Hill Cleaners",
-    "slug": "spring-hill-cleaners-hellertown",
-    "latitude": 40.5685148,
-    "longitude": -75.3390344,
-    "address": "21 Main Street, Hellertown, PA, 18055",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": null,
-    "description": "Spring Hill Cleaners (vacant) is in Hellertown. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/3561100813",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-spring-hill-cleaners-node-3561100813"
-    ]
-  },
-  {
     "name": "Spring House - Post Office",
     "slug": "spring-house-post-office-spring-house",
     "latitude": 40.181506,
@@ -253853,31 +252599,6 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-st-luke-s-baby-and-me-support-center-node-6309492511"
-    ]
-  },
-  {
-    "name": "St. Luke's Behavioral Health Services",
-    "slug": "st-lukes-behavioral-health-services-bethlehem",
-    "latitude": 40.6332948,
-    "longitude": -75.3975882,
-    "address": "1107 Eaton Avenue, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "St. Luke's Behavioral Health Services (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6309492535",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-st-luke-s-behavioral-health-services-node-6309492535"
     ]
   },
   {
@@ -258159,31 +256880,6 @@
       "osm-stella-s-house-blend-cafe-node-7554725822"
     ],
     "phone": "(267) 404-2443"
-  },
-  {
-    "name": "Stellar Advisor",
-    "slug": "stellar-advisor-bethlehem",
-    "latitude": 40.6241326,
-    "longitude": -75.3817185,
-    "address": "714 Main Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": null,
-    "description": "Stellar Advisor (vacant) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/6327357729",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-stellar-advisor-node-6327357729"
-    ]
   },
   {
     "name": "STEMCivics at PURPLEfect Parc Middle School",
@@ -268736,31 +267432,6 @@
     "phone": "(609) 397-5900"
   },
   {
-    "name": "The Broad Resale Boutique",
-    "slug": "broad-resale-boutique-bethlehem",
-    "latitude": 40.6223145,
-    "longitude": -75.3934314,
-    "address": "727 West Broad Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": null,
-    "description": "The Broad Resale Boutique (second hand) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/7671036058",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-the-broad-resale-boutique-node-7671036058"
-    ]
-  },
-  {
     "name": "The Broad Street Grind",
     "slug": "broad-street-grind-souderton",
     "latitude": 40.3100258,
@@ -278932,32 +277603,6 @@
     ]
   },
   {
-    "name": "Tinicum Workshop & Fabrication",
-    "slug": "tinicum-workshop-and-fabrication-upper-black-eddy",
-    "latitude": 40.4829,
-    "longitude": -75.1082,
-    "address": "874 River Road, Upper Black Eddy, PA 18972",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Manufacturing",
-    "website": null,
-    "description": "Tinicum Workshop & Fabrication is listed in Upper Black Eddy but has not been verified yet.",
-    "logo_url": null,
-    "source_name": null,
-    "source_url": null,
-    "data_status": "unverified",
-    "verification_note": "Listed from early sample data. We have not confirmed this business or its details yet. If you know it, please send an update.",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "tinicum-workshop-and-fabrication"
-    ]
-  },
-  {
     "name": "Tint Technician",
     "slug": "tint-technician-hellertown",
     "latitude": 40.57394,
@@ -280031,36 +278676,6 @@
     "founded_label": "Registered with the PA Dept. of State in 2026",
     "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
     "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c"
-  },
-  {
-    "name": "Toby's Cup",
-    "slug": "tobys-cup-phillipsburg",
-    "latitude": 40.6983494,
-    "longitude": -75.1717593,
-    "address": "857 Memorial Parkway/U.S. 22 West, Phillipsburg, 08865",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Dining",
-    "website": "https://www.yelp.com/biz/tobys-cup-phillipsburg",
-    "description": "Toby's Cup (fast food) is in Phillipsburg. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/2400635881",
-    "data_status": "needs-website-audit",
-    "hiring_signal": "unknown",
-    "hiring_confidence": 0,
-    "hiring_evidence_url": "https://www.yelp.com/biz/tobys-cup-phillipsburg",
-    "hiring_last_checked": "2026-05-06",
-    "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-17",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-toby-s-cup-node-2400635881"
-    ]
   },
   {
     "name": "Tocci's Tailgaters Pub & Grille",
@@ -282777,31 +281392,6 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-tre-scalini-ristorante-node-6221940190"
-    ]
-  },
-  {
-    "name": "Treasure Box",
-    "slug": "treasure-box-bethlehem",
-    "latitude": 40.62281,
-    "longitude": -75.3977335,
-    "address": "1104 West Broad Street, Bethlehem, PA, 18018",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Services",
-    "website": null,
-    "description": "Treasure Box (disused) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/7671036070",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-treasure-box-node-7671036070"
     ]
   },
   {
@@ -290014,32 +288604,6 @@
       "osm-upper-bucks-free-press-node-13048640268"
     ],
     "phone": "(267) 379-3590"
-  },
-  {
-    "name": "Upper Bucks Logistics",
-    "slug": "upper-bucks-logistics-pipersville",
-    "latitude": 40.5275,
-    "longitude": -75.3422,
-    "address": "7020 Easton Road, Pipersville, PA 18947",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Logistics",
-    "website": null,
-    "description": "Upper Bucks Logistics is listed in Pipersville but has not been verified yet.",
-    "logo_url": null,
-    "source_name": null,
-    "source_url": null,
-    "data_status": "unverified",
-    "verification_note": "Listed from early sample data. We have not confirmed this business or its details yet. If you know it, please send an update.",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "upper-bucks-logistics"
-    ]
   },
   {
     "name": "Upper Bucks Orthopedics at Grand View Health",
@@ -309725,31 +308289,6 @@
     "established_employer": false,
     "previous_slugs": [
       "osm-yosko-park-way-192879664"
-    ]
-  },
-  {
-    "name": "You're Welcome In",
-    "slug": "youre-welcome-in-bethlehem",
-    "latitude": 40.6109583,
-    "longitude": -75.378313,
-    "address": "325 South New Street, Bethlehem, PA, 18015",
-    "total_employees": null,
-    "hiring": false,
-    "years_in_business": null,
-    "best_places_score": null,
-    "onboarding_note": null,
-    "category": "Retail",
-    "website": null,
-    "description": "You're Welcome In (vacant) is in Bethlehem. Location from OpenStreetMap.",
-    "logo_url": null,
-    "source_name": "OpenStreetMap Overpass business candidate import",
-    "source_url": "https://www.openstreetmap.org/node/671546377",
-    "data_status": "needs-website-audit",
-    "hiring_status": "no_online_info",
-    "established": false,
-    "established_employer": false,
-    "previous_slugs": [
-      "osm-you-re-welcome-in-node-671546377"
     ]
   },
   {
