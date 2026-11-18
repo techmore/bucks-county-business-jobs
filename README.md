@@ -132,6 +132,7 @@ node tools/clean-data.js --write
 - `companies.json` (current state of every business) and `data/hiring-history.jsonl` (every hiring check, append-only) are the source files kept in git.
 - `node --no-warnings tools/build-db.js` builds `data/directory.sqlite` (not committed) with `businesses` and `hiring_checks` tables for querying.
 - `node --no-warnings tools/build-pages.js` generates a static page per business at `company/<slug>.html`, plus `sitemap.xml` and `robots.txt`.
+- A listing whose only source is the PA sales-tax licence file, with no website found for it, stays on the site and the map but its page is marked `noindex` and left out of `sitemap.xml`, because a licence alone doesn't prove a public storefront.
 - The daily GitHub Action re-checks the 400 oldest listings, applies the transparency rules, rebuilds the database and pages, and publishes.
 - Listing data comes from sources anyone can edit, so every value is escaped before it reaches a page and only `http(s)` links are allowed. `node --no-warnings tools/test-escaping.js` checks this with hostile records; run it after changing `assets/app.js`, `assets/pathway.js` or `tools/build-pages.js`.
 

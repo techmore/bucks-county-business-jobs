@@ -11,6 +11,18 @@ const guide = require("../assets/guide.js");
 const SITE = "https://techmore.github.io/bucks-county-business-jobs/";
 const REPO = "https://github.com/techmore/bucks-county-business-jobs";
 const OUT_DIR = "company";
+const SALES_TAX_SOURCE = /sales-tax licen[cs]e/i;
+
+// "Sales-tax-only": the listing's only source is the PA Dept. of Revenue sales-tax licence file and
+// nobody has found the business a website. A licence alone doesn't prove a public storefront, so these
+// pages stay on the site and the map but are kept out of search engines (noindex, not in sitemap.xml).
+// A founding year matched from the state registry doesn't count: it shows a company is registered,
+// not that it has a public storefront. Every other source (OpenStreetMap, Peddler's Village, anchor employers) is indexed.
+function salesTaxOnly(business) {
+  return SALES_TAX_SOURCE.test(business.source_name || "") && !safeUrl(business.website);
+}
+
+
 const SIGNAL_LABEL = {
   hiring_likely: "Openings found",
   hiring_possible: "Openings likely",
@@ -120,7 +132,7 @@ function page(business, checks = []) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${esc(title)} | Bucks County Business &amp; Jobs</title>
-  <meta name="description" content="${esc(description)}">
+  <meta name="description" content="${esc(description)}">${salesTaxOnly(business) ? `\n  <meta name="robots" content="noindex">` : ""}
   <link rel="canonical" href="${SITE}company/${esc(business.slug)}.html">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
@@ -249,18 +261,19 @@ function main() {
   }
 
   const today = new Date().toISOString().slice(0, 10);
+  const indexed = businesses.filter((business) => !salesTaxOnly(business));
   const urls = [
     `  <url><loc>${SITE}</loc><lastmod>${today}</lastmod></url>`,
     `  <url><loc>${SITE}find-work.html</loc><lastmod>${today}</lastmod></url>`,
     `  <url><loc>${SITE}directory.html</loc><lastmod>${today}</lastmod></url>`,
     `  <url><loc>${SITE}about.html</loc></url>`,
-    ...businesses.map((business) => `  <url><loc>${SITE}company/${business.slug}.html</loc>${/^\d{4}-\d{2}-\d{2}$/.test(business.hiring_last_checked || "") ? `<lastmod>${business.hiring_last_checked}</lastmod>` : ""}</url>`)
+    ...indexed.map((business) => `  <url><loc>${SITE}company/${business.slug}.html</loc>${/^\d{4}-\d{2}-\d{2}$/.test(business.hiring_last_checked || "") ? `<lastmod>${business.hiring_last_checked}</lastmod>` : ""}</url>`)
   ];
   fs.writeFileSync("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>\n`);
   fs.writeFileSync("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${SITE}sitemap.xml\n`);
 
-  console.log(`Pages: ${businesses.length} total, ${written} written/updated, ${removed} removed. sitemap.xml has ${urls.length} URLs.`);
+  console.log(`Pages: ${businesses.length} total, ${written} written/updated, ${removed} removed. sitemap.xml has ${urls.length} URLs; ${businesses.length - indexed.length} sales-tax-only pages are noindex and left out of it.`);
 }
 
 if (require.main === module) main();
-module.exports = { page, jsonLd, esc, safeUrl, safeSlug };
+module.exports = { page, jsonLd, esc, safeUrl, safeSlug, salesTaxOnly };

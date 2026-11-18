@@ -331,6 +331,15 @@ async function main() {
   check(appContext.esc(`&<>"'`) === "&amp;&lt;&gt;&quot;&#39;", "app.js esc() must escape & < > \" '");
   check(typeof appContext.safeUrl === "function" && appContext.safeUrl("javascript:alert(1)") === "" && appContext.safeUrl("https://example.com/") === "https://example.com/", "app.js safeUrl is wrong");
 
+  // Sales-tax-only pages are kept out of search engines; everything else is indexable.
+  const plain = { name: "Plain Shop", slug: "plain-shop", latitude: 40.4, longitude: -75.1, category: "Retail", address: "1 Main St, Doylestown, PA, 18901", town: "Doylestown" };
+  const taxOnly = buildPages.page({ ...plain, source_name: "PA Dept. of Revenue sales-tax license", source_url: "https://data.pa.gov/d/ugeq-ckxd" }, []);
+  const taxWithSite = buildPages.page({ ...plain, source_name: "PA Dept. of Revenue sales-tax license", website: "https://plainshop.example/" }, []);
+  const osm = buildPages.page({ ...plain, source_name: "OpenStreetMap Overpass business candidate import" }, []);
+  const noindex = `<meta name="robots" content="noindex">`;
+  check(taxOnly.includes(noindex), "a sales-tax-only page is missing noindex");
+  check(!taxWithSite.includes(noindex) && !osm.includes(noindex), "noindex was added to a page that has another source or a website");
+
   if (problems.length) {
     console.error(`FAILED: ${problems.length} problem(s)`);
     for (const problem of [...new Set(problems)].slice(0, 60)) console.error(`  - ${problem}`);
