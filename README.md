@@ -133,6 +133,7 @@ node tools/clean-data.js --write
 - `node --no-warnings tools/build-db.js` builds `data/directory.sqlite` (not committed) with `businesses` and `hiring_checks` tables for querying.
 - `node --no-warnings tools/build-pages.js` generates a static page per business at `company/<slug>.html`, plus `sitemap.xml` and `robots.txt`.
 - The daily GitHub Action re-checks the 400 oldest listings, applies the transparency rules, rebuilds the database and pages, and publishes.
+- Listing data comes from sources anyone can edit, so every value is escaped before it reaches a page and only `http(s)` links are allowed. `node --no-warnings tools/test-escaping.js` checks this with hostile records; run it after changing `assets/app.js`, `assets/pathway.js` or `tools/build-pages.js`.
 
 Images: only freely licensed images (for example Wikimedia Commons links on OpenStreetMap) should be added. Don't copy photos from business websites.
 

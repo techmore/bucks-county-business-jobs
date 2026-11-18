@@ -12,6 +12,19 @@
   const esc = (value) =>
     String(value ?? "").replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
 
+  // Links built from listing data may only point at http(s) pages. Anything else
+  // (javascript:, data:, a bare host, an e-mail address) returns "" and gets no link.
+  function safeUrl(value) {
+    const text = String(value ?? "").trim();
+    if (!/^https?:\/\/\S+$/i.test(text)) return "";
+    try {
+      const { protocol } = new URL(text);
+      return protocol === "http:" || protocol === "https:" ? text : "";
+    } catch {
+      return "";
+    }
+  }
+
   function loadProfile() {
     try {
       return JSON.parse(localStorage.getItem(PROFILE_KEY)) || {};
@@ -140,23 +153,24 @@
     const status = window.STATUS[statusOf(company)];
     const info = industryOf(company);
     const saved = (state.profile.saved || []).includes(company.slug);
-    const site = company.hiring_evidence_url || company.website;
+    const jobsUrl = safeUrl(company.hiring_evidence_url);
+    const site = jobsUrl || safeUrl(company.website);
     return `
       <article class="company-card path-card">
         <div class="path-card-top">
           <div>
             <h3><a href="company/${encodeURIComponent(company.slug)}.html">${esc(company.name)}</a></h3>
-            <p class="meta">${esc(company.category || "Local business")} · ${esc(townOf(company) || "nearby")} · ${distance.toFixed(1)} mi</p>
+            <p class="meta">${esc(company.category || "Local business")} · ${esc(townOf(company) || "nearby")} · ${esc(distance.toFixed(1))} mi</p>
           </div>
           <button type="button" class="star" data-save="${esc(company.slug)}" aria-pressed="${saved}" title="${saved ? "Saved" : "Save this place"}">${saved ? "★" : "☆"}</button>
         </div>
-        <p><span class="status-pill" style="--c:${status.color}">${esc(status.label)}</span>${company.established_employer ? ` <span class="pop-badge">Established local employer</span>` : company.established ? ` <span class="meta">Established 10+ years</span>` : ""}</p>
+        <p><span class="status-pill" style="--c:${esc(status.color)}">${esc(status.label)}</span>${company.established_employer ? ` <span class="pop-badge">Established local employer</span>` : company.established ? ` <span class="meta">Established 10+ years</span>` : ""}</p>
         ${company.hiring_track ? `<p class="meta">${esc(company.hiring_track)}.</p>` : ""}
         ${match.hits.length ? `<p class="meta"><b>Matches:</b> ${esc(match.hits.join(", "))}</p>` : `<p class="meta"><b>Typical roles:</b> ${esc(info.roles.slice(0, 4).join(", "))}</p>`}
         <div class="card-actions">
           <a class="button secondary" href="company/${encodeURIComponent(company.slug)}.html">Details</a>
-          ${site ? `<a class="button ghost" href="${esc(site)}" rel="noopener">${company.hiring_evidence_url ? "Jobs page" : "Website"}</a>` : ""}
-          ${company.phone ? `<a class="button ghost" href="tel:${esc(company.phone.replace(/[^\d+]/g, ""))}">Call</a>` : ""}
+          ${site ? `<a class="button ghost" href="${esc(site)}" rel="noopener">${jobsUrl ? "Jobs page" : "Website"}</a>` : ""}
+          ${company.phone ? `<a class="button ghost" href="tel:${esc(String(company.phone).replace(/[^\d+]/g, ""))}">Call</a>` : ""}
           <a class="button ghost" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`${company.latitude},${company.longitude}`)}" rel="noopener">Directions</a>
         </div>
       </article>`;

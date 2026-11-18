@@ -11,11 +11,6 @@ const guide = require("../assets/guide.js");
 const SITE = "https://techmore.github.io/bucks-county-business-jobs/";
 const REPO = "https://github.com/techmore/bucks-county-business-jobs";
 const OUT_DIR = "company";
-
-const db = new DatabaseSync(path.join("data", "directory.sqlite"), { readOnly: true });
-const businesses = db.prepare("SELECT * FROM businesses ORDER BY slug").all();
-const checksFor = db.prepare("SELECT checked, signal, evidence_url FROM hiring_checks WHERE slug = ? ORDER BY checked DESC");
-
 const SIGNAL_LABEL = {
   hiring_likely: "Openings found",
   hiring_possible: "Openings likely",
@@ -27,6 +22,30 @@ const SIGNAL_LABEL = {
 
 function esc(value) {
   return String(value ?? "").replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
+}
+
+// Links built from listing data may only point at http(s) pages. Anything else
+// (javascript:, data:, a bare host, an e-mail address) returns "" and gets no link.
+function safeUrl(value) {
+  const text = String(value ?? "").trim();
+  if (!/^https?:\/\/\S+$/i.test(text)) return "";
+  try {
+    const { protocol } = new URL(text);
+    return protocol === "http:" || protocol === "https:" ? text : "";
+  } catch {
+    return "";
+  }
+}
+
+// A slug becomes a file name and a URL, so only the characters the slug makers produce are allowed.
+function safeSlug(slug) {
+  return /^[a-z0-9][a-z0-9-]*$/.test(String(slug ?? ""));
+}
+
+// Coordinates are written into a script on the page, so they must be plain numbers.
+function coordinate(value) {
+  const number = typeof value === "number" ? value : Number.NaN;
+  return Number.isFinite(number) ? number : null;
 }
 
 function niceDate(iso) {
@@ -56,34 +75,40 @@ function jsonLd(business) {
   };
   if (business.address && !business.address_approximate) data.address = business.address;
   else if (business.town) data.address = { "@type": "PostalAddress", addressLocality: business.town, addressRegion: /, NJ\b/.test(business.address || "") ? "NJ" : "PA" };
-  if (business.website) data.url = business.website;
+  if (safeUrl(business.website)) data.url = safeUrl(business.website);
   if (business.phone) data.telephone = business.phone;
   if (business.opening_hours) data.openingHours = business.opening_hours;
-  if (business.photo_url) data.image = business.photo_url;
+  if (safeUrl(business.photo_url)) data.image = safeUrl(business.photo_url);
   // Escape "<" so the JSON can't close the script tag.
   return JSON.stringify(data).replace(/</g, "\\u003c");
 }
 
-function page(business) {
+function page(business, checks = []) {
   const status = guide.STATUS[business.hiring_status] || guide.STATUS.no_online_info;
   const industry = guide.INDUSTRY[business.category] || guide.DEFAULT_INDUSTRY;
   const speed = guide.SPEED[industry.speed];
   const town = business.town || "Bucks County area";
-  const checks = checksFor.all(business.slug);
   const title = `${business.name}: jobs and hiring in ${town}`;
   const description = `${business.name} (${business.category || "local business"}) in ${town}. ${status.label}${business.hiring_last_checked ? `, checked ${niceDate(business.hiring_last_checked)}` : ""}. Typical roles: ${industry.roles.slice(0, 3).join(", ")}.`;
   const directions = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
     business.address_approximate || !business.address ? `${business.latitude},${business.longitude}` : business.address
   )}`;
-  const website = business.website
-    ? `<a class="button" href="${esc(business.website)}" rel="noopener">Website</a>`
+  const latitude = coordinate(business.latitude);
+  const longitude = coordinate(business.longitude);
+  const evidenceUrl = safeUrl(business.hiring_evidence_url);
+  const foundedUrl = safeUrl(business.founded_source_url);
+  const sourceUrl = safeUrl(business.source_url);
+  const photoUrl = safeUrl(business.photo_url);
+  const photoCreditUrl = safeUrl(business.photo_credit_url);
+  const website = safeUrl(business.website)
+    ? `<a class="button" href="${esc(safeUrl(business.website))}" rel="noopener">Website</a>`
     : `<a class="button" href="https://www.google.com/search?q=${encodeURIComponent(`${business.name} ${town}`)}" rel="noopener">Look them up</a>`;
   const history = checks.length
     ? `<ul class="history">${checks
         .map(
           (check) =>
             `<li><span>${esc(niceDate(check.checked))}</span> ${esc(SIGNAL_LABEL[check.signal] || check.signal || "Checked")}${
-              check.evidence_url ? ` · <a href="${esc(check.evidence_url)}" rel="noopener nofollow">evidence</a>` : ""
+              safeUrl(check.evidence_url) ? ` · <a href="${esc(safeUrl(check.evidence_url))}" rel="noopener nofollow">evidence</a>` : ""
             }</li>`
         )
         .join("")}</ul>`
@@ -96,7 +121,7 @@ function page(business) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${esc(title)} | Bucks County Business &amp; Jobs</title>
   <meta name="description" content="${esc(description)}">
-  <link rel="canonical" href="${SITE}company/${business.slug}.html">
+  <link rel="canonical" href="${SITE}company/${esc(business.slug)}.html">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
   <meta property="og:type" content="website">
@@ -124,13 +149,13 @@ function page(business) {
       <p class="eyebrow">${esc(business.category || "Local business")} · ${esc(town)}</p>
       <h1>${esc(business.name)}</h1>
       <p class="lead">${esc(business.description || "")}</p>
-      ${business.phone ? `<p class="actions" style="margin-top:12px;"><a class="button" href="tel:${esc(business.phone.replace(/[^\d+]/g, ""))}">Call ${esc(business.phone)}</a></p>` : ""}
+      ${business.phone ? `<p class="actions" style="margin-top:12px;"><a class="button" href="tel:${esc(String(business.phone).replace(/[^\d+]/g, ""))}">Call ${esc(business.phone)}</a></p>` : ""}
     </section>
     <section class="detail-layout">
       <div class="panel detail-panel">
-        <div class="pop-status" style="--c:${status.color}"><b>${esc(status.label)}</b>${
+        <div class="pop-status" style="--c:${esc(status.color)}"><b>${esc(status.label)}</b>${
           business.hiring_last_checked ? ` (checked ${esc(niceDate(business.hiring_last_checked))})` : ""
-        }${business.hiring_evidence_url ? ` · <a href="${esc(business.hiring_evidence_url)}" rel="noopener nofollow">See jobs page</a>` : ""}</div>
+        }${evidenceUrl ? ` · <a href="${esc(evidenceUrl)}" rel="noopener nofollow">See jobs page</a>` : ""}</div>
         ${business.established_employer ? `<p><span class="pop-badge">Established local employer</span> <span class="meta">In business 10+ years (their website or PA registration), local, and openings or a careers page seen in checks months apart.</span></p>` : ""}
         <p class="pop-note">${esc(business.hiring_note || status.note)}</p>
         ${business.hiring_track ? `<p class="pop-note">${esc(business.hiring_track)}.</p>` : ""}
@@ -144,10 +169,12 @@ function page(business) {
         <h2>Details</h2>
         <div class="facts">
           <div class="fact"><strong>${esc(business.address || "Address not listed")}</strong><span>${business.address_approximate ? "Approximate location" : "Address"}</span></div>
-          ${business.phone ? `<a class="fact" href="tel:${esc(business.phone.replace(/[^\d+]/g, ""))}"><strong>${esc(business.phone)}</strong><span>Phone (from OpenStreetMap)</span></a>` : ""}
+          ${business.phone ? `<a class="fact" href="tel:${esc(String(business.phone).replace(/[^\d+]/g, ""))}"><strong>${esc(business.phone)}</strong><span>Phone (from OpenStreetMap)</span></a>` : ""}
           ${business.opening_hours ? `<div class="fact"><strong>${esc(business.opening_hours)}</strong><span>Hours (from OpenStreetMap; may be out of date)</span></div>` : ""}
           ${business.founded_label
-            ? `<a class="fact" href="${esc(business.founded_source_url)}" rel="noopener"><strong>${esc(business.founded_label)}</strong><span>${esc(business.founded_note || "")}</span></a>`
+            ? foundedUrl
+              ? `<a class="fact" href="${esc(foundedUrl)}" rel="noopener"><strong>${esc(business.founded_label)}</strong><span>${esc(business.founded_note || "")}</span></a>`
+              : `<div class="fact"><strong>${esc(business.founded_label)}</strong><span>${esc(business.founded_note || "")}</span></div>`
             : business.years_in_business ? `<div class="fact"><strong>${esc(business.years_in_business)} years</strong><span>In business</span></div>` : ""}
           ${business.start_date ? `<div class="fact"><strong>Since ${esc(business.start_date)}</strong><span>Opened (OpenStreetMap)</span></div>` : ""}
           ${business.total_employees ? `<div class="fact"><strong>${esc(business.total_employees)}</strong><span>Employees</span></div>` : ""}
@@ -160,13 +187,13 @@ function page(business) {
         <div class="actions" style="margin-top:20px;">
           ${website}
           <a class="button secondary" href="${esc(directions)}" rel="noopener">Directions</a>
-          <a class="button ghost" href="../index.html?company=${encodeURIComponent(business.slug)}">View on map</a>
-          ${business.source_url ? `<a class="button ghost" href="${esc(business.source_url)}" rel="noopener nofollow">Source</a>` : ""}
+          <a class="button ghost" href="../index.html?company=${esc(encodeURIComponent(business.slug))}">View on map</a>
+          ${sourceUrl ? `<a class="button ghost" href="${esc(sourceUrl)}" rel="noopener nofollow">Source</a>` : ""}
         </div>
         <p class="meta" style="margin-top:14px;">Something wrong or out of date? <a href="${esc(issueLink(business))}">Fix this listing</a>.</p>
       </div>
       <div class="detail-side">
-        ${business.photo_url ? `<figure class="photo"><img src="${esc(business.photo_url)}" alt="${esc(business.name)}" loading="lazy"><figcaption>Photo: <a href="${esc(business.photo_credit_url)}" rel="noopener">Wikimedia Commons</a> (see page for author and license)</figcaption></figure>` : ""}
+        ${photoUrl ? `<figure class="photo"><img src="${esc(photoUrl)}" alt="${esc(business.name)}" loading="lazy"><figcaption>Photo: ${photoCreditUrl ? `<a href="${esc(photoCreditUrl)}" rel="noopener">Wikimedia Commons</a>` : "Wikimedia Commons"} (see page for author and license)</figcaption></figure>` : ""}
         <div class="map-shell"><div id="mini-map"></div></div>
       </div>
     </section>
@@ -180,10 +207,10 @@ function page(business) {
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     (function () {
-      var here = [${business.latitude}, ${business.longitude}];
+      var here = [${latitude}, ${longitude}];
       var map = L.map("mini-map", { scrollWheelZoom: false }).setView(here, ${business.address_approximate ? 13 : 15});
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
-      L.circleMarker(here, { radius: 9, color: "#fff", weight: 3, fillColor: "${status.color}", fillOpacity: 1 }).addTo(map);
+      L.circleMarker(here, { radius: 9, color: "#fff", weight: 3, fillColor: ${JSON.stringify(String(status.color)).replace(/</g, "\\u003c")}, fillOpacity: 1 }).addTo(map);
     })();
   </script>
 </body>
@@ -191,37 +218,49 @@ function page(business) {
 `;
 }
 
-fs.mkdirSync(OUT_DIR, { recursive: true });
-const keep = new Set(["index.html"]);
-let written = 0;
-for (const business of businesses) {
-  const file = `${business.slug}.html`;
-  keep.add(file);
-  const html = page(business);
-  const target = path.join(OUT_DIR, file);
-  if (!fs.existsSync(target) || fs.readFileSync(target, "utf8") !== html) {
-    fs.writeFileSync(target, html);
-    written += 1;
+function main() {
+  const db = new DatabaseSync(path.join("data", "directory.sqlite"), { readOnly: true });
+  const all = db.prepare("SELECT * FROM businesses ORDER BY slug").all();
+  const checksFor = db.prepare("SELECT checked, signal, evidence_url FROM hiring_checks WHERE slug = ? ORDER BY checked DESC");
+  // A record that can't be published safely (odd slug, or coordinates that aren't numbers) gets no page.
+  const businesses = all.filter((business) => safeSlug(business.slug) && coordinate(business.latitude) !== null && coordinate(business.longitude) !== null);
+  for (const business of all) if (!businesses.includes(business)) console.warn(`Skipped (unsafe slug or coordinates): ${JSON.stringify(business.slug)}`);
+
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  const keep = new Set(["index.html"]);
+  let written = 0;
+  for (const business of businesses) {
+    const file = `${business.slug}.html`;
+    keep.add(file);
+    const html = page(business, checksFor.all(business.slug));
+    const target = path.join(OUT_DIR, file);
+    if (!fs.existsSync(target) || fs.readFileSync(target, "utf8") !== html) {
+      fs.writeFileSync(target, html);
+      written += 1;
+    }
   }
-}
-// Remove pages for businesses no longer in the directory.
-let removed = 0;
-for (const file of fs.readdirSync(OUT_DIR)) {
-  if (file.endsWith(".html") && !keep.has(file)) {
-    fs.rmSync(path.join(OUT_DIR, file));
-    removed += 1;
+  // Remove pages for businesses no longer in the directory.
+  let removed = 0;
+  for (const file of fs.readdirSync(OUT_DIR)) {
+    if (file.endsWith(".html") && !keep.has(file)) {
+      fs.rmSync(path.join(OUT_DIR, file));
+      removed += 1;
+    }
   }
+
+  const today = new Date().toISOString().slice(0, 10);
+  const urls = [
+    `  <url><loc>${SITE}</loc><lastmod>${today}</lastmod></url>`,
+    `  <url><loc>${SITE}find-work.html</loc><lastmod>${today}</lastmod></url>`,
+    `  <url><loc>${SITE}directory.html</loc><lastmod>${today}</lastmod></url>`,
+    `  <url><loc>${SITE}about.html</loc></url>`,
+    ...businesses.map((business) => `  <url><loc>${SITE}company/${business.slug}.html</loc>${/^\d{4}-\d{2}-\d{2}$/.test(business.hiring_last_checked || "") ? `<lastmod>${business.hiring_last_checked}</lastmod>` : ""}</url>`)
+  ];
+  fs.writeFileSync("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>\n`);
+  fs.writeFileSync("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${SITE}sitemap.xml\n`);
+
+  console.log(`Pages: ${businesses.length} total, ${written} written/updated, ${removed} removed. sitemap.xml has ${urls.length} URLs.`);
 }
 
-const today = new Date().toISOString().slice(0, 10);
-const urls = [
-  `  <url><loc>${SITE}</loc><lastmod>${today}</lastmod></url>`,
-  `  <url><loc>${SITE}find-work.html</loc><lastmod>${today}</lastmod></url>`,
-  `  <url><loc>${SITE}directory.html</loc><lastmod>${today}</lastmod></url>`,
-  `  <url><loc>${SITE}about.html</loc></url>`,
-  ...businesses.map((business) => `  <url><loc>${SITE}company/${business.slug}.html</loc>${business.hiring_last_checked ? `<lastmod>${business.hiring_last_checked}</lastmod>` : ""}</url>`)
-];
-fs.writeFileSync("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>\n`);
-fs.writeFileSync("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${SITE}sitemap.xml\n`);
-
-console.log(`Pages: ${businesses.length} total, ${written} written/updated, ${removed} removed. sitemap.xml has ${urls.length} URLs.`);
+if (require.main === module) main();
+module.exports = { page, jsonLd, esc, safeUrl, safeSlug };

@@ -28,7 +28,7 @@ function distanceMiles(lat1, lon1, lat2, lon2) {
 }
 
 function initials(name) {
-  return name
+  return String(name ?? "")
     .split(/\s+/)
     .filter(Boolean)
     .slice(0, 2)
@@ -47,7 +47,7 @@ function numberOrUnknown(value, suffix = "") {
 }
 
 function websiteHref(company) {
-  return company.website || company.source_url || "#";
+  return safeUrl(company.website) || safeUrl(company.source_url) || "#";
 }
 
 function hasUsableWebsite(company) {
@@ -63,8 +63,9 @@ function websiteDiscoveryHref(company) {
 }
 
 function websiteAction(company, className = "button ghost") {
-  if (hasUsableWebsite(company)) return `<a class="${className}" href="${company.website}">Website</a>`;
-  return `<a class="${className}" href="${websiteDiscoveryHref(company)}">Find Website</a>`;
+  const site = hasUsableWebsite(company) ? safeUrl(company.website) : "";
+  if (site) return `<a class="${esc(className)}" href="${esc(site)}">Website</a>`;
+  return `<a class="${esc(className)}" href="${esc(websiteDiscoveryHref(company))}">Find Website</a>`;
 }
 
 function directoryHref(filters = {}) {
@@ -95,6 +96,19 @@ function industryOf(company) {
 
 function esc(value) {
   return String(value ?? "").replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
+}
+
+// Links built from listing data may only point at http(s) pages. Anything else
+// (javascript:, data:, a bare host, an e-mail address) returns "" and gets no link.
+function safeUrl(value) {
+  const text = String(value ?? "").trim();
+  if (!/^https?:\/\/\S+$/i.test(text)) return "";
+  try {
+    const { protocol } = new URL(text);
+    return protocol === "http:" || protocol === "https:" ? text : "";
+  } catch {
+    return "";
+  }
 }
 
 function searchText(company) {
@@ -145,19 +159,19 @@ function popupHtml(company) {
   const info = industryOf(company);
   const speed = SPEED[info.speed];
   const checked = company.hiring_last_checked ? ` (checked ${esc(company.hiring_last_checked)})` : "";
-  const evidence = company.hiring_evidence_url ? ` <a href="${esc(company.hiring_evidence_url)}" target="_blank" rel="noopener">See jobs page</a>` : "";
+  const evidence = safeUrl(company.hiring_evidence_url) ? ` <a href="${esc(safeUrl(company.hiring_evidence_url))}" target="_blank" rel="noopener">See jobs page</a>` : "";
   const years = company.years_in_business ? `<div class="pop-guide"><b>${esc(company.years_in_business)} years</b> in business</div>` : "";
-  const site = company.website
-    ? `<a href="${esc(company.website)}" target="_blank" rel="noopener">Website</a>`
-    : `<a href="${websiteDiscoveryHref(company)}" target="_blank" rel="noopener">Look them up</a>`;
+  const site = safeUrl(company.website)
+    ? `<a href="${esc(safeUrl(company.website))}" target="_blank" rel="noopener">Website</a>`
+    : `<a href="${esc(websiteDiscoveryHref(company))}" target="_blank" rel="noopener">Look them up</a>`;
   const directions = company.address
-    ? ` · <a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(company.address)}" target="_blank" rel="noopener">Directions</a>`
+    ? ` · <a href="${esc(`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(company.address)}`)}" target="_blank" rel="noopener">Directions</a>`
     : "";
   return `
     <div class="pop">
       <strong class="pop-name">${esc(company.name)}</strong>
       <div class="pop-meta">${esc(company.category)} · ${esc(townFor(company))}</div>
-      <div class="pop-status" style="--c:${STATUS[status].color}"><b>${STATUS[status].label}</b>${checked}.${evidence}</div>
+      <div class="pop-status" style="--c:${esc(STATUS[status].color)}"><b>${esc(STATUS[status].label)}</b>${checked}.${evidence}</div>
       <div class="pop-note">${esc(company.hiring_note || STATUS[status].note)}</div>
       ${company.verification_note ? `<div class="pop-note warn">${esc(company.verification_note)}</div>` : ""}
       ${company.established_employer ? `<div class="pop-badge">Established local employer</div>` : ""}
@@ -165,9 +179,9 @@ function popupHtml(company) {
       ${company.hiring_track ? `<div class="pop-guide">${esc(company.hiring_track)}</div>` : ""}
       <div class="pop-guide"><b>Typical roles:</b> ${esc(info.roles.join(", "))}</div>
       <div class="pop-guide"><b>Skills that help:</b> ${esc(info.skills.join(", "))}</div>
-      <div class="pop-guide"><b>${speed.label}</b>, ${speed.detail}. <span class="pop-fine">Typical for the industry, not this business.</span></div>
-      ${company.phone ? `<div class="pop-guide"><a href="tel:${esc(company.phone.replace(/[^\d+]/g, ""))}"><b>Call ${esc(company.phone)}</b></a></div>` : ""}
-      <div class="pop-links">${site} · <a href="${detailHref(company)}">Details</a>${directions}</div>
+      <div class="pop-guide"><b>${esc(speed.label)}</b>, ${esc(speed.detail)}. <span class="pop-fine">Typical for the industry, not this business.</span></div>
+      ${company.phone ? `<div class="pop-guide"><a href="tel:${esc(String(company.phone).replace(/[^\d+]/g, ""))}"><b>Call ${esc(company.phone)}</b></a></div>` : ""}
+      <div class="pop-links">${site} · <a href="${esc(detailHref(company))}">Details</a>${directions}</div>
     </div>`;
 }
 
@@ -316,27 +330,30 @@ function initMapExplorer(companies, mapApi) {
 }
 
 function companyCard(company) {
-  const score = company.best_places_score ? `${company.best_places_score}/10` : "Not scored";
+  // Every value from a listing is escaped before it goes into the page: names and
+  // descriptions come from public sources (OpenStreetMap, licence files) that anyone can edit.
+  const score = company.best_places_score ? `${esc(company.best_places_score)}/10` : "Not scored";
   const onboarding = company.onboarding_note ? "Strong onboarding" : "Onboarding not listed";
-  const status = company.data_status ? ` • ${company.data_status.replaceAll("-", " ")}` : "";
-  const hiringSignal = company.hiring_signal ? ` • hiring audit: ${company.hiring_signal.replaceAll("_", " ")}` : "";
+  const status = company.data_status ? ` • ${esc(String(company.data_status).replaceAll("-", " "))}` : "";
+  const hiringSignal = company.hiring_signal ? ` • hiring audit: ${esc(String(company.hiring_signal).replaceAll("_", " "))}` : "";
+  const sourceUrl = safeUrl(company.source_url);
   return `
-    <article class="company-card" data-slug="${company.slug}">
+    <article class="company-card" data-slug="${esc(company.slug)}">
       <div class="card-top">
-        <div class="logo" aria-hidden="true">${initials(company.name)}</div>
+        <div class="logo" aria-hidden="true">${esc(initials(company.name))}</div>
         <div>
-          <h3>${company.name}</h3>
-          <p class="meta">${company.category} • ${company.address}</p>
+          <h3>${esc(company.name)}</h3>
+          <p class="meta">${esc(company.category)} • ${esc(company.address)}</p>
         </div>
       </div>
-      <span class="badge ${statusOf(company) === "hiring" ? "" : "muted"}" title="${esc(STATUS[statusOf(company)].note)}">${STATUS[statusOf(company)].label}</span>
-      <p>${company.description}</p>
-      <p class="meta">${numberOrUnknown(company.total_employees, " employees")} • ${numberOrUnknown(company.years_in_business, " years in business")} • Best Places: ${score} • ${onboarding}${status}${hiringSignal}</p>
+      <span class="badge ${statusOf(company) === "hiring" ? "" : "muted"}" title="${esc(STATUS[statusOf(company)].note)}">${esc(STATUS[statusOf(company)].label)}</span>
+      <p>${esc(company.description)}</p>
+      <p class="meta">${esc(numberOrUnknown(company.total_employees, " employees"))} • ${esc(numberOrUnknown(company.years_in_business, " years in business"))} • Best Places: ${score} • ${onboarding}${status}${hiringSignal}</p>
       <div class="card-actions">
-        <a class="button secondary" href="${detailHref(company)}">Company Detail</a>
-        <a class="button ghost" href="${pathToRoot()}index.html?company=${company.slug}">View on Map</a>
+        <a class="button secondary" href="${esc(detailHref(company))}">Company Detail</a>
+        <a class="button ghost" href="${esc(`${pathToRoot()}index.html?company=${encodeURIComponent(company.slug)}`)}">View on Map</a>
         ${websiteAction(company)}
-        ${!hasUsableWebsite(company) && company.source_url ? `<a class="button ghost" href="${company.source_url}">Source</a>` : ""}
+        ${!hasUsableWebsite(company) && sourceUrl ? `<a class="button ghost" href="${esc(sourceUrl)}">Source</a>` : ""}
       </div>
     </article>
   `;
@@ -394,11 +411,11 @@ function initDirectory(companies) {
   const signalSelect = document.querySelector("[data-filter='signal']");
   const sortSelect = document.querySelector("[data-sort]");
   const categories = [...new Set(companies.map((company) => company.category))].sort();
-  categorySelect.innerHTML = `<option value="">All categories</option>${categories.map((category) => `<option value="${category}">${category}</option>`).join("")}`;
+  categorySelect.innerHTML = `<option value="">All categories</option>${categories.map((category) => `<option value="${esc(category)}">${esc(category)}</option>`).join("")}`;
   const townSelect = document.querySelector("[data-filter='town']");
   if (townSelect) {
     const towns = [...new Set(companies.map(townFor))].filter(Boolean).sort();
-    townSelect.innerHTML = `<option value="">All towns</option>${towns.map((town) => `<option value="${town}">${town}</option>`).join("")}`;
+    townSelect.innerHTML = `<option value="">All towns</option>${towns.map((town) => `<option value="${esc(town)}">${esc(town)}</option>`).join("")}`;
   }
 
   const params = new URLSearchParams(window.location.search);
@@ -558,15 +575,15 @@ function renderTownCoverage(companies) {
             .map(
               (row) => `
                 <tr>
-                  <td><a href="${directoryHref({ town: row.town })}">${row.town}</a></td>
-                  <td class="number-cell"><a href="${directoryHref({ town: row.town })}">${money.format(row.total)}</a></td>
-                  <td class="number-cell"><a href="${directoryHref({ town: row.town, website: "with" })}">${money.format(row.websites)}</a></td>
+                  <td><a href="${esc(directoryHref({ town: row.town }))}">${esc(row.town)}</a></td>
+                  <td class="number-cell"><a href="${esc(directoryHref({ town: row.town }))}">${money.format(row.total)}</a></td>
+                  <td class="number-cell"><a href="${esc(directoryHref({ town: row.town, website: "with" }))}">${money.format(row.websites)}</a></td>
                   <td class="number-cell">${pct(row.websites, row.total)}</td>
-                  <td class="number-cell"><a href="${directoryHref({ town: row.town, signal: "audited" })}">${money.format(row.audited)}</a></td>
+                  <td class="number-cell"><a href="${esc(directoryHref({ town: row.town, signal: "audited" }))}">${money.format(row.audited)}</a></td>
                   <td class="number-cell">${pct(row.audited, row.websites)}</td>
-                  <td class="number-cell"><a href="${directoryHref({ town: row.town, signal: "positive" })}">${money.format(row.positive)}</a></td>
-                  <td class="number-cell"><a href="${directoryHref({ town: row.town, signal: "unknown" })}">${money.format(row.unknown)}</a></td>
-                  <td class="number-cell"><a href="${directoryHref({ town: row.town, website: "without" })}">${money.format(row.needsWebsite)}</a></td>
+                  <td class="number-cell"><a href="${esc(directoryHref({ town: row.town, signal: "positive" }))}">${money.format(row.positive)}</a></td>
+                  <td class="number-cell"><a href="${esc(directoryHref({ town: row.town, signal: "unknown" }))}">${money.format(row.unknown)}</a></td>
+                  <td class="number-cell"><a href="${esc(directoryHref({ town: row.town, website: "without" }))}">${money.format(row.needsWebsite)}</a></td>
                 </tr>
               `
             )
@@ -619,7 +636,7 @@ function initDataQuality(companies) {
   }
   if (townSummary) {
     townSummary.innerHTML = topCounts(needsWebsite, townFor, 18)
-      .map(([town, count]) => `<a class="fact" href="${directoryHref({ town, website: "without" })}"><strong>${money.format(count)}</strong><span>${town}</span></a>`)
+      .map(([town, count]) => `<a class="fact" href="${esc(directoryHref({ town, website: "without" }))}"><strong>${money.format(count)}</strong><span>${esc(town)}</span></a>`)
       .join("");
   }
 }
@@ -630,7 +647,7 @@ function initHiringAudit(companies) {
 
   const townSelect = document.querySelector("[data-audit-filter='town']");
   const towns = [...new Set(companies.map(townFor))].filter(Boolean).sort();
-  townSelect.innerHTML = `<option value="">All towns</option>${towns.map((town) => `<option value="${town}">${town}</option>`).join("")}`;
+  townSelect.innerHTML = `<option value="">All towns</option>${towns.map((town) => `<option value="${esc(town)}">${esc(town)}</option>`).join("")}`;
 
   const stats = document.querySelector("[data-audit-stats]");
   const counts = companies.reduce((acc, company) => {
@@ -673,7 +690,7 @@ function initDetail(companies) {
   const slug = document.body.dataset.companySlug || new URLSearchParams(window.location.search).get("slug");
   const company = companies.find((entry) => entry.slug === slug || (entry.previous_slugs || []).includes(slug));
   if (company && company.slug !== slug) {
-    window.location.replace(`${company.slug}.html`);
+    window.location.replace(`${encodeURIComponent(company.slug)}.html`);
     return;
   }
   if (!company) {
@@ -687,31 +704,31 @@ function initDetail(companies) {
   detail.innerHTML = `
     <section class="panel">
       <div class="card-top">
-        <div class="logo" aria-hidden="true">${initials(company.name)}</div>
+        <div class="logo" aria-hidden="true">${esc(initials(company.name))}</div>
         <div>
-          <span class="badge ${statusOf(company) === "hiring" ? "" : "muted"}" title="${esc(STATUS[statusOf(company)].note)}">${STATUS[statusOf(company)].label}</span>
-          <h1>${company.name}</h1>
-          <p class="meta">${company.category} • ${company.address}</p>
+          <span class="badge ${statusOf(company) === "hiring" ? "" : "muted"}" title="${esc(STATUS[statusOf(company)].note)}">${esc(STATUS[statusOf(company)].label)}</span>
+          <h1>${esc(company.name)}</h1>
+          <p class="meta">${esc(company.category)} • ${esc(company.address)}</p>
         </div>
       </div>
       <p class="lead" style="margin-top:18px;">${esc(company.hiring_note || STATUS[statusOf(company)].note)}</p>
       ${company.verification_note ? `<p class="pop-note warn">${esc(company.verification_note)}</p>` : ""}
-      <p><b>Typical roles:</b> ${esc(industryOf(company).roles.join(", "))}<br><b>Skills that help:</b> ${esc(industryOf(company).skills.join(", "))}<br><b>${SPEED[industryOf(company).speed].label}</b>, ${SPEED[industryOf(company).speed].detail} <span class="meta">(typical for the industry)</span></p>
+      <p><b>Typical roles:</b> ${esc(industryOf(company).roles.join(", "))}<br><b>Skills that help:</b> ${esc(industryOf(company).skills.join(", "))}<br><b>${esc(SPEED[industryOf(company).speed].label)}</b>, ${esc(SPEED[industryOf(company).speed].detail)} <span class="meta">(typical for the industry)</span></p>
       <div class="facts">
-        <div class="fact"><strong>${numberOrUnknown(company.total_employees)}</strong><span>Employees</span></div>
-        <div class="fact"><strong>${numberOrUnknown(company.years_in_business)}</strong><span>Years in business</span></div>
-        <div class="fact"><strong>${company.best_places_score ? `${company.best_places_score}/10` : "Not scored"}</strong><span>Best Places score</span></div>
-        <div class="fact"><strong>${company.onboarding_note || "Not listed"}</strong><span>Onboarding</span></div>
-        <div class="fact"><strong>${company.data_status || "seeded"}</strong><span>Data status</span></div>
-        <div class="fact"><strong>${company.source_name || "Manual entry"}</strong><span>Source</span></div>
-        <div class="fact"><strong>${company.hiring_signal ? company.hiring_signal.replaceAll("_", " ") : "Not audited"}</strong><span>Hiring audit</span></div>
-        <div class="fact"><strong>${company.hiring_last_checked || "Not checked"}</strong><span>Hiring checked</span></div>
+        <div class="fact"><strong>${esc(numberOrUnknown(company.total_employees))}</strong><span>Employees</span></div>
+        <div class="fact"><strong>${esc(numberOrUnknown(company.years_in_business))}</strong><span>Years in business</span></div>
+        <div class="fact"><strong>${company.best_places_score ? `${esc(company.best_places_score)}/10` : "Not scored"}</strong><span>Best Places score</span></div>
+        <div class="fact"><strong>${esc(company.onboarding_note || "Not listed")}</strong><span>Onboarding</span></div>
+        <div class="fact"><strong>${esc(company.data_status || "seeded")}</strong><span>Data status</span></div>
+        <div class="fact"><strong>${esc(company.source_name || "Manual entry")}</strong><span>Source</span></div>
+        <div class="fact"><strong>${esc(company.hiring_signal ? String(company.hiring_signal).replaceAll("_", " ") : "Not audited")}</strong><span>Hiring audit</span></div>
+        <div class="fact"><strong>${esc(company.hiring_last_checked || "Not checked")}</strong><span>Hiring checked</span></div>
       </div>
       <div class="actions" style="margin-top:20px;">
         ${websiteAction(company, "button")}
-        <a class="button secondary" href="../index.html?company=${company.slug}">View on Map</a>
-        ${company.hiring_evidence_url ? `<a class="button ghost" href="${company.hiring_evidence_url}">Hiring Evidence</a>` : ""}
-        ${company.source_url ? `<a class="button ghost" href="${company.source_url}">Source</a>` : ""}
+        <a class="button secondary" href="${esc(`../index.html?company=${encodeURIComponent(company.slug)}`)}">View on Map</a>
+        ${safeUrl(company.hiring_evidence_url) ? `<a class="button ghost" href="${esc(safeUrl(company.hiring_evidence_url))}">Hiring Evidence</a>` : ""}
+        ${safeUrl(company.source_url) ? `<a class="button ghost" href="${esc(safeUrl(company.source_url))}">Source</a>` : ""}
       </div>
     </section>
   `;
