@@ -10,6 +10,7 @@ const guide = require("../assets/guide.js");
 
 const SITE = "https://techmore.github.io/bucks-county-business-jobs/";
 const REPO = "https://github.com/techmore/bucks-county-business-jobs";
+const HUB = "https://techmore.github.io/";
 const OUT_DIR = "company";
 const SALES_TAX_SOURCE = /sales-tax licen[cs]e/i;
 
@@ -213,6 +214,7 @@ function page(business, checks = []) {
   <footer class="site-footer">
     <div class="footer-inner">
       <span>Bucks County Business &amp; Jobs Directory © 2026</span>
+      <a href="${HUB}">Part of Techmore</a>
       <a href="${REPO}">GitHub</a>
     </div>
   </footer>
