@@ -1978,7 +1978,7 @@
     "hiring_evidence_url": "http://www.bsaia.net/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2019,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -3709,7 +3709,7 @@
     "hiring_evidence_url": "https://www.the99bottles.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -4353,7 +4353,7 @@
     "hiring_evidence_url": "http://anewdawnmassage.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -5903,7 +5903,7 @@
     "opening_hours": "Mo-Fr 09:00-17:30; Sa 09:00-15:00; Su closed",
     "brand": "American Automobile Association",
     "chain_or_franchise": true,
-    "hiring_fetch_failed": "2026-11-19"
+    "hiring_fetch_failed": "2026-11-20"
   },
   {
     "name": "AAA National Catering",
@@ -6128,7 +6128,7 @@
     "hiring_evidence_url": "https://www.aarons.com/locations/us/pa/easton/783-s-25th-st",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -6490,7 +6490,7 @@
     "hiring_evidence_url": "https://www.abingtonhealth.org/our-locations/ahc-warminster/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -6522,7 +6522,7 @@
     "hiring_evidence_url": "http://www.abingtonhealth.org/find-a-location/abington-health-center-lower-gwynedd",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -7010,7 +7010,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://ahsopc.com/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
@@ -7102,9 +7102,9 @@
     "hiring_signal": "careers_page_found",
     "hiring_confidence": 0.45,
     "hiring_evidence_url": "https://accustaffing.com/job-center/lansdale-pa/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "careers_page",
-    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -7373,9 +7373,9 @@
     "hiring_signal": "careers_page_found",
     "hiring_confidence": 0.45,
     "hiring_evidence_url": "https://local.acmemarkets.com/pa/newtown/48-west-rd.html",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "careers_page",
-    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -7409,8 +7409,8 @@
     "hiring_signal": "careers_page_found",
     "hiring_confidence": 0.45,
     "hiring_evidence_url": "https://local.acmemarkets.com/pa/doylestown/480-n-main-st.html",
-    "hiring_last_checked": "2026-11-17",
-    "hiring_track": "Openings or a careers page seen in Nov 2026 checks",
+    "hiring_last_checked": "2026-11-20",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -7639,9 +7639,9 @@
     "hiring_signal": "hiring_likely",
     "hiring_confidence": 0.85,
     "hiring_evidence_url": "https://actionkarate.net/careers/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "hiring",
-    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -7684,8 +7684,8 @@
     "hiring_signal": "careers_page_found",
     "hiring_confidence": 0.45,
     "hiring_evidence_url": "https://www.actionpartyrentals.com/careers",
-    "hiring_last_checked": "2026-11-17",
-    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
+    "hiring_last_checked": "2026-11-20",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 and Nov 2026 checks"
   },
   {
     "name": "Action Wheels",
@@ -7747,7 +7747,8 @@
     "founded_label": "Founded in 2005 (per their website)",
     "founded_note": "\"…About Active Learning Centers Providing Learning, Care, and Family Support Since 2005 — Here’s Our Story Founded in 2005 by Paul Miller and Dana Eldridge , Active Learning Centers grew out of the philosophy…\"",
     "founded_source_url": "https://alcchildcare.com/about-us/",
-    "phone": "(610) 966-2234"
+    "phone": "(610) 966-2234",
+    "hiring_fetch_failed": "2026-11-20"
   },
   {
     "name": "Acura",
@@ -7848,7 +7849,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0,
     "hiring_evidence_url": null,
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "founded_year": 2021,
     "founded_source": "pa-dos",
     "founded_confidence": "medium",
@@ -7861,7 +7862,8 @@
     "previous_slugs": [
       "osm-ad-s-kitchen-way-619185731"
     ],
-    "phone": "(484) 863-9100"
+    "phone": "(484) 863-9100",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 checks"
   },
   {
     "name": "Adagio",
@@ -7968,9 +7970,9 @@
     "hiring_signal": "careers_page_found",
     "hiring_confidence": 0.45,
     "hiring_evidence_url": "https://www.carecredit.com/doctor-locator/quakertown-pa/adapthealth-youngs-medical-equipment-quakertown-887rtk/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "careers_page",
-    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -8028,7 +8030,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://addisville.org/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
@@ -8402,7 +8404,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://stores.advanceautoparts.com/pa/hellertown/7-main-st",
-    "hiring_last_checked": "2026-11-17"
+    "hiring_last_checked": "2026-11-20"
   },
   {
     "name": "Advance Auto Parts",
@@ -8427,7 +8429,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://stores.advanceautoparts.com/pa/souderton/788-route-113",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -8461,7 +8463,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://stores.advanceautoparts.com/pa/quakertown/55-s-west-end-blvd",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -8840,7 +8842,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://www.whitehalldentist.com/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "founded_year": 2008,
     "founded_source": "pa-dos",
@@ -8961,7 +8963,7 @@
     "hiring_evidence_url": "http://www.advancedeyecareofwashington.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -9023,7 +9025,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://www.advancedprosthodontics.com/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
@@ -9053,7 +9055,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://dentistemmaus.com/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
@@ -9239,7 +9241,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://coopersburgchiropractic.com/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
@@ -9269,7 +9271,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://www.adventharleysville.org/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
@@ -9352,7 +9354,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://advocaterx.net/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
@@ -9481,9 +9483,9 @@
     "hiring_signal": "hiring_possible",
     "hiring_confidence": 0.6,
     "hiring_evidence_url": "https://www.afcurgentcare.com/about-us/careers/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "hiring",
-    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -9515,8 +9517,8 @@
     "hiring_signal": "hiring_possible",
     "hiring_confidence": 0.6,
     "hiring_evidence_url": "https://www.afcurgentcare.com/about-us/careers/",
-    "hiring_last_checked": "2026-11-17",
-    "hiring_track": "Openings or a careers page seen in Nov 2026 checks",
+    "hiring_last_checked": "2026-11-20",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -9549,8 +9551,8 @@
     "hiring_signal": "hiring_possible",
     "hiring_confidence": 0.6,
     "hiring_evidence_url": "https://www.afcurgentcare.com/about-us/careers/",
-    "hiring_last_checked": "2026-11-17",
-    "hiring_track": "Openings or a careers page seen in Nov 2026 checks",
+    "hiring_last_checked": "2026-11-20",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -9685,7 +9687,7 @@
     "hiring_evidence_url": "https://www.affordabledentures.com/locations/pa/doylestown",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -9979,7 +9981,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://www.aiorthodontics.com/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
@@ -10238,7 +10240,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://ajgpackaging.com/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "established": true,
     "established_employer": false,
@@ -10720,7 +10722,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://www.albanesiwithgusto.com/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
@@ -10905,9 +10907,9 @@
     "hiring_signal": "hiring_likely",
     "hiring_confidence": 0.85,
     "hiring_evidence_url": "https://albrightshardwarestore.com/employment",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "hiring",
-    "hiring_track": "Openings or a careers page seen in Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -11068,9 +11070,9 @@
     "hiring_signal": "hiring_possible",
     "hiring_confidence": 0.6,
     "hiring_evidence_url": "https://alderferglass.com/employment/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "hiring",
-    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 and Nov 2026 checks",
     "established": true,
     "established_employer": true,
     "previous_slugs": [
@@ -11108,8 +11110,8 @@
     "hiring_signal": "hiring_likely",
     "hiring_confidence": 0.85,
     "hiring_evidence_url": "https://careers.aldi.us/?utm_campaign=tmp&utm_medium=careers&utm_source=aldi.us",
-    "hiring_last_checked": "2026-11-17",
-    "hiring_track": "Openings or a careers page seen in Nov 2026 checks",
+    "hiring_last_checked": "2026-11-20",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -11394,9 +11396,9 @@
     "hiring_signal": "hiring_likely",
     "hiring_confidence": 0.85,
     "hiring_evidence_url": "https://careers.aldi.us/?utm_campaign=tmp&utm_medium=careers&utm_source=aldi.us",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "hiring",
-    "hiring_track": "Openings or a careers page seen in Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -11430,8 +11432,8 @@
     "hiring_signal": "hiring_likely",
     "hiring_confidence": 0.85,
     "hiring_evidence_url": "https://careers.aldi.us/?utm_campaign=tmp&utm_medium=careers&utm_source=aldi.us",
-    "hiring_last_checked": "2026-11-17",
-    "hiring_track": "Openings or a careers page seen in Nov 2026 checks",
+    "hiring_last_checked": "2026-11-20",
+    "hiring_track": "Openings or a careers page seen in Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -12156,7 +12158,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://allstarautoglasspa.com/",
-    "hiring_last_checked": "2026-11-17"
+    "hiring_last_checked": "2026-11-20"
   },
   {
     "name": "All Star Notary and Tags",
@@ -12325,7 +12327,7 @@
     "hiring_evidence_url": "http://officecleaninginlanghornepa.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -12453,9 +12455,9 @@
     "hiring_signal": "hiring_possible",
     "hiring_confidence": 0.6,
     "hiring_evidence_url": "https://aiaaoc.com/careers/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "hiring",
-    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 and Nov 2026 checks",
     "established": true,
     "established_employer": true,
     "previous_slugs": [
@@ -12632,7 +12634,7 @@
     "hiring_signal": "hiring_possible",
     "hiring_confidence": 0.6,
     "hiring_evidence_url": "https://www.allentownartmuseum.org/about/employment/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "hiring",
     "founded_year": 1939,
     "founded_source": "pa-dos",
@@ -12641,7 +12643,7 @@
     "founded_label": "Registered with the PA Dept. of State in 1939",
     "founded_note": "Date the legal entity was registered. The business may be older, or under new ownership.",
     "founded_source_url": "https://data.pa.gov/Licenses-Certificates/Registered-Businesses-in-PA-Current-by-County-Department-of-State/xvd7-5r2c",
-    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 and Nov 2026 checks",
     "established": true,
     "established_employer": true,
     "previous_slugs": [
@@ -12725,9 +12727,9 @@
     "hiring_signal": "careers_page_found",
     "hiring_confidence": 0.45,
     "hiring_evidence_url": "https://allentowncatclinic.net/extras/job-opportunities/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "careers_page",
-    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -12788,7 +12790,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://allentownchiropracticcenter.com/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "founded_year": 2001,
     "founded_source": "pa-dos",
@@ -12946,7 +12948,7 @@
     "hiring_signal": "unknown",
     "hiring_confidence": 0.25,
     "hiring_evidence_url": "https://tools.usps.com/locations/details/1352741",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "no_online_info",
     "established": false,
     "established_employer": false,
@@ -12979,9 +12981,9 @@
     "hiring_signal": "hiring_possible",
     "hiring_confidence": 0.6,
     "hiring_evidence_url": "https://www.allentownpl.org/employment-at-apl/",
-    "hiring_last_checked": "2026-11-17",
+    "hiring_last_checked": "2026-11-20",
     "hiring_status": "hiring",
-    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 checks",
+    "hiring_track": "Openings or a careers page seen in May 2026 and Nov 2026 and Nov 2026 checks",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -13359,7 +13361,7 @@
     "hiring_evidence_url": "https://www.alliedroofingsolutions.com/pa",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2026,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -13594,7 +13596,7 @@
     "hiring_evidence_url": "http://allure-skincarenailsbody.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2018,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -14652,7 +14654,7 @@
     "hiring_evidence_url": "https://www.amanseaston.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -15753,7 +15755,7 @@
     "hiring_evidence_url": "https://www.americanfurnituredesign.net/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -16098,7 +16100,7 @@
     "hiring_evidence_url": "https://www.americanstardiner.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2025,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -16454,7 +16456,7 @@
     "hiring_evidence_url": "https://amestools.com/location/amestoolswarminster/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -18165,7 +18167,7 @@
     "hiring_evidence_url": "https://www.anthropologie.com/stores/newtown",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -20086,7 +20088,7 @@
     "hiring_evidence_url": "https://www.drarnoldbierman.net/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -22292,7 +22294,7 @@
     "hiring_evidence_url": "https://www.athome.com/store-detail/?StoreID=Pennsylvania-Willow+Grove",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -22915,7 +22917,7 @@
     "hiring_evidence_url": "https://locations.auntieannes.com/pa/north-wales/montgomery-mall-h6-5183",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -24058,7 +24060,7 @@
     "hiring_evidence_url": "https://www.autozone.com/locations/pa/coopersburg/7001-pa-309.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -24279,7 +24281,7 @@
     "hiring_evidence_url": "https://www.aveliving.com/locations/lansdale/default.aspx",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -24827,7 +24829,7 @@
     "hiring_evidence_url": "https://bmconstructionhvac.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -25562,7 +25564,7 @@
     "hiring_evidence_url": "https://baccocentro.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -25784,7 +25786,7 @@
     "hiring_evidence_url": "https://backyardbeans.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -26058,7 +26060,7 @@
     "hiring_evidence_url": "https://www.bakerfcu.org/baker/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -27153,7 +27155,7 @@
     "hiring_evidence_url": "https://www.bar31.net/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2004,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -27299,7 +27301,7 @@
     "hiring_evidence_url": "https://www.barbeirosbarbershop.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -29540,7 +29542,7 @@
     "hiring_evidence_url": "https://www.bedfordnicholas.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -30204,7 +30206,7 @@
     "hiring_evidence_url": "https://warrington.bellepalace.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -30372,7 +30374,7 @@
     "hiring_evidence_url": "https://belviderefoodmartnj.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -31215,7 +31217,7 @@
     "hiring_evidence_url": "https://www.bhhskeystone.com/lansdale/oid-pa310-001",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -31751,7 +31753,7 @@
     "hiring_evidence_url": "https://www.bestwestern.com/en_US/book/hotels-in-bethlehem/best-western-allentown-bethlehem-lehigh-valley-inn-suites/propertyCode.39157.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -32074,7 +32076,7 @@
     "hiring_evidence_url": "https://www.bethlehemapparatus.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1951,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -33789,7 +33791,7 @@
     "hiring_evidence_url": "https://biaggiopizza.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -34057,7 +34059,7 @@
     "hiring_evidence_url": "https://www.bigheadsbar.com/big-heads-warminster-square.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -35005,7 +35007,7 @@
     "hiring_evidence_url": "https://blackforestdeli.com/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -40276,7 +40278,7 @@
     "hiring_evidence_url": "https://www.brookfieldlv.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -40789,7 +40791,7 @@
     "hiring_evidence_url": "https://the-brownsville.edan.io/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -41272,7 +41274,7 @@
     "hiring_evidence_url": "https://www.abingtonhealth.org/our-locations/profile/?id=1853",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1990,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -42090,7 +42092,7 @@
     "hiring_evidence_url": "http://www.buckscountycottage.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -42574,7 +42576,7 @@
     "hiring_evidence_url": "http://www.buckscounty.org/government/PlanningCommission/Meetings",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -45140,7 +45142,7 @@
     "hiring_evidence_url": "https://www.cgreenmktg.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -45689,7 +45691,7 @@
     "hiring_evidence_url": "https://caballerospainting.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -45749,7 +45751,7 @@
     "hiring_evidence_url": "https://cachettebethlehem.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -48213,7 +48215,7 @@
     "hiring_evidence_url": "http://www.whywaitintheer.com/abington.php",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -49344,7 +49346,7 @@
     "hiring_evidence_url": "https://order.toasttab.com/online/casa-del-san-gwich-20-w-broad-street",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2022,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -49412,7 +49414,7 @@
     "hiring_evidence_url": "https://www.casadifrancopizzeria.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -53463,7 +53465,7 @@
     "hiring_evidence_url": "https://chiarospizza.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -54353,7 +54355,7 @@
     "hiring_evidence_url": "https://www.chinagardeninnwillowgrove.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1992,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -55569,7 +55571,7 @@
     "hiring_evidence_url": "https://www.chocolateworks.com/lehigh-valley-pa",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -55894,7 +55896,7 @@
     "hiring_evidence_url": "https://www.chrisorserlandscaping.com/index.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1999,
     "founded_source": "pa-dos",
     "founded_confidence": "medium",
@@ -56643,7 +56645,7 @@
     "hiring_evidence_url": "https://www.eatatciao.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -56851,7 +56853,7 @@
     "hiring_evidence_url": "https://cigarette-outleteaston.business.site/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -57428,7 +57430,7 @@
     "hiring_evidence_url": "https://info@circlebikeshop.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2024,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -58266,7 +58268,7 @@
     "hiring_evidence_url": "https://www.ckokickboxing.com/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -58912,7 +58914,7 @@
     "hiring_evidence_url": "https://www.clintonacura.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -59778,7 +59780,7 @@
     "hiring_evidence_url": "http://www.cocosnailspa.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -59949,7 +59951,7 @@
     "hiring_evidence_url": "https://www.coldwellbanker.com/pa/quakertown/offices/coldwell-banker-heritage-real-estate/oid-P00400000FDdqXnE1uwAL8bo7C8TpP0AN6m0xtzr",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -60010,7 +60012,7 @@
     "hiring_evidence_url": "https://cbhre.com/office/cbhs08/186-main-street-hellertown-pa-18055",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -60199,7 +60201,7 @@
     "hiring_evidence_url": "https://www.colmarkids.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -60702,7 +60704,7 @@
     "hiring_evidence_url": "https://www.choicehotels.com/pennsylvania/trevose/radisson-blu-hotels",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -60789,7 +60791,7 @@
     "hiring_evidence_url": "https://www.choicehotels.com/pennsylvania/quakertown/quality-inn-hotels",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -63085,7 +63087,7 @@
     "hiring_evidence_url": "https://www.core4healingandwellness.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2021,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -64173,7 +64175,7 @@
     "hiring_evidence_url": "https://www.crsd.org/crnorth",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -64750,7 +64752,7 @@
     "hiring_evidence_url": "https://www.marriott.com/phlld",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -64783,7 +64785,7 @@
     "hiring_evidence_url": "https://www.marriott.com/abebc",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -64816,7 +64818,7 @@
     "hiring_evidence_url": "https://www.marriott.com/ttnet",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -64849,7 +64851,7 @@
     "hiring_evidence_url": "https://www.marriott.com/phlmm",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -64882,7 +64884,7 @@
     "hiring_evidence_url": "https://www.marriott.com/PHLLN",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -71055,7 +71057,7 @@
     "hiring_evidence_url": "http://www.data1graphics.com/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2009,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -71474,7 +71476,7 @@
     "hiring_evidence_url": "https://directory.lafayette.edu/node/50",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -71506,7 +71508,7 @@
     "hiring_evidence_url": "http://davidhausmandesigns.com/welcome.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -71785,7 +71787,7 @@
     "hiring_evidence_url": "https://www.davidselectricinc.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1965,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -72004,7 +72006,7 @@
     "hiring_evidence_url": "http://www.davishyundai.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -73070,7 +73072,7 @@
     "hiring_evidence_url": "https://delval.edu/careers-delval",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1896,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -73766,7 +73768,7 @@
     "hiring_evidence_url": "https://www.padermpartners.com/medical-staff/medical-doctors/313-adel-haque-md",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -74108,7 +74110,7 @@
     "hiring_evidence_url": "https://www.devlininsurance.com/join-our-team/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -74810,7 +74812,7 @@
     "hiring_evidence_url": "https://www.dileooms.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -75093,7 +75095,7 @@
     "hiring_evidence_url": "https://www.allentowndiocese.org/about/employment",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -76176,7 +76178,7 @@
     "hiring_evidence_url": "https://www.dollargeneral.com/store-directory/pa/easton/4282",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -77756,7 +77758,7 @@
     "hiring_evidence_url": "https://www.domenicgraziano.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -78628,7 +78630,7 @@
     "hiring_evidence_url": "https://www.donnasdeli.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -80724,7 +80726,7 @@
     "hiring_evidence_url": "http://drandycircellidc.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -81416,7 +81418,7 @@
     "hiring_evidence_url": "https://www.hugedomains.com/domain_profile.cfm?d=dreamersselfstorage.com",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -83917,7 +83919,7 @@
     "hiring_evidence_url": "https://www.eagle-kitchens.net/home.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -85382,7 +85384,7 @@
     "hiring_evidence_url": "https://www.easton-pa.com/city-hall",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -85484,7 +85486,7 @@
     "hiring_evidence_url": "http://www.eastonoutdoorcompany.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2011,
     "founded_source": "pa-dos",
     "founded_confidence": "medium",
@@ -85522,7 +85524,7 @@
     "hiring_evidence_url": "https://www.hugedomains.com/domain_profile.cfm?d=eastontaco.com",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -85922,7 +85924,7 @@
     "hiring_evidence_url": "https://www.choicehotels.com/pensilvania/quakertown/econo-lodge-hotels/pa853",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -87596,7 +87598,7 @@
     "hiring_evidence_url": "https://esgllc-usa.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -88436,7 +88438,7 @@
     "hiring_evidence_url": "https://emcocooling.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -88800,7 +88802,7 @@
     "hiring_evidence_url": "https://www.empappliances.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -89696,7 +89698,7 @@
     "hiring_evidence_url": "https://www.enzospizzalanghorne.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -89728,7 +89730,7 @@
     "hiring_evidence_url": "https://www.epam.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -90335,7 +90337,7 @@
     "hiring_evidence_url": "https://essabank.com/about/locations/PA/Bethlehem/bethlehem/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -90390,7 +90392,7 @@
     "hiring_evidence_url": "https://www.essentialsvalleysquare.com/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -92373,7 +92375,7 @@
     "hiring_evidence_url": "https://www.extendedstayamerica.com/hotels/pa/philadelphia/horsham-welsh-rd",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -93574,7 +93576,7 @@
     "hiring_evidence_url": "https://www.marriott.com/ewrfb",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -93606,7 +93608,7 @@
     "hiring_evidence_url": "https://www.marriott.com/phlfg",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -94107,7 +94109,7 @@
     "hiring_evidence_url": "https://www.familyaffairflorist.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -94886,7 +94888,7 @@
     "hiring_evidence_url": "http://fantacbeautybar.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -95520,7 +95522,7 @@
     "hiring_evidence_url": "https://www.keenanhonda.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -96827,7 +96829,7 @@
     "hiring_evidence_url": "https://www.finewineandgoodspirits.com/store-4629",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -98518,7 +98520,7 @@
     "hiring_evidence_url": "https://centralbucks.fit4mom.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -98598,7 +98600,7 @@
     "hiring_evidence_url": "https://locations.fivebelow.com/pa/quakertown/210-n-west-end-blvd",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -99571,7 +99573,7 @@
     "hiring_evidence_url": "https://flexibleautoservices.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2016,
     "founded_source": "pa-dos",
     "founded_confidence": "medium",
@@ -101332,7 +101334,7 @@
     "hiring_evidence_url": "https://www.marriott.com/hotels/travel/abefp-four-points-allentown-lehigh-valley/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -102111,7 +102113,7 @@
     "hiring_evidence_url": "https://franconiaautorepair.com/jobs/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2026,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -102840,7 +102842,7 @@
     "hiring_evidence_url": "https://www.fredbeanshyundai.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -103140,7 +103142,7 @@
     "hiring_evidence_url": "https://freddyandchinosplace.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -103255,7 +103257,7 @@
     "hiring_evidence_url": "https://fredsappliances-pa.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -104633,7 +104635,7 @@
     "hiring_evidence_url": "https://frigid-freeze-lockers.edan.io/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -104718,7 +104720,7 @@
     "hiring_evidence_url": "https://frcse.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -106242,7 +106244,7 @@
     "hiring_evidence_url": "https://www.galleryonfourth.org/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -108590,7 +108592,7 @@
     "hiring_evidence_url": "http://geritlewisch.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -111631,7 +111633,7 @@
     "hiring_evidence_url": "https://stores.gnc.com/all-stores-pennsylvania/warminster/824-west-street-rd",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -112242,7 +112244,7 @@
     "hiring_evidence_url": "https://peddlersvillage.com/stay/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -112726,7 +112728,7 @@
     "hiring_evidence_url": "https://goodstuffthrift.org/see-what-s-in-store/huntingdon-valley-location/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -113283,7 +113285,7 @@
     "hiring_evidence_url": "https://www.gorgeous.online/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -116671,7 +116673,7 @@
     "hiring_evidence_url": "https://gyroconcept.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -116731,7 +116733,7 @@
     "hiring_evidence_url": "http://www.autobodyalliance.com/shop/hk-and-sons-llc/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -117755,7 +117757,7 @@
     "hiring_evidence_url": "https://agents.allstate.com/hagen-kiernan-coopersburg-pa.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -118431,7 +118433,7 @@
     "hiring_evidence_url": "https://www.greatwalleaston.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -119036,7 +119038,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/blmpahx-hampton-suites-bethlehem/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -119066,7 +119068,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/avpnthx-hampton-suites-newtown/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2017,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -119106,7 +119108,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/phlmxhx-hampton-suites-philadelphia-montgomeryville/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -119139,7 +119141,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/phlwrhx-hampton-suites-warrington-horsham/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -119172,7 +119174,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/clnnjhx-hampton-clinton/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -119205,7 +119207,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/dylpahx-hampton-doylestown/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -119238,7 +119240,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/wgvpahx-hampton-philadelphia-willow-grove/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -119271,7 +119273,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/quapahx-hampton-quakertown/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -120885,7 +120887,7 @@
     "hiring_evidence_url": "https://www.harleysvillebank.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -121498,7 +121500,7 @@
     "hiring_evidence_url": "https://harthbuilders.com/contact-harth-builders/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -123018,7 +123020,7 @@
     "hiring_evidence_url": "http://www.thehealthwellnesscenter.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -124085,7 +124087,7 @@
     "hiring_evidence_url": "https://chiro-family.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -125336,7 +125338,7 @@
     "hiring_evidence_url": "http://www.hbschools.org/hbs/Middle%20School/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -126057,7 +126059,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/phlfwgi-hilton-garden-inn-philadelphia-ft-washington/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -126204,7 +126206,7 @@
     "hiring_evidence_url": "https://www.hao-lv.org/index.php/english/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1976,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -128079,7 +128081,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/ewresht-home2-suites-easton/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -128112,7 +128114,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/phlwmht-home2-suites-warminster-horsham/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -128648,7 +128650,7 @@
     "hiring_evidence_url": "http://homewoodsuites3.hilton.com/en/hotels/pennsylvania/homewood-suites-by-hilton-allentown-bethlehem-airport-ALLHWHW/index.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -128736,7 +128738,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/abecvhw-homewood-suites-allentown-bethlehem-center-valley/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -128788,7 +128790,7 @@
     "hiring_evidence_url": "https://homewoodsuites3.hilton.com/en/hotels/pennsylvania/homewood-suites-by-hilton-newtown-langhorne-pa-AVPNWHW/index.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -129138,7 +129140,7 @@
     "hiring_evidence_url": "https://honoryoga.org/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -129902,7 +129904,7 @@
     "hiring_evidence_url": "https://www.hotelbethlehem.com/hotel-b-ice-cream-parlor",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -131379,7 +131381,7 @@
     "hiring_evidence_url": "https://www.hyatt.com/en-us/hotel/new-jersey/hyatt-house-branchburg-bridgewater/erwxa",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -131412,7 +131414,7 @@
     "hiring_evidence_url": "https://www.hyatt.com/en-us/hotel/pennsylvania/hyatt-place-bethlehem/abezb",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -133358,7 +133360,7 @@
     "hiring_evidence_url": "https://www.indiangardencuisine.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -134881,7 +134883,7 @@
     "hiring_evidence_url": "https://www.ivcwealth.com/?redirectUrl=/career",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2014,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -135461,7 +135463,7 @@
     "hiring_evidence_url": "https://learningexpress.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -136711,7 +136713,7 @@
     "hiring_evidence_url": "https://www.janescleaners.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2003,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -136793,7 +136795,7 @@
     "hiring_evidence_url": "https://jaquelynssweetshop.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -138072,7 +138074,7 @@
     "hiring_evidence_url": "https://www.jerseymikes.com/8024/quakertown-pa",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -139932,7 +139934,7 @@
     "hiring_evidence_url": "https://herronfuneralhomes.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -141327,7 +141329,7 @@
     "hiring_evidence_url": "https://www.search4yournewhome.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -142669,7 +142671,7 @@
     "hiring_evidence_url": "https://www.justafarmdental.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -144463,7 +144465,7 @@
     "hiring_evidence_url": "https://www.hatboro-horsham.org/Domain/12",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -144687,7 +144689,7 @@
     "hiring_evidence_url": "https://www.kellymitsubishiemmaus.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -144720,7 +144722,7 @@
     "hiring_evidence_url": "https://www.kellygmcbuick.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -144876,7 +144878,7 @@
     "hiring_evidence_url": "https://agents.allstate.com/kenia-alves-walker-trevose-pa.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -145491,7 +145493,7 @@
     "hiring_evidence_url": "https://www.keystonehd.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -146335,7 +146337,7 @@
     "hiring_evidence_url": "https://www.kinderworks.net/contact-locations/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1986,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -147217,7 +147219,7 @@
     "hiring_evidence_url": "https://www.klecknerandsons.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2003,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -147255,7 +147257,7 @@
     "hiring_evidence_url": "https://www.klecknerandsons.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -147836,7 +147838,7 @@
     "hiring_evidence_url": "https://www.koch33collision.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -148519,7 +148521,7 @@
     "hiring_evidence_url": "https://kubkaolansdale.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -149216,7 +149218,7 @@
     "hiring_evidence_url": "http://www.labermanra.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -150360,7 +150362,7 @@
     "hiring_evidence_url": "https://lanailsquakertown.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -152108,7 +152110,7 @@
     "hiring_evidence_url": "https://www.lansnails.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2006,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -152310,7 +152312,7 @@
     "hiring_evidence_url": "https://lansdalemeats.net/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -153647,7 +153649,7 @@
     "hiring_evidence_url": "http://cassellelawfirm.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -154517,7 +154519,7 @@
     "hiring_evidence_url": "https://learningexpress.com/locator/store/?code=bluebell",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -155879,7 +155881,7 @@
     "hiring_evidence_url": "https://www.lehighvalleyacura.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1985,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -157106,7 +157108,7 @@
     "hiring_evidence_url": "https://www.lehighvalleyhonda.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -157196,7 +157198,7 @@
     "hiring_evidence_url": "https://www.lehighvalleyhyundai.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -157743,7 +157745,7 @@
     "hiring_evidence_url": "https://www.lehighvalleylive.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -162937,7 +162939,7 @@
     "hiring_evidence_url": "https://www.lopatcongtwp.com/joomla/index.php?option=com_content&view=article&id=72&Itemid=96",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -163971,7 +163973,7 @@
     "hiring_evidence_url": "https://www.lowes.com/store/pa-willow-grove/1837",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -164412,7 +164414,7 @@
     "hiring_evidence_url": "https://www.apollowealthadvisors.net/?redirectUrl=/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -164609,7 +164611,7 @@
     "hiring_evidence_url": "https://order.lucatellispizzeria.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -164961,7 +164963,7 @@
     "hiring_evidence_url": "https://www.moments.realestate/about/Luke-Miller",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -165447,7 +165449,7 @@
     "hiring_evidence_url": "http://luvznails.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -165670,7 +165672,7 @@
     "hiring_evidence_url": "https://www.lv-motorcars.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2019,
     "founded_source": "pa-dos",
     "founded_confidence": "medium",
@@ -166084,7 +166086,7 @@
     "hiring_evidence_url": "https://www.lvhn.org/facilities_directions/hospital_locations/physician_practices/lvpg_pediatrics%E2%80%93madison_farms",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -167786,7 +167788,7 @@
     "hiring_evidence_url": "https://www.madisonnewbritain-hilton.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -168026,7 +168028,7 @@
     "hiring_evidence_url": "http://magikstudiogallery.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -169829,7 +169831,7 @@
     "hiring_evidence_url": "http://www.mapleglenpizza.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1986,
     "founded_source": "pa-dos",
     "founded_confidence": "medium",
@@ -170152,7 +170154,7 @@
     "hiring_evidence_url": "https://www.mkpeds.com/directory/locations/show/the-shops-at-valley-square-now-open/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -170391,7 +170393,7 @@
     "hiring_evidence_url": "https://agents.allstate.com/mark-lechmanik-allentown-pa.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -170557,7 +170559,7 @@
     "hiring_evidence_url": "https://www.upsd.org/marlborough-elementary-school",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -171049,7 +171051,7 @@
     "hiring_evidence_url": "https://martinmillner.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -171736,7 +171738,7 @@
     "hiring_evidence_url": "https://www.mathnasium.com/math-centers/montgomeryville",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -172065,7 +172067,7 @@
     "hiring_evidence_url": "https://www.mattressfirm.com/en-us/stores/pa/willow-grove/168041/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -172521,7 +172523,7 @@
     "hiring_evidence_url": "https://maukabridgewater.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -172553,7 +172555,7 @@
     "hiring_evidence_url": "https://www.crsd.org/mmwelches",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -175656,7 +175658,7 @@
     "hiring_evidence_url": "https://www.washboroschools.org/memorial.htm",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -175972,7 +175974,7 @@
     "hiring_evidence_url": "https://mercantile-outpost.square.site/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -176031,7 +176033,7 @@
     "hiring_evidence_url": "https://www.mboflehighvalley.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -176096,7 +176098,7 @@
     "hiring_evidence_url": "https://www.fortwashington.mercedesdealer.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -176363,7 +176365,7 @@
     "hiring_evidence_url": "https://mercysbakeryandrestaurant.us/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -177102,7 +177104,7 @@
     "hiring_evidence_url": "https://www.colmarmimexcocina.com/?utm_source=redirect&utm_medium=mimexcocinacolmar.com",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2019,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -177464,7 +177466,7 @@
     "hiring_evidence_url": "https://locations.michaels.com/pa/quakertown/3766",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -177762,7 +177764,7 @@
     "hiring_evidence_url": "https://www.michenermuseum.org/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -178288,7 +178290,7 @@
     "hiring_evidence_url": "http://www.migu4u.com/wordpress/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1988,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -178720,7 +178722,7 @@
     "hiring_evidence_url": "http://www.milfordhousenj.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -179615,7 +179617,7 @@
     "hiring_evidence_url": "http://mings-restaurant.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -180777,7 +180779,7 @@
     "hiring_evidence_url": "https://locations.modpizza.com/usa/pa/willow-grove/4025-welsh-rd",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -181628,7 +181630,7 @@
     "hiring_evidence_url": "https://www.mmacentral.com/?redirectUrl=/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1982,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -182134,7 +182136,7 @@
     "hiring_evidence_url": "http://www.montgomerytiledesign.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2016,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -182505,7 +182507,7 @@
     "hiring_evidence_url": "https://www.mooyah.com/locations/blue-bell-pa-288/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -182836,7 +182838,7 @@
     "hiring_evidence_url": "https://morengineering.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -183084,7 +183086,7 @@
     "hiring_evidence_url": "http://mortonelectric.net/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -183268,7 +183270,7 @@
     "hiring_evidence_url": "https://mothersbaronline/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -184254,7 +184256,7 @@
     "hiring_evidence_url": "https://www.mullertoyota.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -185505,7 +185507,7 @@
     "hiring_evidence_url": "https://nanxiangexpress.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -185641,7 +185643,7 @@
     "hiring_evidence_url": "https://napoleonautobody.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -185955,7 +185957,7 @@
     "hiring_evidence_url": "https://nathanbeancontractingllc.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2018,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -186856,7 +186858,7 @@
     "hiring_evidence_url": "https://www.neshaminy.org/NHS",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -187348,7 +187350,7 @@
     "hiring_evidence_url": "https://www.nefchurchpa.org/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -187620,7 +187622,7 @@
     "hiring_evidence_url": "https://www.newhopeinnandsuites.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -187681,7 +187683,7 @@
     "hiring_evidence_url": "https://www.greatphotosnow.com/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -188649,7 +188651,7 @@
     "hiring_evidence_url": "http://newagecareers.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2019,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -189365,7 +189367,7 @@
     "hiring_evidence_url": "https://www.yelp.com/biz/nicolosis-pizza-phillipsburg",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -189522,7 +189524,7 @@
     "hiring_evidence_url": "https://www.nimbuindianstreetfood.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -190059,7 +190061,7 @@
     "hiring_evidence_url": "https://www.christinasbridals.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -190683,7 +190685,7 @@
     "hiring_evidence_url": "https://hclibrary.us/branches/northcounty.htm",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -190830,7 +190832,7 @@
     "hiring_evidence_url": "https://drgovani.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -192238,7 +192240,7 @@
     "hiring_evidence_url": "http://www.notospa.site/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -192575,7 +192577,7 @@
     "hiring_evidence_url": "https://www.nucarcdjrallentown.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -192608,7 +192610,7 @@
     "hiring_evidence_url": "https://www.nucarnissanallentown.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -195065,7 +195067,7 @@
     "hiring_evidence_url": "https://www.onecentresquare.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -196203,7 +196205,7 @@
     "hiring_evidence_url": "https://careers.carters.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -196367,7 +196369,7 @@
     "hiring_evidence_url": "https://www.otteng.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -196486,7 +196488,7 @@
     "hiring_evidence_url": "http://www.ourlordsascension.org/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -197328,7 +197330,7 @@
     "hiring_evidence_url": "https://www.pabraindoc.com/locations/center-valley",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -197868,7 +197870,7 @@
     "hiring_evidence_url": "https://paintedshutterantiques.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -198034,7 +198036,7 @@
     "hiring_evidence_url": "https://palermospizzalansdale.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -198242,7 +198244,7 @@
     "hiring_evidence_url": "https://www.eastonpl.org/PalmerBranch.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -200636,7 +200638,7 @@
     "hiring_evidence_url": "https://www.patientfirst.com/Locations/Pennsylvania/Easton",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -200881,7 +200883,7 @@
     "hiring_evidence_url": "https://www.laffertychevy.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -204265,7 +204267,7 @@
     "hiring_evidence_url": "https://www.pepboys.com/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -204334,7 +204336,7 @@
     "hiring_evidence_url": "https://www.pepboys.com/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -204425,7 +204427,7 @@
     "hiring_evidence_url": "https://peppesmexicangrillpa.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -204702,7 +204704,7 @@
     "hiring_evidence_url": "https://www.perfectdaycoffee.net/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -206766,7 +206768,7 @@
     "hiring_evidence_url": "http://www.phillipsburgchristianacademy.org/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -206951,7 +206953,7 @@
     "hiring_evidence_url": "https://phillipsburgrx.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -208099,7 +208101,7 @@
     "hiring_evidence_url": "http://piechotasservice.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -209828,7 +209830,7 @@
     "hiring_evidence_url": "https://www.plannedparenthood.org/health-center/centerDetails.asp?f=2510&a=91420&v=details",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -212393,7 +212395,7 @@
     "hiring_evidence_url": "https://porschewarrington.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -214011,7 +214013,7 @@
     "hiring_evidence_url": "https://primestorage.com/locations/pa/quakertown/PA16/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -214657,7 +214659,7 @@
     "hiring_evidence_url": "https://procaninecenter.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -215901,7 +215903,7 @@
     "hiring_evidence_url": "https://www.purebarre.com/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -218992,7 +218994,7 @@
     "hiring_evidence_url": "https://rsquality.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1991,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -221856,7 +221858,7 @@
     "hiring_evidence_url": "https://www.redhillgreenhouse.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -223636,7 +223638,7 @@
     "hiring_evidence_url": "http://www.renaissanceallentown.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -224063,7 +224065,7 @@
     "hiring_evidence_url": "https://weplayreplay.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -224117,7 +224119,7 @@
     "hiring_evidence_url": "https://www.marriott.com/phlrw",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -224150,7 +224152,7 @@
     "hiring_evidence_url": "https://www.marriott.com/ewrbw",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -224183,7 +224185,7 @@
     "hiring_evidence_url": "https://www.marriott.com/phlmg",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -224216,7 +224218,7 @@
     "hiring_evidence_url": "https://www.marriott.com/hotels/travel/phllh-residence-inn-philadelphia-langhorne/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -225033,7 +225035,7 @@
     "hiring_evidence_url": "http://www.dentistsindoylestown.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -225969,7 +225971,7 @@
     "hiring_evidence_url": "https://www.rightathome.net/bucks-montgomery",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -228334,7 +228336,7 @@
     "hiring_evidence_url": "https://www.choicehotels.com/pennsylvania/quakertown/quality-inn-hotels",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -228630,7 +228632,7 @@
     "hiring_evidence_url": "https://corporate.goodyear.com/us/en/company/working-at-goodyear.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -228686,7 +228688,7 @@
     "hiring_evidence_url": "https://www.crsd.org/Domain/1558",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -228716,7 +228718,7 @@
     "hiring_evidence_url": "https://www.lvhn.org/careers/work-here",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -229193,7 +229195,7 @@
     "hiring_evidence_url": "https://www.roseboutiqueflorist.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -229496,7 +229498,7 @@
     "hiring_evidence_url": "https://roslynpizzas.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2004,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -230997,7 +230999,7 @@
     "hiring_evidence_url": "http://www.russosristorante.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -232041,7 +232043,7 @@
     "hiring_evidence_url": "https://saffronofphilly.com/saffron-ambler/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -232451,7 +232453,7 @@
     "hiring_evidence_url": "https://www.stjohnsuccmickleys.org/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -232531,7 +232533,7 @@
     "hiring_evidence_url": "https://www.stjosephwashington.parishesonline.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -232933,7 +232935,7 @@
     "hiring_evidence_url": "https://sakuraexpresstogo.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -233051,7 +233053,7 @@
     "hiring_evidence_url": "http://www.salspizzaofnj.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -234213,7 +234215,7 @@
     "hiring_evidence_url": "https://salthaus.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -234576,7 +234578,7 @@
     "hiring_evidence_url": "https://www.samarkandsteakhouse.com/jobs/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -235820,7 +235822,7 @@
     "hiring_evidence_url": "https://www.svpanthers.org/page.cfm?p=1872",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -235909,7 +235911,7 @@
     "hiring_evidence_url": "https://www.svpanthers.org/Domain/9",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -235965,7 +235967,7 @@
     "hiring_evidence_url": "https://www.svpanthers.org/Domain/8",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -236055,7 +236057,7 @@
     "hiring_evidence_url": "https://www.saxbyscoffee.com/careers/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -236152,7 +236154,7 @@
     "hiring_evidence_url": "https://www.sayremansion.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -237611,7 +237613,7 @@
     "hiring_evidence_url": "http://seasonstaproom.com/locations/bethlehem-pa/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -237922,7 +237924,7 @@
     "hiring_evidence_url": "https://selectems.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -238000,7 +238002,7 @@
     "hiring_evidence_url": "https://www.cellphonerepairbethlehem.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2015,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -238323,7 +238325,7 @@
     "hiring_evidence_url": "https://seniorlifepa.com/locations/lehigh-valley",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -238438,7 +238440,7 @@
     "hiring_evidence_url": "https://www.sensezerofloat.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -238469,7 +238471,7 @@
     "hiring_evidence_url": "http://sentryproperty.net/index.htm",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1984,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -239827,7 +239829,7 @@
     "hiring_evidence_url": "https://agents.allstate.com/shaun-kiernan-allentown-pa.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -240516,7 +240518,7 @@
     "hiring_evidence_url": "https://www.marriott.com/en-us/hotels/phlbc-sheraton-bucks-county-langhorne/overview/?EM=DNM_SHERATONBUCKSCOUNTY.COM",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -241787,7 +241789,7 @@
     "hiring_evidence_url": "https://www.shoprite.com/sm/planning/rsid/434",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -242724,7 +242726,7 @@
     "hiring_evidence_url": "https://signarama.com/locations/pa-doylestown",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -244060,7 +244062,7 @@
     "hiring_evidence_url": "http://www.skipsoutdoorsnj.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -244520,7 +244522,7 @@
     "hiring_evidence_url": "https://www.slacksfairlesshills.com/#/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -246381,7 +246383,7 @@
     "hiring_evidence_url": "https://www.societyhillapts.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -247017,7 +247019,7 @@
     "hiring_evidence_url": "https://www.sogofusion.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -247563,7 +247565,7 @@
     "hiring_evidence_url": "https://somersetoms.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -248911,7 +248913,7 @@
     "hiring_evidence_url": "http://www.southsideink.net/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -249545,7 +249547,7 @@
     "hiring_evidence_url": "http://www.specialtyfloors.net/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1988,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -251312,7 +251314,7 @@
     "hiring_evidence_url": "https://www.springview.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -251511,7 +251513,7 @@
     "hiring_evidence_url": "https://www.marriott.com/phlwl",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -251544,7 +251546,7 @@
     "hiring_evidence_url": "https://www.marriott.com/abecv",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -251577,7 +251579,7 @@
     "hiring_evidence_url": "https://www.marriott.com/ttnsh",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -251610,7 +251612,7 @@
     "hiring_evidence_url": "https://www.marriott.com/hotels/travel/phlsp-springhill-suites-philadelphia-langhorne/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -251671,7 +251673,7 @@
     "hiring_evidence_url": "https://www.marriott.com/uktsh",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -251870,7 +251872,7 @@
     "hiring_evidence_url": "https://spyglassdesign.net/wordpress1/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -252570,7 +252572,7 @@
     "hiring_evidence_url": "https://stjoeambler.org/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -254416,7 +254418,7 @@
     "hiring_evidence_url": "https://www.stanleysteemer.com/locations/PA/Allentown/515",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -256196,7 +256198,7 @@
     "hiring_evidence_url": "http://www.stationscafe.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -256873,7 +256875,7 @@
     "hiring_evidence_url": "https://stellashouseblend.com/careers",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -258960,7 +258962,7 @@
     "hiring_evidence_url": "https://www.gv-ymca.org/location/suburban-north/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -259704,7 +259706,7 @@
     "hiring_evidence_url": "https://stores.sunglasshut.com/us/pa/warrington/1548-main-st.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -260449,7 +260451,7 @@
     "hiring_evidence_url": "https://supertomautorepair.business.site/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -264385,7 +264387,7 @@
     "hiring_evidence_url": "https://tandoor-grill-restaurant.business.site/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -264519,7 +264521,7 @@
     "hiring_evidence_url": "https://www.tannerssportcenter.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -264638,7 +264640,7 @@
     "hiring_evidence_url": "https://mykonos-miami.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2023,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -265197,7 +265199,7 @@
     "hiring_evidence_url": "https://www.taxexpressyardley.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -267255,7 +267257,7 @@
     "hiring_evidence_url": "https://theblackreservebookstore.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -267481,7 +267483,7 @@
     "hiring_evidence_url": "https://onewallcommunities.com/properties/the-brooke-by-onewall/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -268403,7 +268405,7 @@
     "hiring_evidence_url": "https://www.crystalcottageboutique.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -268689,7 +268691,7 @@
     "hiring_evidence_url": "https://www.thedutchcottagetavern.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -269148,7 +269150,7 @@
     "hiring_evidence_url": "https://www.flyingvpoutinerie.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -271134,7 +271136,7 @@
     "hiring_evidence_url": "https://victoriafreehouse.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -271510,7 +271512,7 @@
     "hiring_evidence_url": "https://valleysquare.theluckywell.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -271730,7 +271732,7 @@
     "hiring_evidence_url": "https://www.themattressfactoryinc.com/careers/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "careers_page",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -271764,7 +271766,7 @@
     "hiring_evidence_url": "https://www.themaxchallenge.com/locations/warrington-pa/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -271828,7 +271830,7 @@
     "hiring_evidence_url": "https://www.themeadowslv.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -271917,7 +271919,7 @@
     "hiring_evidence_url": "https://meetinghouseprinceton.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -271973,7 +271975,7 @@
     "hiring_evidence_url": "https://www.meltingpot.com/bethlehem/welcome",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -272523,7 +272525,7 @@
     "hiring_evidence_url": "https://nookcomics.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -272756,7 +272758,7 @@
     "hiring_evidence_url": "http://www.dineindie.com/TheOtherFish",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -273159,7 +273161,7 @@
     "hiring_evidence_url": "https://theperrylawfirm.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -273824,7 +273826,7 @@
     "hiring_evidence_url": "https://davidsarnoff.tcnj.edu/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -274851,7 +274853,7 @@
     "hiring_evidence_url": "https://www.thetownecobbler.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -277849,7 +277851,7 @@
     "hiring_evidence_url": "https://tiresetc.com/locations/montgomeryville/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -280060,7 +280062,7 @@
     "hiring_evidence_url": "http://www.touchthaibethlehem.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -280394,7 +280396,7 @@
     "hiring_evidence_url": "https://www.marriott.com/phlth",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -281615,7 +281617,7 @@
     "hiring_evidence_url": "https://www.trendautotrader.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -282154,7 +282156,7 @@
     "hiring_evidence_url": "https://www.trickedoutcycles.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2001,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -282661,7 +282663,7 @@
     "hiring_evidence_url": "https://trolleystopdelihatfieldpa.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -282940,7 +282942,7 @@
     "hiring_evidence_url": "https://www.hilton.com/en/hotels/ewrearu-tru-easton/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -283452,7 +283454,7 @@
     "hiring_evidence_url": "https://www.trumarkonline.org/location/warrington/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -283645,7 +283647,7 @@
     "hiring_evidence_url": "https://www.trumpnationalbedminster.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -284976,7 +284978,7 @@
     "hiring_evidence_url": "https://www.chocolatelabbethlehem.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -285263,7 +285265,7 @@
     "hiring_evidence_url": "https://agents.allstate.com/tyler-brown-emmaus-pa.html",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -286029,7 +286031,7 @@
     "hiring_evidence_url": "https://careers.ulta.com/careers/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "hiring",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "hiring_track": "Openings or a careers page seen in May 2026 checks",
     "established": false,
     "established_employer": false,
@@ -286403,7 +286405,7 @@
     "hiring_evidence_url": "https://order.online/store/uncle-aldo's-bethlehem-34220329",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2024,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -286490,7 +286492,7 @@
     "hiring_evidence_url": "https://www.uncommonroofing.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -287355,7 +287357,7 @@
     "hiring_evidence_url": "https://umchv.org/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 1944,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -290207,7 +290209,7 @@
     "hiring_evidence_url": "https://valleyautogroupinc.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2007,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -295311,7 +295313,7 @@
     "hiring_evidence_url": "https://www.volvofw.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2015,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -295471,7 +295473,7 @@
     "hiring_evidence_url": "https://bluepearlvet.com/hospital/vsec-levittown-pa/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -296099,7 +296101,7 @@
     "hiring_evidence_url": "https://www.waleapparatus.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -297088,7 +297090,7 @@
     "hiring_evidence_url": "http://warminsterpharmacy.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2016,
     "founded_source": "pa-dos",
     "founded_confidence": "high",
@@ -298112,7 +298114,7 @@
     "hiring_evidence_url": "https://thewashingtontheatre.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -301734,7 +301736,7 @@
     "hiring_evidence_url": "https://locations.wendys.com/united-states/pa/souderton/752-route-113",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -302272,7 +302274,7 @@
     "hiring_evidence_url": "https://wesleyworksrealestate.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "founded_year": 2008,
     "founded_source": "pa-dos",
     "founded_confidence": "medium",
@@ -303731,7 +303733,7 @@
     "hiring_evidence_url": "http://www.whitesewingcenterpa.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -304686,7 +304688,7 @@
     "hiring_evidence_url": "http://www.drycleaningbethlehem.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -305013,7 +305015,7 @@
     "hiring_evidence_url": "https://willow-grove-beer-store.business.site/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -306662,7 +306664,7 @@
     "hiring_evidence_url": "https://worthwhilewear.org/blogs/programs/worthwhile-thrift-stores",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -309411,7 +309413,7 @@
     "hiring_evidence_url": "https://zekraft.com/pages/zekraft-cafe-bethlehem",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
@@ -309874,7 +309876,7 @@
     "hiring_evidence_url": "http://zoescafepa.com/",
     "hiring_last_checked": "2026-05-06",
     "hiring_status": "no_online_info",
-    "hiring_fetch_failed": "2026-11-19",
+    "hiring_fetch_failed": "2026-11-20",
     "established": false,
     "established_employer": false,
     "previous_slugs": [
